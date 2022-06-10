@@ -38,7 +38,15 @@
 	}
 
 	html {
-		font-size: 12px;
+		font-size: 16px;
+	}
+
+	@media screen and (orientation: portrait) and (max-height:896px) {
+		html {
+			font-size: 0.33em !important;
+			/* -webkit-transform: scale(0.9);
+			-moz-transform: scale(0.9); */
+		}
 	}
 
 </style>
@@ -433,7 +441,7 @@
 
 	#t1k_1 {
 		left: 29.25rem;
-		bottom: 859px;
+		bottom: 53.6875rem;
 		letter-spacing: 0.0019rem;
 		word-spacing: -0.0019rem;
 	}
