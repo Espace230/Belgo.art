@@ -30,6 +30,7 @@
 	<meta property="og:image:height" content="670">
 	<meta name="og:image:alt" content=""> -->
 
+	<!-- Embedded style changes for website -->
 	<style>
 		* {
 			margin: 0;
@@ -48,7 +49,7 @@
 			}
 		}
 
-		@media only screen and (orientation: portrait) and (max-height:320px) {
+		@media only screen and (orientation: portrait) and (max-width:320px) {
 			body {
 				transform-origin: top left;
 				transform: scale(0.25);
@@ -56,6 +57,7 @@
 		}
 
 	</style>
+
 	<!-- Begin shared CSS values -->
 	<style class="shared-css">
 		.t {
@@ -891,16 +893,9 @@
 </head>
 
 <body style="margin: 0; position:absolute; top:0; left:0; ">
-
-
-	<!-- <div id="scaler"> -->
-	<!-- <div id="p1" style="overflow: hidden; position: relative; background-color: white; width: 75.625rem; height: 116.875rem; "> -->
-	<!-- <div id="p1" style="overflow: hidden; position: relative; background-color: white; width: 1210px; height: 1870px; "> -->
 	<div id="p1" style="overflow: hidden; position: relative; background-color: white; width: 1210px; height: 1870px; ">
 		<!-- Begin page background -->
-		<!-- <div id="pg1Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div> -->
 		<div id="pg1" style="-webkit-user-select: none; position:relative; left:0; top:0">
-			<!-- <svg id="pdf1" width="1210" height="1870" viewBox="0 0 1210 1870" style="max-width:100%; width:75.625rem; height:116.875rem; -webkit-transform:scale(1); -moz-transform:scale(1); z-index: 0; isolation: isolate;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> -->
 			<svg id="pdf1" viewBox="0 0 1210 1870" style="max-width:100%; z-index: 0; isolation: isolate;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 				<image clip-path="url(#c0)" shape-rendering="crispEdges" preserveAspectRatio="none" x="1083" y="59" width="70" height="70" xlink:href="./belgo-gallery.svg" />
 				<path d="M110,275H234.7v1.5H110Z" class="g0" />
@@ -992,7 +987,6 @@
 			</svg>
 		</div>
 		<!-- End page background -->
-
 
 		<!-- Begin text definitions (Positioned/styled in CSS) -->
 		<div class="text-container"><span id="t1_1" class="t s1">Expositions en cours au Belgo </span>
