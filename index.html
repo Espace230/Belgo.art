@@ -14,8 +14,8 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="hidden">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-	<meta name="apple-mobile-web-app-title" content="Expositions en cours au Belgo">
-	<meta name="application-name" content="Expositions / Belgo">
+	<meta name="apple-mobile-web-app-title" content="Expos au Belgo">
+	<meta name="application-name" content="Expositions Belgo">
 	<!-- <meta name="keywords" content=""> -->
 	<meta property="og:url" content="https://belgo.gallery/">
 	<meta property="og:type" content="website">
@@ -43,24 +43,17 @@
 
 		@media screen and (orientation: portrait) and (max-width:430px) {
 			body {
-				/* width: 200%;
-					height: 200%; */
 				transform-origin: top left;
 				transform: scale(0.31);
 			}
 		}
 
-		/* @media only screen and (orientation: portrait) and (max-height:375px) {
-			html {
-				font-size: 8px !important;
+		@media only screen and (orientation: portrait) and (max-height:320px) {
+			body {
+				transform-origin: top left;
+				transform: scale(0.25);
 			}
 		}
-	
-		@media only screen and (orientation: portrait) and (max-height:320px) {
-			html {
-				font-size: 6px !important;
-			}
-		} */
 
 	</style>
 	<!-- Begin shared CSS values -->
@@ -909,12 +902,7 @@
 		<div id="pg1" style="-webkit-user-select: none; position:relative; left:0; top:0">
 			<!-- <svg id="pdf1" width="1210" height="1870" viewBox="0 0 1210 1870" style="max-width:100%; width:75.625rem; height:116.875rem; -webkit-transform:scale(1); -moz-transform:scale(1); z-index: 0; isolation: isolate;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> -->
 			<svg id="pdf1" viewBox="0 0 1210 1870" style="max-width:100%; z-index: 0; isolation: isolate;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-				<defs>
-					<clipPath id="c0">
-						<path d="M1083.3,125.4V55h70.4v70.4Z" />
-					</clipPath>
-				</defs>
-				<image clip-path="url(#c0)" preserveAspectRatio="none" x="1083" y="55" width="71" height="70" xlink:href="data:image/jpg;base64,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" />
+				<image clip-path="url(#c0)" shape-rendering="crispEdges" preserveAspectRatio="none" x="1083" y="59" width="70" height="70" xlink:href="./belgo-gallery.svg" />
 				<path d="M110,275H234.7v1.5H110Z" class="g0" />
 				<path d="M54.6,215.6H110v1.1H54.6Z" class="g0" />
 				<path d="M110,215.6h1.1v1.1H110Z" class="g0" />
@@ -1088,9 +1076,7 @@
 			<span id="t2v_1" class="t s9">Geneviève Robertson, et Daniel Torres </span>
 		</div>
 		<!-- End text definitions -->
-
 	</div>
-	<!-- <br /> <br /> -->
 </body>
 
 </html>
