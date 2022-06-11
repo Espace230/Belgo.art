@@ -30,864 +30,883 @@
 	<meta property="og:image:height" content="670">
 	<meta name="og:image:alt" content=""> -->
 </head>
-<style>
-	* {
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-	}
 
-	html {
-		font-size: 16px;
-	}
+<body style="margin: 0; position:absolute; top:0; left:0; ">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
 
-/* 	@media screen and (orientation: portrait) and (max-height:896px) {
 		html {
-			font-size: 0.5em !important;
+			font-size: 16px;
+		}
+
+		@media screen and (orientation: portrait) and (max-width:430px) {
+			body {
+				/* width: 200%;
+				height: 200%; */
+				transform-origin: top left;
+				transform: scale(50%);
+			}
+		}
+
+		/* @media only screen and (orientation: portrait) and (max-height:375px) {
+		html {
+			font-size: 8px !important;
 		}
 	}
- */
-</style>
-<!-- Begin shared CSS values -->
-<style class="shared-css" type="text/css">
-	.t {
-		transform-origin: bottom left;
-		z-index: 2;
-		position: absolute;
-		white-space: pre;
-		overflow: visible;
-		line-height: 1.5;
-	}
 
-	.text-container {
-		white-space: pre;
-	}
+	@media only screen and (orientation: portrait) and (max-height:320px) {
+		html {
+			font-size: 6px !important;
+		}
+	} */
 
-	@supports (-webkit-touch-callout: none) {
+	</style>
+	<!-- Begin shared CSS values -->
+	<style class="shared-css">
+		.t {
+			transform-origin: bottom left;
+			z-index: 2;
+			position: absolute;
+			white-space: pre;
+			overflow: visible;
+			line-height: 1.4;
+		}
+
 		.text-container {
-			white-space: normal;
+			white-space: pre;
 		}
-	}
-
-</style>
-<!-- End shared CSS values -->
-
-
-<!-- Begin inline CSS -->
-<style type="text/css">
-	/* #pg1 {
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-			} */
-
-	#t1_1 {
-		left: 3.4375rem;
-		bottom: 107.875rem;
-		letter-spacing: -0.1631rem;
-	}
-
-	#t2_1 {
-		left: 3.4375rem;
-		bottom: 103.9375rem;
-	}
-
-	#t3_1 {
-		left: 5.125rem;
-		bottom: 105.375rem;
-	}
-
-	#t4_1 {
-		left: 6.5625rem;
-		bottom: 103.9375rem;
-		letter-spacing: -0.055rem;
-	}
-
-	#t5_1 {
-		left: 3.4375rem;
-		bottom: 100.9375rem;
-		letter-spacing: 0.0088rem;
-	}
-
-	#t6_1 {
-		left: 6.875rem;
-		bottom: 100.9375rem;
-		letter-spacing: 0.0081rem;
-		word-spacing: -0.0025rem;
-	}
-
-	#t7_1 {
-		left: 6.875rem;
-		bottom: 99.375rem;
-		letter-spacing: -0.0031rem;
-	}
-
-	#t8_1 {
-		left: 6.875rem;
-		bottom: 97.625rem;
-		letter-spacing: -0.0037rem;
-		word-spacing: 0.0019rem;
-	}
-
-	#t9_1 {
-		left: 6.875rem;
-		bottom: 95.9375rem;
-		letter-spacing: -0.0037rem;
-		word-spacing: 0.0019rem;
-	}
-
-	#ta_1 {
-		left: 29.25rem;
-		bottom: 100.9375rem;
-		letter-spacing: 0.0088rem;
-	}
-
-	#tb_1 {
-		left: 63.9375rem;
-		bottom: 101.0625rem;
-		letter-spacing: -0.0037rem;
-		word-spacing: 0.0013rem;
-	}
-
-	#tc_1 {
-		left: 29.25rem;
-		bottom: 99.25rem;
-		letter-spacing: 0.0075rem;
-		word-spacing: -0.0025rem;
-	}
-
-	#td_1 {
-		left: 3.4375rem;
-		bottom: 90.625rem;
-	}
-
-	#te_1 {
-		left: 5.1875rem;
-		bottom: 92.0625rem;
-	}
-
-	#tf_1 {
-		left: 6.625rem;
-		bottom: 90.625rem;
-		letter-spacing: -0.055rem;
-	}
-
-	#tg_1 {
-		left: 3.4375rem;
-		bottom: 87.6875rem;
-		letter-spacing: 0.0044rem;
-	}
-
-	#th_1 {
-		left: 6.875rem;
-		bottom: 87.6875rem;
-		letter-spacing: 0.0044rem;
-		word-spacing: -0.0031rem;
-	}
-
-	#ti_1 {
-		left: 6.875rem;
-		bottom: 86.125rem;
-		letter-spacing: -0.0037rem;
-	}
-
-	#tj_1 {
-		left: 6.875rem;
-		bottom: 84.375rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0019rem;
-	}
-
-	#tk_1 {
-		left: 29.25rem;
-		bottom: 87.6875rem;
-		letter-spacing: 0.0019rem;
-		word-spacing: -0.0031rem;
-	}
-
-	#tl_1 {
-		left: 64.6875rem;
-		bottom: 87.8125rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0006rem;
-	}
-
-	#tm_1 {
-		left: 29.25rem;
-		bottom: 85.9375rem;
-		letter-spacing: 0.0019rem;
-		word-spacing: -0.0013rem;
-	}
-
-	#tn_1 {
-		left: 3.4375rem;
-		bottom: 81.375rem;
-		letter-spacing: 0.0025rem;
-	}
-
-	#to_1 {
-		left: 6.875rem;
-		bottom: 81.375rem;
-		letter-spacing: 0.0025rem;
-		word-spacing: -0.0019rem;
-	}
-
-	#tp_1 {
-		left: 6.875rem;
-		bottom: 79.75rem;
-		letter-spacing: -0.0037rem;
-	}
-
-	#tq_1 {
-		left: 6.875rem;
-		bottom: 78.0625rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0019rem;
-	}
-
-	#tr_1 {
-		left: 29.25rem;
-		bottom: 81.375rem;
-		letter-spacing: 0.0019rem;
-		word-spacing: -0.0019rem;
-	}
-
-	#ts_1 {
-		left: 65.125rem;
-		bottom: 81.5rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0013rem;
-	}
-
-	#tt_1 {
-		left: 29.25rem;
-		bottom: 79.625rem;
-		letter-spacing: 0.0031rem;
-		word-spacing: -0.0019rem;
-	}
-
-	#tu_1 {
-		left: 3.4375rem;
-		bottom: 72.75rem;
-	}
-
-	#tv_1 {
-		left: 5.25rem;
-		bottom: 74.1875rem;
-	}
-
-	#tw_1 {
-		left: 6.6875rem;
-		bottom: 72.75rem;
-		letter-spacing: -0.055rem;
-	}
-
-	#tx_1 {
-		left: 3.4375rem;
-		bottom: 69.8125rem;
-		letter-spacing: 0.0044rem;
-	}
-
-	#ty_1 {
-		left: 6.875rem;
-		bottom: 69.8125rem;
-		letter-spacing: 0.0019rem;
-		word-spacing: -0.0013rem;
-	}
-
-	#tz_1 {
-		left: 6.875rem;
-		bottom: 68.25rem;
-		letter-spacing: -0.0037rem;
-	}
-
-	#t10_1 {
-		left: 6.875rem;
-		bottom: 66.5rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0019rem;
-	}
-
-	#t11_1 {
-		left: 29.25rem;
-		bottom: 69.8125rem;
-		letter-spacing: 0.0031rem;
-		word-spacing: -0.0025rem;
-	}
-
-	#t12_1 {
-		left: 64.3125rem;
-		bottom: 69.9375rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0013rem;
-	}
-
-	#t13_1 {
-		left: 29.25rem;
-		bottom: 68.0625rem;
-		letter-spacing: 0.0031rem;
-		word-spacing: -0.0019rem;
-	}
-
-	#t14_1 {
-		left: 3.4375rem;
-		bottom: 63.5rem;
-		letter-spacing: 0.0025rem;
-	}
-
-	#t15_1 {
-		left: 6.875rem;
-		bottom: 63.5rem;
-		letter-spacing: 0.0037rem;
-	}
-
-	#t16_1 {
-		left: 6.875rem;
-		bottom: 61.875rem;
-		letter-spacing: -0.0037rem;
-	}
-
-	#t17_1 {
-		left: 6.875rem;
-		bottom: 60.1875rem;
-		letter-spacing: -0.0081rem;
-		word-spacing: 0.0019rem;
-	}
-
-	#t18_1 {
-		left: 6.875rem;
-		bottom: 58.4375rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0019rem;
-	}
-
-	#t19_1 {
-		left: 29.25rem;
-		bottom: 63.5rem;
-		letter-spacing: 0.0031rem;
-		word-spacing: -0.0031rem;
-	}
-
-	#t1a_1 {
-		left: 64.1875rem;
-		bottom: 63.625rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0006rem;
-	}
-
-	#t1b_1 {
-		left: 29.25rem;
-		bottom: 61.75rem;
-		letter-spacing: 0.0025rem;
-	}
-
-	#t1c_1 {
-		left: 29.25rem;
-		bottom: 60.0625rem;
-		letter-spacing: 0.0044rem;
-		word-spacing: -0.0025rem;
-	}
-
-	#t1d_1 {
-		left: 3.4375rem;
-		bottom: 55.4375rem;
-		letter-spacing: 0.0025rem;
-	}
-
-	#t1e_1 {
-		left: 6.875rem;
-		bottom: 55.4375rem;
-		letter-spacing: 0.0044rem;
-		word-spacing: -0.0031rem;
-	}
-
-	#t1f_1 {
-		left: 6.875rem;
-		bottom: 53.875rem;
-		letter-spacing: -0.0031rem;
-	}
-
-	#t1g_1 {
-		left: 6.875rem;
-		bottom: 52.125rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0019rem;
-	}
-
-	#t1h_1 {
-		left: 6.875rem;
-		bottom: 50.4375rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0019rem;
-	}
-
-	#t1i_1 {
-		left: 29.25rem;
-		bottom: 55.4375rem;
-		letter-spacing: 0.0006rem;
-		word-spacing: -0.0019rem;
-	}
-
-	#t1j_1 {
-		left: 63.5rem;
-		bottom: 55.5625rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0013rem;
-	}
-
-	#t1k_1 {
-		left: 29.25rem;
-		bottom: 53.6875rem;
-		letter-spacing: 0.0019rem;
-		word-spacing: -0.0019rem;
-	}
-
-	#t1l_1 {
-		left: 3.4375rem;
-		bottom: 47.375rem;
-		letter-spacing: 0.0037rem;
-	}
-
-	#t1m_1 {
-		left: 6.875rem;
-		bottom: 47.375rem;
-		letter-spacing: 0.0025rem;
-	}
-
-	#t1n_1 {
-		left: 6.875rem;
-		bottom: 45.8125rem;
-		letter-spacing: -0.0037rem;
-	}
-
-	#t1o_1 {
-		left: 6.875rem;
-		bottom: 44.125rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0013rem;
-	}
-
-	#t1p_1 {
-		left: 6.875rem;
-		bottom: 42.375rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0019rem;
-	}
-
-	#t1q_1 {
-		left: 29.25rem;
-		bottom: 47.375rem;
-		letter-spacing: 0.0031rem;
-		word-spacing: -0.0025rem;
-	}
-
-	#t1r_1 {
-		left: 64.375rem;
-		bottom: 47.5625rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0019rem;
-	}
-
-	#t1s_1 {
-		left: 29.25rem;
-		bottom: 45.6875rem;
-		letter-spacing: 0.0025rem;
-		word-spacing: -0.0019rem;
-	}
-
-	#t1t_1 {
-		left: 3.4375rem;
-		bottom: 39.375rem;
-		letter-spacing: 0.0037rem;
-	}
-
-	#t1u_1 {
-		left: 6.875rem;
-		bottom: 39.375rem;
-		letter-spacing: 0.0037rem;
-		word-spacing: -0.0025rem;
-	}
-
-	#t1v_1 {
-		left: 6.875rem;
-		bottom: 37.75rem;
-		letter-spacing: -0.0037rem;
-	}
-
-	#t1w_1 {
-		left: 6.875rem;
-		bottom: 36.0625rem;
-		letter-spacing: -0.13px;
-		word-spacing: 0.0006rem;
-	}
-
-	#t1x_1 {
-		left: 29.25rem;
-		bottom: 39.375rem;
-		letter-spacing: 0.0019rem;
-		word-spacing: -0.0025rem;
-	}
-
-	#t1y_1 {
-		left: 65.125rem;
-		bottom: 39.5rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0013rem;
-	}
-
-	#t1z_1 {
-		left: 29.25rem;
-		bottom: 37.625rem;
-		letter-spacing: 0.0025rem;
-		word-spacing: -0.0013rem;
-	}
-
-	#t20_1 {
-		left: 29.25rem;
-		bottom: 35.9375rem;
-		letter-spacing: 0.0019rem;
-		word-spacing: -0.0025rem;
-	}
-
-	#t21_1 {
-		left: 64.5rem;
-		bottom: 36.0625rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0013rem;
-	}
-
-	#t22_1 {
-		left: 29.25rem;
-		bottom: 34.1875rem;
-		letter-spacing: 0.0025rem;
-		word-spacing: -0.0019rem;
-	}
-
-	#t23_1 {
-		left: 3.4375rem;
-		bottom: 31.3125rem;
-		letter-spacing: 0.0037rem;
-	}
-
-	#t24_1 {
-		left: 6.875rem;
-		bottom: 31.3125rem;
-		letter-spacing: 0.0025rem;
-		word-spacing: -0.0019rem;
-	}
-
-	#t25_1 {
-		left: 6.875rem;
-		bottom: 29.75rem;
-		letter-spacing: -0.0037rem;
-	}
-
-	#t26_1 {
-		left: 6.875rem;
-		bottom: 28rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0019rem;
-	}
-
-	#t27_1 {
-		left: 29.25rem;
-		bottom: 31.3125rem;
-		letter-spacing: 0.07px;
-		word-spacing: -0.0031rem;
-	}
-
-	#t28_1 {
-		left: 64.375rem;
-		bottom: 31.4375rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0006rem;
-	}
-
-	#t29_1 {
-		left: 29.25rem;
-		bottom: 29.5625rem;
-		letter-spacing: 0.0031rem;
-		word-spacing: -0.0019rem;
-	}
-
-	#t2a_1 {
-		left: 29.25rem;
-		bottom: 27.875rem;
-		letter-spacing: 0.0019rem;
-		word-spacing: -0.0019rem;
-	}
-
-	#t2b_1 {
-		left: 64.375rem;
-		bottom: 28rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0006rem;
-	}
-
-	#t2c_1 {
-		left: 29.25rem;
-		bottom: 26.125rem;
-		letter-spacing: 0.0025rem;
-		word-spacing: -0.0019rem;
-	}
-
-	#t2d_1 {
-		left: 3.4375rem;
-		bottom: 21rem;
-	}
-
-	#t2e_1 {
-		left: 5.125rem;
-		bottom: 22.4375rem;
-	}
-
-	#t2f_1 {
-		left: 6.625rem;
-		bottom: 21rem;
-		letter-spacing: -0.055rem;
-	}
-
-	#t2g_1 {
-		left: 3.4375rem;
-		bottom: 18.0625rem;
-		letter-spacing: 0.0037rem;
-	}
-
-	#t2h_1 {
-		left: 6.875rem;
-		bottom: 18.0625rem;
-		letter-spacing: 0.0031rem;
-		word-spacing: -0.0025rem;
-	}
-
-	#t2i_1 {
-		left: 6.875rem;
-		bottom: 16.4375rem;
-		letter-spacing: -0.0031rem;
-	}
-
-	#t2j_1 {
-		left: 6.875rem;
-		bottom: 14.75rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0019rem;
-	}
-
-	#t2k_1 {
-		left: 6.875rem;
-		bottom: 13rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0019rem;
-	}
-
-	#t2l_1 {
-		left: 29.25rem;
-		bottom: 18.0625rem;
-		letter-spacing: 0.0025rem;
-		word-spacing: -0.0019rem;
-	}
-
-	#t2m_1 {
-		left: 64.125rem;
-		bottom: 18.1875rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0013rem;
-	}
-
-	#t2n_1 {
-		left: 29.25rem;
-		bottom: 16.3125rem;
-		letter-spacing: 0.0031rem;
-		word-spacing: -0.0013rem;
-	}
-
-	#t2o_1 {
-		left: 3.4375rem;
-		bottom: 10rem;
-		letter-spacing: 0.0031rem;
-	}
-
-	#t2p_1 {
-		left: 6.875rem;
-		bottom: 10rem;
-		letter-spacing: 0.0031rem;
-		word-spacing: -0.0025rem;
-	}
-
-	#t2q_1 {
-		left: 6.875rem;
-		bottom: 8.4375rem;
-		letter-spacing: -0.0037rem;
-	}
-
-	#t2r_1 {
-		left: 6.875rem;
-		bottom: 6.6875rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0019rem;
-	}
-
-	#t2s_1 {
-		left: 29.25rem;
-		bottom: 10rem;
-		letter-spacing: 0.0031rem;
-	}
-
-	#t2t_1 {
-		left: 63.6875rem;
-		bottom: 10.125rem;
-		letter-spacing: -0.0088rem;
-		word-spacing: 0.0013rem;
-	}
-
-	#t2u_1 {
-		left: 29.25rem;
-		bottom: 8.25rem;
-		letter-spacing: 0.0025rem;
-		word-spacing: -0.0019rem;
-	}
-
-	#t2v_1 {
-		left: 29.25rem;
-		bottom: 6.5625rem;
-		letter-spacing: 0.0025rem;
-		word-spacing: -0.0013rem;
-	}
-
-	.s1 {
-		font-size: 4.5625rem;
-		font-family: Inter-Bold_1a;
-		color: #000;
-	}
-
-	.s2 {
-		font-size: 2.6875rem;
-		font-family: Inter-ExtraBold_1d;
-		color: #000;
-	}
-
-	.s3 {
-		font-size: 1.625rem;
-		font-family: Inter-ExtraBold_1g;
-		color: #000;
-	}
-
-	.s4 {
-		font-size: 1.3125rem;
-		font-family: Inter-ExtraBold_1j;
-		color: #000;
-	}
-
-	.s5 {
-		font-size: 1rem;
-		font-family: Inter-SemiBold_1m;
-		color: #000;
-	}
-
-	.s5>a {
-		font-size: 1rem;
-		font-family: Inter-SemiBold_1m;
-		color: #000;
-		text-decoration: none;
-	}
-
-	.s6 {
-		font-size: 1rem;
-		font-family: Inter-Regular_1p;
-		color: #000;
-	}
-
-	.s7 {
-		font-size: 1.3125rem;
-		font-family: Inter-Bold_1s;
-		color: #000;
-	}
-
-	.s8 {
-		font-size: 1rem;
-		font-family: Inter-Medium_1y;
-		color: #000;
-	}
-
-	.s9 {
-		font-size: 1.3125rem;
-		font-family: Inter-Regular_1v;
-		color: #000;
-	}
-
-	.sa {
-		font-size: 1rem;
-		font-family: Inter-SemiBoldItalic_2i;
-		color: #000;
-	}
-
-</style>
-<!-- End inline CSS -->
-
-<!-- Begin embedded font definitions -->
-<style id="fonts1" type="text/css">
-	@font-face {
-		font-family: Inter-Bold_1a;
-		src: url("fonts/Inter-Bold_1a.woff") format("woff");
-	}
-
-	@font-face {
-		font-family: Inter-Bold_1s;
-		src: url("fonts/Inter-Bold_1s.woff") format("woff");
-	}
-
-	@font-face {
-		font-family: Inter-ExtraBold_1d;
-		src: url("fonts/Inter-ExtraBold_1d.woff") format("woff");
-	}
-
-	@font-face {
-		font-family: Inter-ExtraBold_1g;
-		src: url("fonts/Inter-ExtraBold_1g.woff") format("woff");
-	}
-
-	@font-face {
-		font-family: Inter-ExtraBold_1j;
-		src: url("fonts/Inter-ExtraBold_1j.woff") format("woff");
-	}
-
-	@font-face {
-		font-family: Inter-Medium_1y;
-		src: url("fonts/Inter-Medium_1y.woff") format("woff");
-	}
-
-	@font-face {
-		font-family: Inter-Regular_1p;
-		src: url("fonts/Inter-Regular_1p.woff") format("woff");
-	}
-
-	@font-face {
-		font-family: Inter-Regular_1v;
-		src: url("fonts/Inter-Regular_1v.woff") format("woff");
-	}
-
-	@font-face {
-		font-family: Inter-SemiBoldItalic_2i;
-		src: url("fonts/Inter-SemiBoldItalic_2i.woff") format("woff");
-	}
-
-	@font-face {
-		font-family: Inter-SemiBold_1m;
-		src: url("fonts/Inter-SemiBold_1m.woff") format("woff");
-	}
-
-</style>
-<!-- End embedded font definitions -->
-
-<body style="margin: 0;">
+
+		@supports (-webkit-touch-callout: none) {
+			.text-container {
+				white-space: normal;
+			}
+		}
+
+	</style>
+	<!-- End shared CSS values -->
+
+
+	<!-- Begin inline CSS -->
+	<style>
+		#pg1 {
+			position: absolute;
+			top: 0;
+			left: 0;
+			object-fit: contain;
+		}
+
+		#t1_1 {
+			left: 3.4375rem;
+			bottom: 107.875rem;
+			letter-spacing: -0.1631rem;
+		}
+
+		#t2_1 {
+			left: 3.4375rem;
+			bottom: 103.9375rem;
+		}
+
+		#t3_1 {
+			left: 5.125rem;
+			bottom: 105.375rem;
+		}
+
+		#t4_1 {
+			left: 6.5625rem;
+			bottom: 103.9375rem;
+			letter-spacing: -0.055rem;
+		}
+
+		#t5_1 {
+			left: 3.4375rem;
+			bottom: 100.9375rem;
+			letter-spacing: 0.0088rem;
+		}
+
+		#t6_1 {
+			left: 6.875rem;
+			bottom: 100.9375rem;
+			letter-spacing: 0.0081rem;
+			word-spacing: -0.0025rem;
+		}
+
+		#t7_1 {
+			left: 6.875rem;
+			bottom: 99.375rem;
+			letter-spacing: -0.0031rem;
+		}
+
+		#t8_1 {
+			left: 6.875rem;
+			bottom: 97.625rem;
+			letter-spacing: -0.0037rem;
+			word-spacing: 0.0019rem;
+		}
+
+		#t9_1 {
+			left: 6.875rem;
+			bottom: 95.9375rem;
+			letter-spacing: -0.0037rem;
+			word-spacing: 0.0019rem;
+		}
+
+		#ta_1 {
+			left: 29.25rem;
+			bottom: 100.9375rem;
+			letter-spacing: 0.0088rem;
+		}
+
+		#tb_1 {
+			left: 63.9375rem;
+			bottom: 101.0625rem;
+			letter-spacing: -0.0037rem;
+			word-spacing: 0.0013rem;
+		}
+
+		#tc_1 {
+			left: 29.25rem;
+			bottom: 99.25rem;
+			letter-spacing: 0.0075rem;
+			word-spacing: -0.0025rem;
+		}
+
+		#td_1 {
+			left: 3.4375rem;
+			bottom: 90.625rem;
+		}
+
+		#te_1 {
+			left: 5.1875rem;
+			bottom: 92.0625rem;
+		}
+
+		#tf_1 {
+			left: 6.625rem;
+			bottom: 90.625rem;
+			letter-spacing: -0.055rem;
+		}
+
+		#tg_1 {
+			left: 3.4375rem;
+			bottom: 87.6875rem;
+			letter-spacing: 0.0044rem;
+		}
+
+		#th_1 {
+			left: 6.875rem;
+			bottom: 87.6875rem;
+			letter-spacing: 0.0044rem;
+			word-spacing: -0.0031rem;
+		}
+
+		#ti_1 {
+			left: 6.875rem;
+			bottom: 86.125rem;
+			letter-spacing: -0.0037rem;
+		}
+
+		#tj_1 {
+			left: 6.875rem;
+			bottom: 84.375rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0019rem;
+		}
+
+		#tk_1 {
+			left: 29.25rem;
+			bottom: 87.6875rem;
+			letter-spacing: 0.0019rem;
+			word-spacing: -0.0031rem;
+		}
+
+		#tl_1 {
+			left: 64.6875rem;
+			bottom: 87.8125rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0006rem;
+		}
+
+		#tm_1 {
+			left: 29.25rem;
+			bottom: 85.9375rem;
+			letter-spacing: 0.0019rem;
+			word-spacing: -0.0013rem;
+		}
+
+		#tn_1 {
+			left: 3.4375rem;
+			bottom: 81.375rem;
+			letter-spacing: 0.0025rem;
+		}
+
+		#to_1 {
+			left: 6.875rem;
+			bottom: 81.375rem;
+			letter-spacing: 0.0025rem;
+			word-spacing: -0.0019rem;
+		}
+
+		#tp_1 {
+			left: 6.875rem;
+			bottom: 79.75rem;
+			letter-spacing: -0.0037rem;
+		}
+
+		#tq_1 {
+			left: 6.875rem;
+			bottom: 78.0625rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0019rem;
+		}
+
+		#tr_1 {
+			left: 29.25rem;
+			bottom: 81.375rem;
+			letter-spacing: 0.0019rem;
+			word-spacing: -0.0019rem;
+		}
+
+		#ts_1 {
+			left: 65.125rem;
+			bottom: 81.5rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0013rem;
+		}
+
+		#tt_1 {
+			left: 29.25rem;
+			bottom: 79.625rem;
+			letter-spacing: 0.0031rem;
+			word-spacing: -0.0019rem;
+		}
+
+		#tu_1 {
+			left: 3.4375rem;
+			bottom: 72.75rem;
+		}
+
+		#tv_1 {
+			left: 5.25rem;
+			bottom: 74.1875rem;
+		}
+
+		#tw_1 {
+			left: 6.6875rem;
+			bottom: 72.75rem;
+			letter-spacing: -0.055rem;
+		}
+
+		#tx_1 {
+			left: 3.4375rem;
+			bottom: 69.8125rem;
+			letter-spacing: 0.0044rem;
+		}
+
+		#ty_1 {
+			left: 6.875rem;
+			bottom: 69.8125rem;
+			letter-spacing: 0.0019rem;
+			word-spacing: -0.0013rem;
+		}
+
+		#tz_1 {
+			left: 6.875rem;
+			bottom: 68.25rem;
+			letter-spacing: -0.0037rem;
+		}
+
+		#t10_1 {
+			left: 6.875rem;
+			bottom: 66.5rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0019rem;
+		}
+
+		#t11_1 {
+			left: 29.25rem;
+			bottom: 69.8125rem;
+			letter-spacing: 0.0031rem;
+			word-spacing: -0.0025rem;
+		}
+
+		#t12_1 {
+			left: 64.3125rem;
+			bottom: 69.9375rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0013rem;
+		}
+
+		#t13_1 {
+			left: 29.25rem;
+			bottom: 68.0625rem;
+			letter-spacing: 0.0031rem;
+			word-spacing: -0.0019rem;
+		}
+
+		#t14_1 {
+			left: 3.4375rem;
+			bottom: 63.5rem;
+			letter-spacing: 0.0025rem;
+		}
+
+		#t15_1 {
+			left: 6.875rem;
+			bottom: 63.5rem;
+			letter-spacing: 0.0037rem;
+		}
+
+		#t16_1 {
+			left: 6.875rem;
+			bottom: 61.875rem;
+			letter-spacing: -0.0037rem;
+		}
+
+		#t17_1 {
+			left: 6.875rem;
+			bottom: 60.1875rem;
+			letter-spacing: -0.0081rem;
+			word-spacing: 0.0019rem;
+		}
+
+		#t18_1 {
+			left: 6.875rem;
+			bottom: 58.4375rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0019rem;
+		}
+
+		#t19_1 {
+			left: 29.25rem;
+			bottom: 63.5rem;
+			letter-spacing: 0.0031rem;
+			word-spacing: -0.0031rem;
+		}
+
+		#t1a_1 {
+			left: 64.1875rem;
+			bottom: 63.625rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0006rem;
+		}
+
+		#t1b_1 {
+			left: 29.25rem;
+			bottom: 61.75rem;
+			letter-spacing: 0.0025rem;
+		}
+
+		#t1c_1 {
+			left: 29.25rem;
+			bottom: 60.0625rem;
+			letter-spacing: 0.0044rem;
+			word-spacing: -0.0025rem;
+		}
+
+		#t1d_1 {
+			left: 3.4375rem;
+			bottom: 55.4375rem;
+			letter-spacing: 0.0025rem;
+		}
+
+		#t1e_1 {
+			left: 6.875rem;
+			bottom: 55.4375rem;
+			letter-spacing: 0.0044rem;
+			word-spacing: -0.0031rem;
+		}
+
+		#t1f_1 {
+			left: 6.875rem;
+			bottom: 53.875rem;
+			letter-spacing: -0.0031rem;
+		}
+
+		#t1g_1 {
+			left: 6.875rem;
+			bottom: 52.125rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0019rem;
+		}
+
+		#t1h_1 {
+			left: 6.875rem;
+			bottom: 50.4375rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0019rem;
+		}
+
+		#t1i_1 {
+			left: 29.25rem;
+			bottom: 55.4375rem;
+			letter-spacing: 0.0006rem;
+			word-spacing: -0.0019rem;
+		}
+
+		#t1j_1 {
+			left: 63.5rem;
+			bottom: 55.5625rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0013rem;
+		}
+
+		#t1k_1 {
+			left: 29.25rem;
+			bottom: 53.6875rem;
+			letter-spacing: 0.0019rem;
+			word-spacing: -0.0019rem;
+		}
+
+		#t1l_1 {
+			left: 3.4375rem;
+			bottom: 47.375rem;
+			letter-spacing: 0.0037rem;
+		}
+
+		#t1m_1 {
+			left: 6.875rem;
+			bottom: 47.375rem;
+			letter-spacing: 0.0025rem;
+		}
+
+		#t1n_1 {
+			left: 6.875rem;
+			bottom: 45.8125rem;
+			letter-spacing: -0.0037rem;
+		}
+
+		#t1o_1 {
+			left: 6.875rem;
+			bottom: 44.125rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0013rem;
+		}
+
+		#t1p_1 {
+			left: 6.875rem;
+			bottom: 42.375rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0019rem;
+		}
+
+		#t1q_1 {
+			left: 29.25rem;
+			bottom: 47.375rem;
+			letter-spacing: 0.0031rem;
+			word-spacing: -0.0025rem;
+		}
+
+		#t1r_1 {
+			left: 64.375rem;
+			bottom: 47.5625rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0019rem;
+		}
+
+		#t1s_1 {
+			left: 29.25rem;
+			bottom: 45.6875rem;
+			letter-spacing: 0.0025rem;
+			word-spacing: -0.0019rem;
+		}
+
+		#t1t_1 {
+			left: 3.4375rem;
+			bottom: 39.375rem;
+			letter-spacing: 0.0037rem;
+		}
+
+		#t1u_1 {
+			left: 6.875rem;
+			bottom: 39.375rem;
+			letter-spacing: 0.0037rem;
+			word-spacing: -0.0025rem;
+		}
+
+		#t1v_1 {
+			left: 6.875rem;
+			bottom: 37.75rem;
+			letter-spacing: -0.0037rem;
+		}
+
+		#t1w_1 {
+			left: 6.875rem;
+			bottom: 36.0625rem;
+			letter-spacing: -0.13px;
+			word-spacing: 0.0006rem;
+		}
+
+		#t1x_1 {
+			left: 29.25rem;
+			bottom: 39.375rem;
+			letter-spacing: 0.0019rem;
+			word-spacing: -0.0025rem;
+		}
+
+		#t1y_1 {
+			left: 65.125rem;
+			bottom: 39.5rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0013rem;
+		}
+
+		#t1z_1 {
+			left: 29.25rem;
+			bottom: 37.625rem;
+			letter-spacing: 0.0025rem;
+			word-spacing: -0.0013rem;
+		}
+
+		#t20_1 {
+			left: 29.25rem;
+			bottom: 35.9375rem;
+			letter-spacing: 0.0019rem;
+			word-spacing: -0.0025rem;
+		}
+
+		#t21_1 {
+			left: 64.5rem;
+			bottom: 36.0625rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0013rem;
+		}
+
+		#t22_1 {
+			left: 29.25rem;
+			bottom: 34.1875rem;
+			letter-spacing: 0.0025rem;
+			word-spacing: -0.0019rem;
+		}
+
+		#t23_1 {
+			left: 3.4375rem;
+			bottom: 31.3125rem;
+			letter-spacing: 0.0037rem;
+		}
+
+		#t24_1 {
+			left: 6.875rem;
+			bottom: 31.3125rem;
+			letter-spacing: 0.0025rem;
+			word-spacing: -0.0019rem;
+		}
+
+		#t25_1 {
+			left: 6.875rem;
+			bottom: 29.75rem;
+			letter-spacing: -0.0037rem;
+		}
+
+		#t26_1 {
+			left: 6.875rem;
+			bottom: 28rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0019rem;
+		}
+
+		#t27_1 {
+			left: 29.25rem;
+			bottom: 31.3125rem;
+			letter-spacing: 0.07px;
+			word-spacing: -0.0031rem;
+		}
+
+		#t28_1 {
+			left: 64.375rem;
+			bottom: 31.4375rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0006rem;
+		}
+
+		#t29_1 {
+			left: 29.25rem;
+			bottom: 29.5625rem;
+			letter-spacing: 0.0031rem;
+			word-spacing: -0.0019rem;
+		}
+
+		#t2a_1 {
+			left: 29.25rem;
+			bottom: 27.875rem;
+			letter-spacing: 0.0019rem;
+			word-spacing: -0.0019rem;
+		}
+
+		#t2b_1 {
+			left: 64.375rem;
+			bottom: 28rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0006rem;
+		}
+
+		#t2c_1 {
+			left: 29.25rem;
+			bottom: 26.125rem;
+			letter-spacing: 0.0025rem;
+			word-spacing: -0.0019rem;
+		}
+
+		#t2d_1 {
+			left: 3.4375rem;
+			bottom: 21rem;
+		}
+
+		#t2e_1 {
+			left: 5.125rem;
+			bottom: 22.4375rem;
+		}
+
+		#t2f_1 {
+			left: 6.625rem;
+			bottom: 21rem;
+			letter-spacing: -0.055rem;
+		}
+
+		#t2g_1 {
+			left: 3.4375rem;
+			bottom: 18.0625rem;
+			letter-spacing: 0.0037rem;
+		}
+
+		#t2h_1 {
+			left: 6.875rem;
+			bottom: 18.0625rem;
+			letter-spacing: 0.0031rem;
+			word-spacing: -0.0025rem;
+		}
+
+		#t2i_1 {
+			left: 6.875rem;
+			bottom: 16.4375rem;
+			letter-spacing: -0.0031rem;
+		}
+
+		#t2j_1 {
+			left: 6.875rem;
+			bottom: 14.75rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0019rem;
+		}
+
+		#t2k_1 {
+			left: 6.875rem;
+			bottom: 13rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0019rem;
+		}
+
+		#t2l_1 {
+			left: 29.25rem;
+			bottom: 18.0625rem;
+			letter-spacing: 0.0025rem;
+			word-spacing: -0.0019rem;
+		}
+
+		#t2m_1 {
+			left: 64.125rem;
+			bottom: 18.1875rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0013rem;
+		}
+
+		#t2n_1 {
+			left: 29.25rem;
+			bottom: 16.3125rem;
+			letter-spacing: 0.0031rem;
+			word-spacing: -0.0013rem;
+		}
+
+		#t2o_1 {
+			left: 3.4375rem;
+			bottom: 10rem;
+			letter-spacing: 0.0031rem;
+		}
+
+		#t2p_1 {
+			left: 6.875rem;
+			bottom: 10rem;
+			letter-spacing: 0.0031rem;
+			word-spacing: -0.0025rem;
+		}
+
+		#t2q_1 {
+			left: 6.875rem;
+			bottom: 8.4375rem;
+			letter-spacing: -0.0037rem;
+		}
+
+		#t2r_1 {
+			left: 6.875rem;
+			bottom: 6.6875rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0019rem;
+		}
+
+		#t2s_1 {
+			left: 29.25rem;
+			bottom: 10rem;
+			letter-spacing: 0.0031rem;
+		}
+
+		#t2t_1 {
+			left: 63.6875rem;
+			bottom: 10.125rem;
+			letter-spacing: -0.0088rem;
+			word-spacing: 0.0013rem;
+		}
+
+		#t2u_1 {
+			left: 29.25rem;
+			bottom: 8.25rem;
+			letter-spacing: 0.0025rem;
+			word-spacing: -0.0019rem;
+		}
+
+		#t2v_1 {
+			left: 29.25rem;
+			bottom: 6.5625rem;
+			letter-spacing: 0.0025rem;
+			word-spacing: -0.0013rem;
+		}
+
+		.s1 {
+			font-size: 4.5625rem;
+			font-family: Inter-Bold_1a;
+			color: #000;
+		}
+
+		.s2 {
+			font-size: 2.6875rem;
+			font-family: Inter-ExtraBold_1d;
+			color: #000;
+		}
+
+		.s3 {
+			font-size: 1.625rem;
+			font-family: Inter-ExtraBold_1g;
+			color: #000;
+		}
+
+		.s4 {
+			font-size: 1.3125rem;
+			font-family: Inter-ExtraBold_1j;
+			color: #000;
+		}
+
+		.s5 {
+			font-size: 1rem;
+			font-family: Inter-SemiBold_1m;
+			color: #000;
+		}
+
+		.s5>a {
+			font-size: 1rem;
+			font-family: Inter-SemiBold_1m;
+			color: #000;
+			text-decoration: none;
+		}
+
+		.s6 {
+			font-size: 1rem;
+			font-family: Inter-Regular_1p;
+			color: #000;
+		}
+
+		.s7 {
+			font-size: 1.3125rem;
+			font-family: Inter-Bold_1s;
+			color: #000;
+		}
+
+		.s8 {
+			font-size: 1rem;
+			font-family: Inter-Medium_1y;
+			color: #000;
+		}
+
+		.s9 {
+			font-size: 1.3125rem;
+			font-family: Inter-Regular_1v;
+			color: #000;
+		}
+
+		.sa {
+			font-size: 1rem;
+			font-family: Inter-SemiBoldItalic_2i;
+			color: #000;
+		}
+
+	</style>
+	<!-- End inline CSS -->
+
+	<!-- Begin embedded font definitions -->
+	<style id="fonts">
+		@font-face {
+			font-family: Inter-Bold_1a;
+			src: url("fonts/Inter-Bold_1a.woff") format("woff");
+		}
+
+		@font-face {
+			font-family: Inter-Bold_1s;
+			src: url("fonts/Inter-Bold_1s.woff") format("woff");
+		}
+
+		@font-face {
+			font-family: Inter-ExtraBold_1d;
+			src: url("fonts/Inter-ExtraBold_1d.woff") format("woff");
+		}
+
+		@font-face {
+			font-family: Inter-ExtraBold_1g;
+			src: url("fonts/Inter-ExtraBold_1g.woff") format("woff");
+		}
+
+		@font-face {
+			font-family: Inter-ExtraBold_1j;
+			src: url("fonts/Inter-ExtraBold_1j.woff") format("woff");
+		}
+
+		@font-face {
+			font-family: Inter-Medium_1y;
+			src: url("fonts/Inter-Medium_1y.woff") format("woff");
+		}
+
+		@font-face {
+			font-family: Inter-Regular_1p;
+			src: url("fonts/Inter-Regular_1p.woff") format("woff");
+		}
+
+		@font-face {
+			font-family: Inter-Regular_1v;
+			src: url("fonts/Inter-Regular_1v.woff") format("woff");
+		}
+
+		@font-face {
+			font-family: Inter-SemiBoldItalic_2i;
+			src: url("fonts/Inter-SemiBoldItalic_2i.woff") format("woff");
+		}
+
+		@font-face {
+			font-family: Inter-SemiBold_1m;
+			src: url("fonts/Inter-SemiBold_1m.woff") format("woff");
+		}
+
+	</style>
+	<!-- End embedded font definitions -->
+
+
 	<!-- <div id="scaler"> -->
-	<div id="p1" style="overflow: hidden; position: relative; background-color: white; width: 75.625rem; height: 116.875rem; ">
+	<!-- <div id="p1" style="overflow: hidden; position: relative; background-color: white; width: 75.625rem; height: 116.875rem; "> -->
+	<!-- <div id="p1" style="overflow: hidden; position: relative; background-color: white; width: 1210px; height: 1870px; "> -->
+	<div id="p1" style="overflow: hidden; position: relative; background-color: white; width: 1210px; height: 1870px; ">
 		<!-- Begin page background -->
-		<div id="pg1Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
-		<div id="pg1" style="-webkit-user-select: none; -webkit-transform:scale(1); -moz-transform:scale(1); position:relative; left:0; top:0">
-			<svg id="pdf1" width="1210" height="1870" viewBox="0 0 1210 1870" style="max-width:100%; width:75.625rem; height:116.875rem; -webkit-transform:scale(1); -moz-transform:scale(1); z-index: 0; isolation: isolate;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<!-- <div id="pg1Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div> -->
+		<div id="pg1" style="-webkit-user-select: none; position:relative; left:0; top:0">
+			<!-- <svg id="pdf1" width="1210" height="1870" viewBox="0 0 1210 1870" style="max-width:100%; width:75.625rem; height:116.875rem; -webkit-transform:scale(1); -moz-transform:scale(1); z-index: 0; isolation: isolate;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> -->
+			<svg id="pdf1" viewBox="0 0 1210 1870" style="max-width:100%; z-index: 0; isolation: isolate;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 				<defs>
 					<clipPath id="c0">
 						<path d="M1083.3,125.4V55h70.4v70.4Z" />
@@ -1068,10 +1087,8 @@
 		</div>
 		<!-- End text definitions -->
 
-
 	</div>
-	<!-- </div> -->
-	<br /> <br />
+	<!-- <br /> <br /> -->
 </body>
 
 </html>
