@@ -47,6 +47,22 @@
 			box-sizing: border-box;
 		}
 
+		body {
+			-webkit-font-smoothing: subpixel-antialiased;
+			-moz-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			text-rendering: optimizelegibility;
+			font-kerning: normal;
+			overscroll-behavior: none;
+			overflow: hidden;
+			-ms-overflow-style: none;
+			scrollbar-width: none;
+		}
+
+		body::-webkit-scrollbar {
+			display: none;
+		}
+
 		html {
 			font-size: 16px;
 		}
@@ -151,9 +167,14 @@
 		}
 
 		#t9_2 {
-			left: 1045px;
-			bottom: 1830px;
+			/* left: 1045px;
+			bottom: 1830px;*/
 			letter-spacing: 0.02px;
+			right: 45px;
+			top: 45px;
+			/* letter-spacing: -0.11px; */
+			transform: rotate(270deg);
+			transform-origin: top right;
 		}
 
 		#ta_2 {
@@ -904,7 +925,18 @@
 		.s6 a {
 			font-size: 21px;
 			font-family: Inter-ExtraBold;
-			color: #000;
+		}
+
+		.s6 a {
+			color: #171a43;
+			border-bottom: 2px solid #171a43;
+			transition: 0.3s;
+		}
+
+		.s6 a:hover {
+			color: #1b2b91;
+			border-bottom: 2px solid #1b2b91;
+			transition: 0.3s;
 		}
 
 		.s7 {
@@ -1124,7 +1156,7 @@
 			<span id="t6_2" class="t s4">2 </span>
 			<span id="t7_2" class="t s5">nd </span>
 			<span id="t8_2" class="t s4">Floor </span>
-			<span id="t9_2" class="t s6"><a href="https://belgo.gallery/">FRANÇAIS </a> </span>
+			<span id="t9_2" class="t s6"><a href="https://belgo.gallery/">FRANÇAIS</a> </span>
 			<span id="ta_2" class="t s7">230 </span><span id="tb_2" class="t s7">Espace 230 / Art contemporain </span>
 			<span id="tc_2" class="t s2"><a href="https://espace230.com">espace230.com </a> </span>
 			<span id="td_2" class="t s3">Monday to Friday, 12pm-5pm </span>
@@ -1169,7 +1201,7 @@
 			<span id="t1t_2" class="t s7">412 </span><span id="t1u_2" class="t s7">Patel Brown </span>
 			<span id="t1v_2" class="t s2"><a href="http://patelbrowngallery.com">patelbrowngallery.com</a> </span>
 			<span id="t1w_2" class="t s3">Tuesday to Saturday, 10am-6pm </span>
-			<!-- <span id="t1x_2" class="t sc">[Coming soon] </span> -->
+			<span id="t1x_2" class="t sc">[Coming soon] </span>
 			<span id="t1y_2" class="t s7">414 </span><span id="t1z_2" class="t s7">McBride Contemporain </span>
 			<span id="t20_2" class="t s2"><a href="https://mcbridecontemporain.com">mcbridecontemporain.com </a> </span>
 			<span id="t21_2" class="t s3">Tuesday to Saturday, 11am-5pm </span>

@@ -45,6 +45,22 @@
 			box-sizing: border-box;
 		}
 
+		body {
+			-webkit-font-smoothing: subpixel-antialiased;
+			-moz-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			text-rendering: optimizelegibility;
+			font-kerning: normal;
+			overscroll-behavior: none;
+			overflow: hidden;
+			-ms-overflow-style: none;
+			scrollbar-width: none;
+		}
+
+		body::-webkit-scrollbar {
+			display: none;
+		}
+
 		html {
 			font-size: 16px;
 		}
@@ -148,11 +164,19 @@
 			letter-spacing: -0.88px;
 		}
 
-		#t9_1 {
+		/* bottom: 1680px; */
+		/* #t9_1 {
 			left: 1064px;
-			/* bottom: 1680px; */
 			bottom: 1830px;
 			letter-spacing: -0.11px;
+		} */
+		#t9_1 {
+			right: 45px;
+			top: 44px;
+			/* letter-spacing: -0.11px; */
+			letter-spacing: 0.02px;
+			transform: rotate(270deg);
+			transform-origin: top right;
 		}
 
 		#ta_1 {
@@ -886,11 +910,26 @@
 			color: #000;
 		}
 
-		.s6_1,
-		.s6_1 a {
+
+		.s6_1 {
 			font-size: 21px;
 			font-family: Inter-ExtraBold;
 			color: #000;
+		}
+
+		.s6_1 a {
+			font-size: 21px;
+			font-family: Inter-ExtraBold;
+			padding-bottom: 0;
+			margin-bottom: 0;
+			color: #171a43;
+			border-bottom: 2px solid #171a43;
+		}
+
+		.s6_1 a:hover {
+			color: #1b2b91 !important;
+			border-bottom: 2px solid #1b2b91;
+			transition: 0.3s;
 		}
 
 		.s7_1 {
@@ -1003,7 +1042,8 @@
 
 
 		<!-- Begin page background -->
-		<div id="pg1" style="-webkit-user-select: none;"><svg id="pdf1" width="1210" height="1870" viewBox="0 0 1210 1870" style="width:1210px; height:1870px; -moz-transform:scale(1); z-index: 0; isolation: isolate;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<div id="pg1" style="-webkit-user-select: none;">
+			<svg id="pdf1" width="1210" height="1870" viewBox="0 0 1210 1870" style="width:1210px; height:1870px; -moz-transform:scale(1); z-index: 0; isolation: isolate;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 				<!-- <path d="M280.5,1841.4H381.3v1.5H280.5Z" class="g0_1" /> -->
 				<image clip-path="url(#c0_1)" preserveAspectRatio="none" x="1083" y="50" width="71" height="70" xlink:href="./belgo-gallery.svg" />
 				<!-- <path fill-rule="evenodd" d="M1063.7,185.5H1155v-2.2h-91.3v2.2Z" class="g1_1" /> -->
@@ -1099,7 +1139,8 @@
 				<path d="M110,1764.4H467.5v1.1H110Z" class="g0_1" />
 				<path d="M466.4,1764.4h1.1v1.1h-1.1Z" class="g0_1" />
 				<path d="M467.5,1764.4H1155v1.1H467.5Z" class="g0_1" />
-			</svg></div>
+			</svg>
+		</div>
 		<!-- End page background -->
 
 
@@ -1153,7 +1194,7 @@
 			<span id="t1s_1" class="t s7_1">412 </span><span id="t1t_1" class="t s7_1">Patel Brown </span>
 			<span id="t1u_1" class="t s2_1"><a href="http://patelbrowngallery.com">patelbrowngallery.com</a> </span>
 			<span id="t1v_1" class="t s3_1">Mardi au samedi, de 10h à 18h </span>
-<!-- 			<span id="t1w_1" class="t sc_1">[À venir] </span> -->
+			<span id="t1w_1" class="t sc_1">[À venir] </span>
 			<span id="t1x_1" class="t s7_1">414 </span><span id="t1y_1" class="t s7_1">McBride Contemporain </span>
 			<span id="t1z_1" class="t s2_1"><a href="https://mcbridecontemporain.com">mcbridecontemporain.com </a> </span>
 			<span id="t20_1" class="t s3_1">Mercredi au samedi, de 11h à 17h </span>
