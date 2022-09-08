@@ -16,15 +16,15 @@
 	<meta property="og:url" content="https://belgo.gallery/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Art Exhibitions in the Belgo" />
-	<meta property="og:image" content="https://belgo.gallery/images/thumbnail.png" />
+	<meta property="og:image" content="https://belgo.gallery/images/thumbnail-en.jpg" />
 	<meta property="og:description" content="Check out the list of current exhibitions in the art galleries of the Belgo building, located in the heart of the Quartier des Spectacles in Montreal, Quebec, Canada." />
 	<meta property="og:locale" content="en_CA" />
 	<meta property="og:locale:alternate" content="en_US" />
 	<meta property="og:site_name" content="Art Exhibitions in the Belgo" />
-	<meta property="og:secure_url" content="https://belgo.gallery/images/thumbnail.png" />
+	<meta property="og:secure_url" content="https://belgo.gallery/images/thumbnail-en.jpg" />
 	<meta property="og:image:type" content="image/jpeg" />
-	<meta property="og:image:width" content="2440" />
-	<meta property="og:image:height" content="1626" />
+	<meta property="og:image:width" content="2400" />
+	<meta property="og:image:height" content="1260" />
 	<meta property="og:image:alt" content="Art Exhibitions in the Belgo" />
 	<!-- Web App -->
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
@@ -47,14 +47,30 @@
 			box-sizing: border-box;
 		}
 
-		html {
-			font-size: 16px;
+		body {
+			-webkit-font-smoothing: subpixel-antialiased;
+			-moz-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			text-rendering: optimizelegibility;
+			font-kerning: normal;
+			/* overscroll-behavior: none;
+			-ms-overflow-style: none; */
+			scrollbar-width: none;
 		}
 
-		a {
-			font-family: Inter-SemiBold;
+		body::-webkit-scrollbar {
+			display: none;
+		}
+
+		html {
+			font-size: 15px;
+			font-weight: inherit;
+		}
+
+		a:not(.QR) {
 			color: #000;
-			text-decoration: none;
+			text-decoration: none !important;
+
 		}
 
 		h1,
@@ -66,13 +82,53 @@
 
 		/* MATCH THE FOLLOWING WITH THE ENGLISH/FRENCH BUTTON AND COMMENT OUT ORIGINAL ENTRY */
 		#t5_2 {
-			right: 44px;
-			top: 56px;
+			right: 43px;
+			top: 52px;
 			letter-spacing: 0.02px;
 			transform: rotate(270deg);
 			transform-origin: top right;
 		}
 
+		/* This rebuilds the gallery links as they should be */
+		.s6 a {
+			/* font-size: 21px; */
+			font-family: Helvetica-Bold;
+			padding-bottom: 0;
+			margin-bottom: 0;
+			color: #171a43;
+			/* border-bottom: 1px solid #171a43; */
+			/* text-decoration: none; */
+		}
+
+		.s6 a:hover {
+			color: #1b2b91 !important;
+			/* border-bottom: 2px solid #1b2b91; */
+			transition: 0.3s;
+		}
+
+	</style>
+
+	<!-- Begin embedded font definitions -->
+	<style id="fonts1" type="text/css">
+		@font-face {
+			font-family: Helvetica-Bold;
+			src: url("fonts/Helvetica-Bold.woff2") format("woff2");
+		}
+
+		@font-face {
+			font-family: Helvetica-Oblique;
+			src: url("fonts/Helvetica-Oblique.woff2") format("woff2");
+		}
+
+		@font-face {
+			font-family: Helvetica;
+			src: url("fonts/Helvetica.woff2") format("woff2");
+		}
+
+	</style>
+
+	<!-- Begin responsive adjustments -->
+	<style class="responsive-css">
 		@media screen and (orientation: portrait) and (max-width:1024px) {
 			body {
 				transform-origin: top left;
@@ -261,7 +317,6 @@
 		}
 
 	</style>
-
 	<!-- Begin shared CSS values -->
 	<style class="shared-css" type="text/css">
 		.t {
@@ -286,1035 +341,1295 @@
 	</style>
 	<!-- End shared CSS values -->
 
-
 	<!-- Begin inline CSS -->
 	<style type="text/css">
 		#t1_2 {
 			left: 55px;
-			bottom: 1726px;
-			letter-spacing: -2.49px;
-			word-spacing: -0.14px;
+			bottom: 1730px;
+			letter-spacing: -1.91px;
 		}
 
 		#t2_2 {
 			left: 55px;
-			bottom: 1663px;
+			bottom: 1659px;
 		}
 
 		#t3_2 {
 			left: 82px;
-			bottom: 1686px;
-			letter-spacing: -0.78px;
+			bottom: 1679px;
+			letter-spacing: -0.41px;
 		}
 
 		#t4_2 {
-			left: 122px;
-			bottom: 1663px;
-			letter-spacing: -0.87px;
+			left: 133px;
+			bottom: 1659px;
+			letter-spacing: -0.5px;
 		}
 
-		/* #t5_2 {
-			left: 1045px;
+		#t5_2 {
+			/* left: 1052px; */
 			bottom: 1680px;
-			letter-spacing: 0.04px;
-		} */
+			letter-spacing: -0.09px;
+		}
 
 		#t6_2 {
 			left: 55px;
-			bottom: 1621px;
-			letter-spacing: 0.07px;
+			bottom: 1594px;
+			letter-spacing: -0.13px;
 		}
 
 		#t7_2 {
-			left: 110px;
-			bottom: 1621px;
-			letter-spacing: 0.06px;
-			word-spacing: -0.05px;
+			left: 138px;
+			bottom: 1611px;
+			letter-spacing: -0.13px;
+			word-spacing: -0.14px;
 		}
 
 		#t8_2 {
-			left: 110px;
-			bottom: 1596px;
-			letter-spacing: -0.16px;
+			left: 138px;
+			bottom: 1589px;
+			letter-spacing: 0.14px;
 		}
 
 		#t9_2 {
-			left: 110px;
-			bottom: 1569px;
-			letter-spacing: -0.2px;
-			word-spacing: 0.1px;
+			left: 138px;
+			bottom: 1564px;
+			letter-spacing: 0.08px;
+			word-spacing: 0.07px;
 		}
 
 		#ta_2 {
-			left: 110px;
-			bottom: 1541px;
-			letter-spacing: -0.21px;
-			word-spacing: 0.1px;
-		}
-
-		#tb_2 {
-			left: 306px;
-			bottom: 1541px;
-			letter-spacing: -0.14px;
-			word-spacing: 0.03px;
-		}
-
-		#tc_2 {
 			left: 468px;
-			bottom: 1623px;
-			letter-spacing: 0.03px;
-			word-spacing: -0.02px;
-		}
-
-		#td_2 {
-			left: 972px;
-			bottom: 1625px;
-			letter-spacing: -0.15px;
-			word-spacing: 0.04px;
-		}
-
-		#te_2 {
-			left: 468px;
-			bottom: 1596px;
-			word-spacing: 0.03px;
-		}
-
-		#tf_2 {
-			left: 55px;
-			bottom: 1459px;
-		}
-
-		#tg_2 {
-			left: 83px;
-			bottom: 1482px;
-			letter-spacing: -1.51px;
-		}
-
-		#th_2 {
-			left: 116px;
-			bottom: 1459px;
-			letter-spacing: -0.87px;
-		}
-
-		#ti_2 {
-			left: 55px;
-			bottom: 1419px;
-			letter-spacing: 0.05px;
-		}
-
-		#tj_2 {
-			left: 110px;
-			bottom: 1419px;
-			letter-spacing: 0.01px;
+			bottom: 1611px;
+			letter-spacing: -0.07px;
 			word-spacing: -0.01px;
 		}
 
-		#tk_2 {
-			left: 110px;
-			bottom: 1394px;
-			letter-spacing: -0.19px;
+		#tb_2 {
+			left: 468px;
+			bottom: 1587px;
+			letter-spacing: -0.07px;
+			word-spacing: -0.01px;
 		}
 
-		#tl_2 {
-			left: 110px;
-			bottom: 1367px;
-			letter-spacing: -0.23px;
-			word-spacing: 0.13px;
-		}
-
-		#tm_2 {
-			left: 110px;
-			bottom: 1339px;
-			letter-spacing: -0.14px;
+		#tc_2 {
+			left: 962px;
+			bottom: 1613px;
+			letter-spacing: 0.13px;
 			word-spacing: 0.03px;
 		}
 
+		#td_2 {
+			left: 951px;
+			bottom: 1589px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.02px;
+		}
+
+		#te_2 {
+			left: 1074px;
+			bottom: 1595px;
+			letter-spacing: -0.03px;
+		}
+
+		#tf_2 {
+			left: 1082px;
+			bottom: 1589px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.03px;
+		}
+
+		#tg_2 {
+			left: 55px;
+			bottom: 1474px;
+		}
+
+		#th_2 {
+			left: 82px;
+			bottom: 1493px;
+			letter-spacing: -0.39px;
+		}
+
+		#ti_2 {
+			left: 126px;
+			bottom: 1474px;
+			letter-spacing: -0.5px;
+		}
+
+		#tj_2 {
+			left: 55px;
+			bottom: 1409px;
+			letter-spacing: -0.13px;
+		}
+
+		#tk_2 {
+			left: 138px;
+			bottom: 1426px;
+			letter-spacing: 0.19px;
+			word-spacing: -0.04px;
+		}
+
+		#tl_2 {
+			left: 138px;
+			bottom: 1403px;
+			letter-spacing: 0.02px;
+		}
+
+		#tm_2 {
+			left: 138px;
+			bottom: 1379px;
+			letter-spacing: -0.04px;
+			word-spacing: 0.08px;
+		}
+
 		#tn_2 {
-			left: 324px;
-			bottom: 1347px;
-			letter-spacing: -0.08px;
+			left: 468px;
+			bottom: 1426px;
+			letter-spacing: -0.06px;
+			word-spacing: -0.2px;
 		}
 
 		#to_2 {
 			left: 468px;
-			bottom: 1419px;
-			letter-spacing: -0.03px;
-			word-spacing: 0.02px;
+			bottom: 1402px;
+			letter-spacing: -0.06px;
+			word-spacing: -0.01px;
 		}
 
 		#tp_2 {
-			left: 949px;
-			bottom: 1422px;
-			letter-spacing: -0.15px;
-			word-spacing: 0.04px;
+			left: 468px;
+			bottom: 1377px;
+			letter-spacing: -0.06px;
+			word-spacing: -0.02px;
 		}
 
 		#tq_2 {
 			left: 468px;
-			bottom: 1392px;
-			letter-spacing: -0.02px;
-			word-spacing: 0.02px;
+			bottom: 1353px;
+			letter-spacing: -0.1px;
+			word-spacing: -0.04px;
 		}
 
 		#tr_2 {
-			left: 55px;
-			bottom: 1257px;
-		}
-
-		#ts_2 {
-			left: 84px;
-			bottom: 1280px;
-			letter-spacing: -0.49px;
-		}
-
-		#tt_2 {
-			left: 118px;
-			bottom: 1257px;
-			letter-spacing: -0.87px;
-		}
-
-		#tu_2 {
-			left: 55px;
-			bottom: 1216px;
-			letter-spacing: 0.06px;
-		}
-
-		#tv_2 {
-			left: 110px;
-			bottom: 1216px;
-			letter-spacing: 0.03px;
-			word-spacing: -0.03px;
-		}
-
-		#tw_2 {
-			left: 110px;
-			bottom: 1191px;
-			letter-spacing: -0.14px;
-		}
-
-		#tx_2 {
-			left: 110px;
-			bottom: 1164px;
-			letter-spacing: -0.25px;
-			word-spacing: 0.14px;
-		}
-
-		#ty_2 {
-			left: 110px;
-			bottom: 1136px;
-			letter-spacing: -0.14px;
+			left: 971px;
+			bottom: 1428px;
+			letter-spacing: 0.13px;
 			word-spacing: 0.03px;
 		}
 
+		#ts_2 {
+			left: 960px;
+			bottom: 1404px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.02px;
+		}
+
+		#tt_2 {
+			left: 1075px;
+			bottom: 1410px;
+			letter-spacing: -0.03px;
+		}
+
+		#tu_2 {
+			left: 1087px;
+			bottom: 1404px;
+			letter-spacing: 0.12px;
+			word-spacing: 0.02px;
+		}
+
+		#tv_2 {
+			left: 55px;
+			bottom: 1264px;
+		}
+
+		#tw_2 {
+			left: 82px;
+			bottom: 1284px;
+			letter-spacing: -0.4px;
+		}
+
+		#tx_2 {
+			left: 124px;
+			bottom: 1264px;
+			letter-spacing: -0.5px;
+		}
+
+		#ty_2 {
+			left: 55px;
+			bottom: 1199px;
+			letter-spacing: -0.13px;
+		}
+
 		#tz_2 {
-			left: 324px;
-			bottom: 1144px;
-			letter-spacing: -0.08px;
+			left: 138px;
+			bottom: 1216px;
+			letter-spacing: -0.06px;
+			word-spacing: -0.03px;
 		}
 
 		#t10_2 {
-			left: 468px;
-			bottom: 1216px;
-			letter-spacing: -0.15px;
+			left: 138px;
+			bottom: 1194px;
+			letter-spacing: 0.14px;
 		}
 
 		#t11_2 {
-			left: 949px;
-			bottom: 1219px;
-			letter-spacing: -0.15px;
-			word-spacing: 0.04px;
+			left: 138px;
+			bottom: 1170px;
+			letter-spacing: 0.07px;
+			word-spacing: 0.09px;
 		}
 
 		#t12_2 {
 			left: 468px;
-			bottom: 1189px;
-			letter-spacing: 0.06px;
-			word-spacing: -0.05px;
+			bottom: 1216px;
+			letter-spacing: -0.24px;
 		}
 
 		#t13_2 {
 			left: 468px;
-			bottom: 1161px;
-			letter-spacing: -0.19px;
-			word-spacing: 0.19px;
+			bottom: 1192px;
+			letter-spacing: -0.06px;
+			word-spacing: -0.02px;
 		}
 
 		#t14_2 {
-			left: 585px;
-			bottom: 1161px;
+			left: 468px;
+			bottom: 1168px;
+			letter-spacing: -0.06px;
+			word-spacing: -0.02px;
 		}
 
 		#t15_2 {
-			left: 603px;
-			bottom: 1161px;
-			letter-spacing: -0.05px;
-			word-spacing: 0.05px;
+			left: 468px;
+			bottom: 1143px;
+			letter-spacing: -0.06px;
+			word-spacing: -0.02px;
 		}
 
 		#t16_2 {
-			left: 949px;
-			bottom: 1164px;
-			letter-spacing: -0.15px;
-			word-spacing: 0.04px;
+			left: 971px;
+			bottom: 1218px;
+			letter-spacing: 0.12px;
+			word-spacing: 0.03px;
 		}
 
 		#t17_2 {
-			left: 468px;
-			bottom: 1134px;
-			letter-spacing: 0.01px;
-			word-spacing: -0.01px;
+			left: 959px;
+			bottom: 1194px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.02px;
 		}
 
 		#t18_2 {
-			left: 55px;
-			bottom: 1087px;
-			letter-spacing: -0.07px;
+			left: 1074px;
+			bottom: 1200px;
+			letter-spacing: -0.03px;
 		}
 
 		#t19_2 {
-			left: 110px;
-			bottom: 1087px;
-			letter-spacing: -0.09px;
+			left: 1082px;
+			bottom: 1194px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.03px;
 		}
 
 		#t1a_2 {
-			left: 110px;
-			bottom: 1062px;
-			letter-spacing: -0.15px;
+			left: 55px;
+			bottom: 1089px;
+			letter-spacing: -0.13px;
 		}
 
 		#t1b_2 {
-			left: 110px;
-			bottom: 1035px;
-			letter-spacing: -0.22px;
-			word-spacing: 0.12px;
+			left: 138px;
+			bottom: 1106px;
+			letter-spacing: -0.07px;
 		}
 
 		#t1c_2 {
-			left: 110px;
-			bottom: 1007px;
-			letter-spacing: -0.21px;
-			word-spacing: 0.11px;
+			left: 138px;
+			bottom: 1084px;
+			letter-spacing: 0.15px;
 		}
 
 		#t1d_2 {
-			left: 468px;
-			bottom: 1087px;
-			letter-spacing: -0.13px;
-			word-spacing: 0.12px;
+			left: 138px;
+			bottom: 1059px;
+			letter-spacing: 0.03px;
+			word-spacing: 0.13px;
 		}
 
 		#t1e_2 {
-			left: 968px;
-			bottom: 1090px;
-			letter-spacing: -0.15px;
-			word-spacing: 0.04px;
+			left: 138px;
+			bottom: 1035px;
+			letter-spacing: 0.07px;
+			word-spacing: 0.1px;
 		}
 
 		#t1f_2 {
 			left: 468px;
-			bottom: 1060px;
-			letter-spacing: 0.02px;
+			bottom: 1106px;
+			letter-spacing: -0.07px;
+			word-spacing: -0.02px;
 		}
 
 		#t1g_2 {
-			left: 468px;
-			bottom: 1032px;
-			letter-spacing: -0.02px;
-			word-spacing: 0.04px;
+			left: 1001px;
+			bottom: 1108px;
+			letter-spacing: 0.12px;
+			word-spacing: 0.02px;
 		}
 
 		#t1h_2 {
-			left: 55px;
-			bottom: 959px;
-			letter-spacing: -0.07px;
+			left: 468px;
+			bottom: 1082px;
+			letter-spacing: -0.06px;
+			word-spacing: -0.01px;
 		}
 
 		#t1i_2 {
-			left: 110px;
-			bottom: 959px;
-			letter-spacing: -0.09px;
-			word-spacing: 0.09px;
+			left: 951px;
+			bottom: 1084px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.02px;
 		}
 
 		#t1j_2 {
-			left: 110px;
-			bottom: 934px;
-			letter-spacing: -0.18px;
+			left: 1074px;
+			bottom: 1090px;
+			letter-spacing: -0.03px;
 		}
 
 		#t1k_2 {
-			left: 110px;
-			bottom: 906px;
-			letter-spacing: -0.22px;
-			word-spacing: 0.12px;
+			left: 1082px;
+			bottom: 1084px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.03px;
 		}
 
 		#t1l_2 {
-			left: 468px;
-			bottom: 959px;
-			letter-spacing: 0.04px;
-			word-spacing: -0.02px;
+			left: 55px;
+			bottom: 979px;
+			letter-spacing: -0.13px;
 		}
 
 		#t1m_2 {
-			left: 965px;
-			bottom: 961px;
-			letter-spacing: -0.15px;
-			word-spacing: 0.04px;
+			left: 138px;
+			bottom: 996px;
+			letter-spacing: -0.07px;
+			word-spacing: -0.01px;
 		}
 
 		#t1n_2 {
-			left: 55px;
-			bottom: 858px;
-			letter-spacing: -0.07px;
+			left: 138px;
+			bottom: 974px;
+			letter-spacing: 0.08px;
 		}
 
 		#t1o_2 {
-			left: 110px;
-			bottom: 858px;
-			letter-spacing: 0.04px;
-			word-spacing: -0.02px;
+			left: 138px;
+			bottom: 949px;
+			letter-spacing: 0.08px;
+			word-spacing: 0.07px;
 		}
 
 		#t1p_2 {
-			left: 110px;
-			bottom: 832px;
-			letter-spacing: -0.14px;
+			left: 468px;
+			bottom: 996px;
+			letter-spacing: -0.07px;
+			word-spacing: -0.01px;
 		}
 
 		#t1q_2 {
-			left: 110px;
-			bottom: 805px;
-			letter-spacing: -0.39px;
+			left: 668px;
+			bottom: 996px;
 		}
 
 		#t1r_2 {
-			left: 177px;
-			bottom: 805px;
-			letter-spacing: -0.2px;
-			word-spacing: 0.1px;
+			left: 684px;
+			bottom: 996px;
+			letter-spacing: -0.06px;
+			word-spacing: -0.01px;
 		}
 
 		#t1s_2 {
 			left: 468px;
-			bottom: 858px;
+			bottom: 971px;
+			letter-spacing: 0.05px;
+			word-spacing: 0.1px;
 		}
 
 		#t1t_2 {
-			left: 999px;
-			bottom: 860px;
-			letter-spacing: -0.14px;
+			left: 962px;
+			bottom: 998px;
+			letter-spacing: 0.13px;
 			word-spacing: 0.03px;
 		}
 
 		#t1u_2 {
-			left: 468px;
-			bottom: 830px;
-			letter-spacing: -0.02px;
-			word-spacing: 0.04px;
+			left: 951px;
+			bottom: 974px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.02px;
 		}
 
 		#t1v_2 {
-			left: 55px;
-			bottom: 756px;
-			letter-spacing: 0.06px;
+			left: 1074px;
+			bottom: 980px;
+			letter-spacing: -0.03px;
 		}
 
 		#t1w_2 {
-			left: 110px;
-			bottom: 756px;
-			letter-spacing: 0.03px;
-		}
-
-		#t1x_2 {
-			left: 110px;
-			bottom: 731px;
-			letter-spacing: -0.18px;
-		}
-
-		#t1y_2 {
-			left: 110px;
-			bottom: 704px;
-			letter-spacing: -0.21px;
-			word-spacing: 0.11px;
-		}
-
-		#t1z_2 {
-			left: 110px;
-			bottom: 676px;
-			letter-spacing: -0.2px;
-			word-spacing: 0.09px;
-		}
-
-		#t20_2 {
-			left: 468px;
-			bottom: 756px;
-			letter-spacing: 0.04px;
-			word-spacing: -0.04px;
-		}
-
-		#t21_2 {
-			left: 979px;
-			bottom: 759px;
-			letter-spacing: -0.15px;
+			left: 1082px;
+			bottom: 974px;
+			letter-spacing: 0.13px;
 			word-spacing: 0.03px;
 		}
 
+		#t1x_2 {
+			left: 55px;
+			bottom: 893px;
+			letter-spacing: -0.13px;
+		}
+
+		#t1y_2 {
+			left: 138px;
+			bottom: 910px;
+			letter-spacing: -0.07px;
+			word-spacing: -0.02px;
+		}
+
+		#t1z_2 {
+			left: 138px;
+			bottom: 888px;
+			letter-spacing: 0.15px;
+		}
+
+		#t20_2 {
+			left: 138px;
+			bottom: 863px;
+			letter-spacing: 0.02px;
+			word-spacing: 0.14px;
+		}
+
+		#t21_2 {
+			left: 468px;
+			bottom: 910px;
+			letter-spacing: -0.06px;
+		}
+
 		#t22_2 {
-			left: 1135px;
-			bottom: 759px;
-			letter-spacing: -0.15px;
+			left: 962px;
+			bottom: 912px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.03px;
 		}
 
 		#t23_2 {
 			left: 468px;
-			bottom: 729px;
-			letter-spacing: 0.02px;
+			bottom: 886px;
+			letter-spacing: -0.06px;
 			word-spacing: -0.01px;
 		}
 
 		#t24_2 {
-			left: 468px;
-			bottom: 701px;
-			letter-spacing: 0.01px;
-		}
-
-		#t25_2 {
-			left: 55px;
-			bottom: 627px;
-			letter-spacing: 0.06px;
-		}
-
-		#t26_2 {
-			left: 110px;
-			bottom: 627px;
-			letter-spacing: 0.06px;
-			word-spacing: -0.05px;
-		}
-
-		#t27_2 {
-			left: 110px;
-			bottom: 602px;
-			letter-spacing: -0.15px;
-		}
-
-		#t28_2 {
-			left: 110px;
-			bottom: 575px;
-			letter-spacing: -0.22px;
-			word-spacing: 0.12px;
-		}
-
-		#t29_2 {
-			left: 468px;
-			bottom: 627px;
-			letter-spacing: 0.01px;
-			word-spacing: -0.01px;
-		}
-
-		#t2a_2 {
-			left: 980px;
-			bottom: 630px;
-			letter-spacing: -0.14px;
+			left: 951px;
+			bottom: 888px;
+			letter-spacing: 0.13px;
 			word-spacing: 0.02px;
 		}
 
+		#t25_2 {
+			left: 1074px;
+			bottom: 894px;
+			letter-spacing: -0.03px;
+		}
+
+		#t26_2 {
+			left: 1082px;
+			bottom: 888px;
+			letter-spacing: 0.15px;
+			word-spacing: 0.03px;
+		}
+
+		#t27_2 {
+			left: 55px;
+			bottom: 807px;
+			letter-spacing: -0.13px;
+		}
+
+		#t28_2 {
+			left: 138px;
+			bottom: 824px;
+			letter-spacing: -0.07px;
+		}
+
+		#t29_2 {
+			left: 138px;
+			bottom: 802px;
+			letter-spacing: 0.14px;
+		}
+
+		#t2a_2 {
+			left: 138px;
+			bottom: 777px;
+			letter-spacing: 0.07px;
+			word-spacing: 0.01px;
+		}
+
 		#t2b_2 {
-			left: 468px;
-			bottom: 600px;
-			letter-spacing: 0.04px;
-			word-spacing: -0.03px;
+			left: 138px;
+			bottom: 753px;
+			letter-spacing: 0.08px;
+			word-spacing: 0.08px;
 		}
 
 		#t2c_2 {
-			left: 55px;
-			bottom: 526px;
-			letter-spacing: 0.06px;
+			left: 468px;
+			bottom: 824px;
+			letter-spacing: -0.07px;
+			word-spacing: -0.02px;
 		}
 
 		#t2d_2 {
-			left: 110px;
-			bottom: 526px;
-			letter-spacing: 0.07px;
-			word-spacing: -0.06px;
+			left: 971px;
+			bottom: 826px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.02px;
 		}
 
 		#t2e_2 {
-			left: 110px;
-			bottom: 501px;
-			letter-spacing: -0.22px;
+			left: 468px;
+			bottom: 800px;
+			letter-spacing: -0.06px;
+			word-spacing: 0.01px;
 		}
 
 		#t2f_2 {
-			left: 148px;
-			bottom: 501px;
-			letter-spacing: -0.06px;
+			left: 960px;
+			bottom: 802px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.02px;
 		}
 
 		#t2g_2 {
-			left: 110px;
-			bottom: 473px;
-			letter-spacing: -0.28px;
+			left: 1075px;
+			bottom: 808px;
+			letter-spacing: -0.03px;
 		}
 
 		#t2h_2 {
-			left: 202px;
-			bottom: 473px;
-			letter-spacing: -0.2px;
-			word-spacing: 0.09px;
+			left: 1087px;
+			bottom: 802px;
+			letter-spacing: 0.12px;
+			word-spacing: 0.02px;
 		}
 
 		#t2i_2 {
 			left: 468px;
-			bottom: 526px;
-			letter-spacing: 0.05px;
-			word-spacing: -0.04px;
+			bottom: 775px;
+			letter-spacing: -0.06px;
+			word-spacing: -0.38px;
 		}
 
 		#t2j_2 {
-			left: 1010px;
-			bottom: 528px;
-			letter-spacing: -0.15px;
-			word-spacing: 0.04px;
+			left: 55px;
+			bottom: 696px;
+			letter-spacing: -0.13px;
 		}
 
 		#t2k_2 {
-			left: 468px;
-			bottom: 499px;
-			word-spacing: 1.22px;
-		}
-
-		#t2l_2 {
-			left: 55px;
-			bottom: 392px;
-		}
-
-		#t2m_2 {
-			left: 82px;
-			bottom: 415px;
-			letter-spacing: -0.49px;
-		}
-
-		#t2n_2 {
-			left: 116px;
-			bottom: 392px;
-			letter-spacing: -0.87px;
-		}
-
-		#t2o_2 {
-			left: 55px;
-			bottom: 350px;
-			letter-spacing: 0.06px;
-		}
-
-		#t2p_2 {
-			left: 110px;
-			bottom: 350px;
-			letter-spacing: 0.05px;
-			word-spacing: -0.05px;
-		}
-
-		#t2q_2 {
-			left: 110px;
-			bottom: 325px;
-			letter-spacing: -0.13px;
-		}
-
-		#t2r_2 {
-			left: 110px;
-			bottom: 298px;
-			letter-spacing: -0.2px;
-			word-spacing: 0.1px;
-		}
-
-		#t2s_2 {
-			left: 468px;
-			bottom: 350px;
-			letter-spacing: 0.03px;
+			left: 138px;
+			bottom: 713px;
+			letter-spacing: -0.08px;
 			word-spacing: -0.03px;
 		}
 
-		#t2t_2 {
-			left: 999px;
-			bottom: 353px;
-			letter-spacing: -0.15px;
-			word-spacing: 0.04px;
+		#t2l_2 {
+			left: 138px;
+			bottom: 691px;
+			letter-spacing: 0.08px;
 		}
 
-		#t2u_2 {
-			left: 1136px;
-			bottom: 353px;
-			letter-spacing: -0.13px;
+		#t2m_2 {
+			left: 138px;
+			bottom: 667px;
+			letter-spacing: 0.09px;
+			word-spacing: 0.08px;
 		}
 
-		#t2v_2 {
+		#t2n_2 {
 			left: 468px;
-			bottom: 323px;
-			letter-spacing: 0.03px;
+			bottom: 713px;
+			letter-spacing: -0.07px;
+		}
+
+		#t2o_2 {
+			left: 950px;
+			bottom: 715px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.02px;
+		}
+
+		#t2p_2 {
+			left: 468px;
+			bottom: 689px;
+			letter-spacing: -0.06px;
 			word-spacing: -0.02px;
 		}
 
+		#t2q_2 {
+			left: 959px;
+			bottom: 691px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.02px;
+		}
+
+		#t2r_2 {
+			left: 1074px;
+			bottom: 697px;
+			letter-spacing: -0.03px;
+		}
+
+		#t2s_2 {
+			left: 1082px;
+			bottom: 691px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.03px;
+		}
+
+		#t2t_2 {
+			left: 468px;
+			bottom: 665px;
+			letter-spacing: -0.12px;
+			word-spacing: 0.05px;
+		}
+
+		#t2u_2 {
+			left: 468px;
+			bottom: 640px;
+			letter-spacing: -0.07px;
+			word-spacing: -0.02px;
+		}
+
+		#t2v_2 {
+			left: 942px;
+			bottom: 642px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.03px;
+		}
+
 		#t2w_2 {
-			left: 55px;
-			bottom: 249px;
-			letter-spacing: -0.16px;
+			left: 468px;
+			bottom: 616px;
+			letter-spacing: -0.06px;
+			word-spacing: -0.02px;
 		}
 
 		#t2x_2 {
-			left: 110px;
-			bottom: 249px;
-			word-spacing: 0.01px;
+			left: 951px;
+			bottom: 618px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.02px;
 		}
 
 		#t2y_2 {
-			left: 110px;
-			bottom: 224px;
-			letter-spacing: -0.16px;
+			left: 1074px;
+			bottom: 624px;
+			letter-spacing: -0.03px;
 		}
 
 		#t2z_2 {
-			left: 110px;
-			bottom: 197px;
-			letter-spacing: -0.23px;
-			word-spacing: 0.13px;
+			left: 1082px;
+			bottom: 618px;
+			letter-spacing: 0.15px;
+			word-spacing: 0.03px;
 		}
 
 		#t30_2 {
 			left: 468px;
-			bottom: 249px;
-			letter-spacing: -0.26px;
-			word-spacing: 0.27px;
+			bottom: 591px;
+			letter-spacing: -0.06px;
+			word-spacing: -0.02px;
 		}
 
 		#t31_2 {
-			left: 949px;
-			bottom: 252px;
-			letter-spacing: -0.15px;
-			word-spacing: 0.04px;
+			left: 942px;
+			bottom: 593px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.03px;
 		}
 
 		#t32_2 {
 			left: 468px;
-			bottom: 222px;
-			letter-spacing: 0.03px;
+			bottom: 567px;
+			letter-spacing: -0.06px;
+			word-spacing: -0.3px;
 		}
 
 		#t33_2 {
 			left: 55px;
-			bottom: 149px;
-			letter-spacing: 0.06px;
-		}
-
-		#t34_2 {
-			left: 110px;
-			bottom: 149px;
-			letter-spacing: 0.06px;
-			word-spacing: -0.05px;
-		}
-
-		#t35_2 {
-			left: 110px;
-			bottom: 124px;
+			bottom: 513px;
 			letter-spacing: -0.13px;
 		}
 
+		#t34_2 {
+			left: 138px;
+			bottom: 530px;
+			letter-spacing: -0.12px;
+			word-spacing: 0.03px;
+		}
+
+		#t35_2 {
+			left: 138px;
+			bottom: 507px;
+			letter-spacing: 0.14px;
+		}
+
 		#t36_2 {
-			left: 110px;
-			bottom: 97px;
-			letter-spacing: -0.22px;
-			word-spacing: 0.11px;
+			left: 138px;
+			bottom: 483px;
+			letter-spacing: 0.09px;
+			word-spacing: 0.08px;
 		}
 
 		#t37_2 {
 			left: 468px;
-			bottom: 149px;
-			letter-spacing: 0.04px;
-			word-spacing: -0.05px;
+			bottom: 530px;
+			letter-spacing: -0.14px;
+			word-spacing: 0.04px;
 		}
 
 		#t38_2 {
-			left: 941px;
-			bottom: 152px;
-			letter-spacing: -0.15px;
-			word-spacing: 0.05px;
+			left: 1059px;
+			bottom: 532px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.03px;
 		}
 
 		#t39_2 {
 			left: 468px;
-			bottom: 122px;
-			letter-spacing: 0.07px;
-			word-spacing: -0.04px;
+			bottom: 505px;
+			letter-spacing: -0.09px;
+			word-spacing: 0.01px;
 		}
 
 		#t3a_2 {
-			left: 55px;
-			bottom: 53px;
-			letter-spacing: 0.02px;
+			left: 973px;
+			bottom: 507px;
+			letter-spacing: 0.13px;
 			word-spacing: 0.02px;
 		}
 
 		#t3b_2 {
-			left: 256px;
-			bottom: 53px;
+			left: 1096px;
+			bottom: 513px;
+			letter-spacing: -0.03px;
 		}
 
 		#t3c_2 {
-			left: 270px;
-			bottom: 53px;
-			letter-spacing: 0.02px;
+			left: 1108px;
+			bottom: 507px;
+			letter-spacing: 0.11px;
+			word-spacing: 0.02px;
 		}
 
 		#t3d_2 {
-			left: 732px;
-			bottom: 53px;
+			left: 468px;
+			bottom: 481px;
+			letter-spacing: -0.07px;
+			word-spacing: -0.02px;
+		}
+
+		#t3e_2 {
+			left: 962px;
+			bottom: 483px;
+			letter-spacing: 0.12px;
+			word-spacing: 0.03px;
+		}
+
+		#t3f_2 {
+			left: 468px;
+			bottom: 456px;
+			letter-spacing: -0.17px;
+			word-spacing: 0.11px;
+		}
+
+		#t3g_2 {
+			left: 951px;
+			bottom: 458px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.02px;
+		}
+
+		#t3h_2 {
+			left: 1074px;
+			bottom: 465px;
+			letter-spacing: -0.03px;
+		}
+
+		#t3i_2 {
+			left: 1082px;
+			bottom: 458px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.03px;
+		}
+
+		#t3j_2 {
+			left: 55px;
+			bottom: 368px;
+		}
+
+		#t3k_2 {
+			left: 82px;
+			bottom: 387px;
+			letter-spacing: -0.4px;
+		}
+
+		#t3l_2 {
+			left: 124px;
+			bottom: 368px;
+			letter-spacing: -0.5px;
+		}
+
+		#t3m_2 {
+			left: 55px;
+			bottom: 303px;
+			letter-spacing: -0.13px;
+		}
+
+		#t3n_2 {
+			left: 138px;
+			bottom: 320px;
+			letter-spacing: -0.07px;
+			word-spacing: -0.02px;
+		}
+
+		#t3o_2 {
+			left: 138px;
+			bottom: 298px;
+			letter-spacing: 0.14px;
+		}
+
+		#t3p_2 {
+			left: 138px;
+			bottom: 273px;
+			letter-spacing: 0.06px;
+			word-spacing: 0.1px;
+		}
+
+		#t3q_2 {
+			left: 138px;
+			bottom: 249px;
+			letter-spacing: 0.05px;
+			word-spacing: 0.12px;
+		}
+
+		#t3r_2 {
+			left: 471px;
+			bottom: 320px;
+			letter-spacing: -0.06px;
+		}
+
+		#t3s_2 {
+			left: 971px;
+			bottom: 322px;
+			letter-spacing: 0.12px;
+			word-spacing: 0.03px;
+		}
+
+		#t3t_2 {
+			left: 471px;
+			bottom: 296px;
+			letter-spacing: -0.06px;
+		}
+
+		#t3u_2 {
+			left: 981px;
+			bottom: 298px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.02px;
+		}
+
+		#t3v_2 {
+			left: 1096px;
+			bottom: 304px;
+			letter-spacing: -0.03px;
+		}
+
+		#t3w_2 {
+			left: 1108px;
+			bottom: 298px;
+			letter-spacing: 0.11px;
+			word-spacing: 0.02px;
+		}
+
+		#t3x_2 {
+			left: 55px;
+			bottom: 192px;
+			letter-spacing: -0.13px;
+		}
+
+		#t3y_2 {
+			left: 138px;
+			bottom: 210px;
+			letter-spacing: -0.07px;
+			word-spacing: -0.01px;
+		}
+
+		#t3z_2 {
+			left: 138px;
+			bottom: 187px;
 			letter-spacing: 0.02px;
-			word-spacing: 0.52px;
+		}
+
+		#t40_2 {
+			left: 138px;
+			bottom: 163px;
+			letter-spacing: 0.07px;
+			word-spacing: 0.09px;
+		}
+
+		#t41_2 {
+			left: 471px;
+			bottom: 210px;
+			letter-spacing: -0.26px;
+			word-spacing: 0.19px;
+		}
+
+		#t42_2 {
+			left: 971px;
+			bottom: 212px;
+			letter-spacing: 0.12px;
+			word-spacing: 0.03px;
+		}
+
+		#t43_2 {
+			left: 471px;
+			bottom: 185px;
+			letter-spacing: -0.07px;
+			word-spacing: -0.23px;
+		}
+
+		#t44_2 {
+			left: 937px;
+			bottom: 187px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.02px;
+		}
+
+		#t45_2 {
+			left: 1052px;
+			bottom: 194px;
+			letter-spacing: -0.03px;
+		}
+
+		#t46_2 {
+			left: 1061px;
+			bottom: 187px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.02px;
+		}
+
+		#t47_2 {
+			left: 55px;
+			bottom: 107px;
+			letter-spacing: -0.13px;
+		}
+
+		#t48_2 {
+			left: 138px;
+			bottom: 124px;
+			letter-spacing: -0.07px;
+			word-spacing: -0.03px;
+		}
+
+		#t49_2 {
+			left: 138px;
+			bottom: 102px;
+			letter-spacing: 0.15px;
+		}
+
+		#t4a_2 {
+			left: 138px;
+			bottom: 77px;
+			letter-spacing: 0.08px;
+			word-spacing: 0.09px;
+		}
+
+		#t4b_2 {
+			left: 471px;
+			bottom: 124px;
+			letter-spacing: -0.07px;
+		}
+
+		#t4c_2 {
+			left: 962px;
+			bottom: 126px;
+			letter-spacing: 0.12px;
+			word-spacing: 0.03px;
+		}
+
+		#t4d_2 {
+			left: 471px;
+			bottom: 100px;
+			letter-spacing: -0.07px;
+			word-spacing: -0.02px;
+		}
+
+		#t4e_2 {
+			left: 951px;
+			bottom: 102px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.02px;
+		}
+
+		#t4f_2 {
+			left: 1074px;
+			bottom: 108px;
+			letter-spacing: -0.04px;
+		}
+
+		#t4g_2 {
+			left: 1082px;
+			bottom: 102px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.03px;
+		}
+
+		#t4h_2 {
+			left: 55px;
+			bottom: 46px;
+			letter-spacing: 0.12px;
+			word-spacing: 0.02px;
+		}
+
+		#t4i_2 {
+			left: 247px;
+			bottom: 46px;
+		}
+
+		#t4j_2 {
+			left: 259px;
+			bottom: 46px;
+			letter-spacing: 0.12px;
+		}
+
+		#t4k_2 {
+			left: 762px;
+			bottom: 46px;
+			letter-spacing: 0.13px;
+			word-spacing: 0.03px;
 		}
 
 		.s1 {
-			font-size: 73px;
-			font-family: Inter-Bold;
+			font-size: 64px;
+			font-family: Helvetica-Bold;
 			color: #000;
 		}
 
 		.s2 {
-			font-size: 43px;
-			font-family: Inter-ExtraBold;
+			font-size: 49px;
+			font-family: Helvetica-Bold;
 			color: #000;
 		}
 
 		.s3 {
-			font-size: 26px;
-			font-family: Inter-ExtraBold;
+			font-size: 32px;
+			font-family: Helvetica-Bold;
 			color: #000;
 		}
 
 		.s4 {
-			font-size: 21px;
-			font-family: Inter-ExtraBold;
-			color: #404040;
-		}
-
-		.s4 a {
-			font-size: 21px;
-			font-family: Inter-ExtraBold;
-			padding-bottom: 0;
-			margin-bottom: 0;
-			color: #171a43;
-			border-bottom: 2px solid #171a43;
-		}
-
-		.s4 a:hover {
-			color: #1b2b91 !important;
-			border-bottom: 2px solid #1b2b91;
-			transition: 0.3s;
+			font-size: 20px;
+			font-family: Helvetica-Bold;
+			color: #000;
 		}
 
 		.s5 {
-			font-size: 21px;
-			font-family: Inter-Bold;
+			font-size: 37px;
+			font-family: Helvetica-Bold;
 			color: #000;
 		}
 
 		.s6 {
-			font-size: 16px;
-			font-family: Inter-SemiBold;
+			font-size: 15px;
+			font-family: Helvetica-Bold;
 			color: #000;
 		}
 
 		.s7 {
-			font-size: 16px;
-			font-family: Inter-Regular;
+			font-size: 15px;
+			font-family: Helvetica;
 			color: #000;
 		}
 
 		.s8 {
-			font-size: 16px;
-			font-family: Inter-Italic;
+			font-size: 20px;
+			font-family: Helvetica;
 			color: #000;
 		}
 
 		.s9 {
-			font-size: 16px;
-			font-family: Inter-MediumItalic;
+			font-size: 15px;
+			font-family: Helvetica-Oblique;
 			color: #000;
 		}
 
 		.sa {
-			font-size: 16px;
-			font-family: Inter-Medium;
+			font-size: 10px;
+			font-family: Helvetica-Oblique;
 			color: #000;
 		}
 
 		.sb {
 			font-size: 21px;
-			font-family: Inter-Regular;
+			font-family: Helvetica-Bold;
 			color: #000;
 		}
 
 		.sc {
-			font-size: 10px;
-			font-family: Inter-MediumItalic;
+			font-size: 16px;
+			font-family: Helvetica-Bold;
 			color: #000;
 		}
 
 		.sd {
+			font-size: 16px;
+			font-family: Helvetica;
+			color: #000;
+		}
+
+		.se {
 			font-size: 21px;
-			font-family: Inter-Medium;
+			font-family: Helvetica;
 			color: #000;
 		}
 
 	</style>
 	<!-- End inline CSS -->
-
-	<!-- Begin embedded font definitions -->
-	<style id="fonts">
-		@font-face {
-			font-family: Inter-Regular;
-			src: url("fonts/Inter-Regular.woff") format("woff");
-		}
-
-		@font-face {
-			font-family: Inter-Italic;
-			src: url("./fonts/Inter-Italic.woff") format("woff");
-		}
-
-		@font-face {
-			font-family: Inter-Medium;
-			src: url("fonts/Inter-Medium.woff") format("woff");
-		}
-
-		@font-face {
-			font-family: Inter-MediumItalic;
-			src: url("fonts/Inter-MediumItalic.woff") format("woff");
-		}
-
-		@font-face {
-			font-family: Inter-SemiBold;
-			src: url("fonts/Inter-SemiBold.woff") format("woff");
-		}
-
-		@font-face {
-			font-family: Inter-SemiBoldItalic;
-			src: url("fonts/Inter-SemiBoldItalic.woff") format("woff");
-		}
-
-		@font-face {
-			font-family: Inter-Bold;
-			src: url("fonts/Inter-Bold.woff") format("woff");
-		}
-
-		@font-face {
-			font-family: Inter-ExtraBold;
-			src: url("fonts/Inter-ExtraBold.woff") format("woff");
-		}
-
-	</style>
-	<!-- End embedded font definitions -->
-
 </head>
 
-<body>
+<body style="margin: 0;">
+
 	<div id="p2" style="overflow: hidden; position: relative; background-color: white; width: 1210px; height: 1870px;">
 
 		<!-- Begin page background -->
-		<div id="pg2">
-			<svg id="pdf2" width="1210" height="1870" viewBox="0 0 1210 1870" style="width:1210px; height:1870px; z-index: 0; isolation: isolate;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-				<image clip-path="url(#c0)" preserveAspectRatio="none" x="1084" y="63" width="70" height="71" xlink:href="./belgo-galleries.svg" />
-				<path d="M110,268.8H233.2v1.4H110Z" class="g0" />
-				<path d="M54.6,209.4H110v1.1H54.6Z" class="g0" />
-				<path d="M110,209.4h1.1v1.1H110Z" class="g0" />
-				<path d="M111.1,209.4H467.5v1.1H111.1Z" class="g0" />
-				<path d="M467.5,209.4h1.1v1.1h-1.1Z" class="g0" />
-				<path d="M468.6,209.4H1155v1.1H468.6Z" class="g0" />
-				<path d="M53.5,338.1H110v1.1H53.5Z" class="g0" />
-				<path d="M108.9,338.1H110v1.1h-1.1Z" class="g0" />
-				<path d="M110,338.1H467.5v1.1H110Z" class="g0" />
-				<path d="M466.4,338.1h1.1v1.1h-1.1Z" class="g0" />
-				<path d="M467.5,338.1H1155v1.1H467.5Z" class="g0" />
-				<path d="M110,470.8h53.5v1.5H110Z" class="g0" />
-				<path d="M54.6,412.5H110v1.1H54.6Z" class="g0" />
-				<path d="M110,412.5h1.1v1.1H110Z" class="g0" />
-				<path d="M111.1,412.5H467.5v1.1H111.1Z" class="g0" />
-				<path d="M467.5,412.5h1.1v1.1h-1.1Z" class="g0" />
-				<path d="M468.6,412.5H1155v1.1H468.6Z" class="g0" />
-				<path d="M53.5,540.1H110v1.1H53.5Z" class="g0" />
-				<path d="M108.9,540.1H110v1.1h-1.1Z" class="g0" />
-				<path d="M110,540.1H467.5v1.1H110Z" class="g0" />
-				<path d="M466.4,540.1h1.1v1.1h-1.1Z" class="g0" />
-				<path d="M467.5,540.1H1155v1.1H467.5Z" class="g0" />
-				<path d="M110.4,673.9H222.6v1.5H110.4Z" class="g0" />
-				<path d="M55,614.5h55.4v1.1H55Z" class="g0" />
-				<path d="M110.4,614.5h1.1v1.1h-1.1Z" class="g0" />
-				<path d="M111.5,614.5H467.9v1.1H111.5Z" class="g0" />
-				<path d="M467.9,614.5H469v1.1h-1.1Z" class="g0" />
-				<path d="M469,614.5h686v1.1H469Z" class="g0" />
-				<path d="M110.4,802.6H254.5v1.5H110.4Z" class="g0" />
-				<path d="M55,743.2h55.4v1.1H55Z" class="g0" />
-				<path d="M110.4,743.2h1.1v1.1h-1.1Z" class="g0" />
-				<path d="M111.5,743.2H467.9v1.1H111.5Z" class="g0" />
-				<path d="M467.9,743.2H469v1.1h-1.1Z" class="g0" />
-				<path d="M469,743.2h686v1.1H469Z" class="g0" />
-				<path d="M110.4,931.3H285.3v1.5H110.4Z" class="g0" />
-				<path d="M55,871.9h55.4V873H55Z" class="g0" />
-				<path d="M110.4,871.9h1.1V873h-1.1Z" class="g0" />
-				<path d="M111.5,871.9H467.9V873H111.5Z" class="g0" />
-				<path d="M467.9,871.9H469V873h-1.1Z" class="g0" />
-				<path d="M469,871.9h686V873H469Z" class="g0" />
-				<path d="M110.4,1032.5H316.8v1.5H110.4Z" class="g0" />
-				<path d="M55,973.1h55.4v1.1H55Z" class="g0" />
-				<path d="M110.4,973.1h1.1v1.1h-1.1Z" class="g0" />
-				<path d="M111.5,973.1H467.9v1.1H111.5Z" class="g0" />
-				<path d="M467.9,973.1H469v1.1h-1.1Z" class="g0" />
-				<path d="M469,973.1h686v1.1H469Z" class="g0" />
-				<path d="M110.4,1133.7h79.5v1.5H110.4Z" class="g0" />
-				<path d="M55,1074.3h55.4v1.1H55Z" class="g0" />
-				<path d="M110.4,1074.3h1.1v1.1h-1.1Z" class="g0" />
-				<path d="M111.5,1074.3H467.9v1.1H111.5Z" class="g0" />
-				<path d="M467.9,1074.3H469v1.1h-1.1Z" class="g0" />
-				<path d="M469,1074.3h686v1.1H469Z" class="g0" />
-				<path d="M110.4,1262.8H299.9v1.5H110.4Z" class="g0" />
-				<path d="M55,1203h55.4v1.1H55Z" class="g0" />
-				<path d="M110.4,1203h1.1v1.1h-1.1Z" class="g0" />
-				<path d="M111.5,1203H467.9v1.1H111.5Z" class="g0" />
-				<path d="M467.9,1203H469v1.1h-1.1Z" class="g0" />
-				<path d="M469,1203h686v1.1H469Z" class="g0" />
-				<path d="M110.4,1364H214.1v1.5H110.4Z" class="g0" />
-				<path d="M55,1304.6h55.4v1.1H55Z" class="g0" />
-				<path d="M110.4,1304.6h1.1v1.1h-1.1Z" class="g0" />
-				<path d="M111.5,1304.6H467.9v1.1H111.5Z" class="g0" />
-				<path d="M467.9,1304.6H469v1.1h-1.1Z" class="g0" />
-				<path d="M469,1304.6h686v1.1H469Z" class="g0" />
-				<path d="M53.9,1405.8h56.5v1.1H53.9Z" class="g0" />
-				<path d="M109.3,1405.8h1.1v1.1h-1.1Z" class="g0" />
-				<path d="M110.4,1405.8H467.9v1.1H110.4Z" class="g0" />
-				<path d="M466.8,1405.8h1.1v1.1h-1.1Z" class="g0" />
-				<path d="M467.9,1405.8H1155v1.1H467.9Z" class="g0" />
-				<path d="M110,1539.6H282v1.5H110Z" class="g0" />
-				<path d="M54.6,1480.2H110v1.1H54.6Z" class="g0" />
-				<path d="M110,1480.2h1.1v1.1H110Z" class="g0" />
-				<path d="M111.1,1480.2H467.5v1.1H111.1Z" class="g0" />
-				<path d="M467.5,1480.2h1.1v1.1h-1.1Z" class="g0" />
-				<path d="M468.6,1480.2H1155v1.1H468.6Z" class="g0" />
-				<path d="M110,1640.8H211.9v1.5H110Z" class="g0" />
-				<path d="M54.6,1581.4H110v1.1H54.6Z" class="g0" />
-				<path d="M110,1581.4h1.1v1.1H110Z" class="g0" />
-				<path d="M111.1,1581.4H467.5v1.1H111.1Z" class="g0" />
-				<path d="M467.5,1581.4h1.1v1.1h-1.1Z" class="g0" />
-				<path d="M468.6,1581.4H1155v1.1H468.6Z" class="g0" />
-				<path d="M110,1740.9H305.1v1.5H110Z" class="g0" />
-				<path d="M54.6,1682.6H110v1.1H54.6Z" class="g0" />
-				<path d="M110,1682.6h1.1v1.1H110Z" class="g0" />
-				<path d="M111.1,1682.6H467.5v1.1H111.1Z" class="g0" />
-				<path d="M467.5,1682.6h1.1v1.1h-1.1Z" class="g0" />
-				<path d="M468.6,1682.6H1155v1.1H468.6Z" class="g0" />
-				<path d="M53.5,1782.7H110v1.1H53.5Z" class="g0" />
-				<path d="M108.9,1782.7H110v1.1h-1.1Z" class="g0" />
-				<path d="M110,1782.7H467.5v1.1H110Z" class="g0" />
-				<path d="M466.4,1782.7h1.1v1.1h-1.1Z" class="g0" />
-				<path d="M467.5,1782.7H1155v1.1H467.5Z" class="g0" />
-				<path d="M269.5,1811.7H428.3v1.5H269.5Z" class="g0" />
+
+		<div id="english" style="-webkit-user-select: none;">
+			<svg id="pdf2" width="1210" height="1870" viewBox="0 0 1210 1870" style="width:1210px; height:1870px; -moz-transform:scale(1); z-index: 0; isolation: isolate;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<a class="QR" href="https://belgo.gallery/">
+					<image clip-path="url(#c0)" preserveAspectRatio="none" x="1084" y="58" width="70" height="70" xlink:href="./belgo-galleries.svg" />
+				</a>
+				<path d="M137.5,275.4H250.4v.7H137.5Z" class="g0" />
+				<path d="M54.6,222.9h82.9v1.5H54.6Z" class="g0" />
+				<path d="M137.5,222.9H139v1.5h-1.5Z" class="g0" />
+				<path d="M139,222.9H467.5v1.5H139Z" class="g0" />
+				<path d="M467.5,222.9H469v1.5h-1.5Z" class="g0" />
+				<path d="M469,222.9H948.9v1.5H469Z" class="g0" />
+				<path d="M948.9,222.9h1.5v1.5h-1.5Z" class="g0" />
+				<path d="M950.4,222.9H1155v1.5H950.4Z" class="g0" />
+				<path d="M53.5,309.1h84v1.5h-84Z" class="g0" />
+				<path d="M136.4,309.1h1.5v1.5h-1.5Z" class="g0" />
+				<path d="M137.9,309.1H467.5v1.5H137.9Z" class="g0" />
+				<path d="M466.4,309.1h1.5v1.5h-1.5Z" class="g0" />
+				<path d="M467.9,309.1h481v1.5h-481Z" class="g0" />
+				<path d="M947.8,309.1h1.5v1.5h-1.5Z" class="g0" />
+				<path d="M949.3,309.1H1155v1.5H949.3Z" class="g0" />
+				<path d="M137.5,461.0h51.3v.8H137.5Z" class="g0" />
+				<path d="M54.6,408.1h82.9v1.5H54.6Z" class="g0" />
+				<path d="M137.5,408.1H139v1.5h-1.5Z" class="g0" />
+				<path d="M139,408.1H467.5v1.5H139Z" class="g0" />
+				<path d="M467.5,408.1H469v1.5h-1.5Z" class="g0" />
+				<path d="M469,408.1H948.9v1.5H469Z" class="g0" />
+				<path d="M948.9,408.1h1.5v1.5h-1.5Z" class="g0" />
+				<path d="M950.4,408.1H1155v1.5H950.4Z" class="g0" />
+				<path d="M53.5,518.5h84v1.4h-84Z" class="g0" />
+				<path d="M136.4,518.5h1.5v1.4h-1.5Z" class="g0" />
+				<path d="M137.9,518.5H467.5v1.4H137.9Z" class="g0" />
+				<path d="M466.4,518.5h1.5v1.4h-1.5Z" class="g0" />
+				<path d="M467.9,518.5h481v1.4h-481Z" class="g0" />
+				<path d="M947.8,518.5h1.5v1.4h-1.5Z" class="g0" />
+				<path d="M949.3,518.5H1155v1.4H949.3Z" class="g0" />
+				<path d="M137.5,670.3H242.7v.7H137.5Z" class="g0" />
+				<path d="M55,617.8h82.5v1.5H55Z" class="g0" />
+				<path d="M137.5,617.8H139v1.5h-1.5Z" class="g0" />
+				<path d="M139,617.8H467.9v1.5H139Z" class="g0" />
+				<path d="M467.9,617.8h1.4v1.5h-1.4Z" class="g0" />
+				<path d="M469.3,617.8H948.9v1.5H469.3Z" class="g0" />
+				<path d="M948.9,617.8h1.5v1.5h-1.5Z" class="g0" />
+				<path d="M950.4,617.8H1155v1.5H950.4Z" class="g0" />
+				<path d="M137.5,780.3H275.7v.7H137.5Z" class="g0" />
+				<path d="M55,728.2h82.5v1.5H55Z" class="g0" />
+				<path d="M137.5,728.2H139v1.5h-1.5Z" class="g0" />
+				<path d="M139,728.2H467.9v1.5H139Z" class="g0" />
+				<path d="M467.9,728.2h1.4v1.5h-1.4Z" class="g0" />
+				<path d="M469.3,728.2H948.9v1.5H469.3Z" class="g0" />
+				<path d="M948.9,728.2h1.5v1.5h-1.5Z" class="g0" />
+				<path d="M950.4,728.2H1155v1.5H950.4Z" class="g0" />
+				<path d="M137.5,890.6H302.9v.8H137.5Z" class="g0" />
+				<path d="M55,838.6h82.5V840H55Z" class="g0" />
+				<path d="M137.5,838.6H139V840h-1.5Z" class="g0" />
+				<path d="M139,838.6H467.9V840H139Z" class="g0" />
+				<path d="M467.9,838.6h1.4V840h-1.4Z" class="g0" />
+				<path d="M469.3,838.6H948.9V840H469.3Z" class="g0" />
+				<path d="M948.9,838.6h1.5V840h-1.5Z" class="g0" />
+				<path d="M950.4,838.6H1155V840H950.4Z" class="g0" />
+				<path d="M137.5,976.4H333.7v.8H137.5Z" class="g0" />
+				<path d="M55,924.4h82.5v1.4H55Z" class="g0" />
+				<path d="M137.5,924.4H139v1.4h-1.5Z" class="g0" />
+				<path d="M139,924.4H467.9v1.4H139Z" class="g0" />
+				<path d="M467.9,924.4h1.4v1.4h-1.4Z" class="g0" />
+				<path d="M469.3,924.4H948.9v1.4H469.3Z" class="g0" />
+				<path d="M948.9,924.4h1.5v1.4h-1.5Z" class="g0" />
+				<path d="M950.4,924.4H1155v1.4H950.4Z" class="g0" />
+				<path d="M137.5,1062.6h76.3v.7H137.5Z" class="g0" />
+				<path d="M55,1010.2h82.5v1.4H55Z" class="g0" />
+				<path d="M137.5,1010.2H139v1.4h-1.5Z" class="g0" />
+				<path d="M139,1010.2H467.9v1.4H139Z" class="g0" />
+				<path d="M467.9,1010.2h1.4v1.4h-1.4Z" class="g0" />
+				<path d="M469.3,1010.2H1155v1.4H469.3Z" class="g0" />
+				<path d="M137.5,1173.3H317.2v.8H137.5Z" class="g0" />
+				<path d="M55,1120.9h82.5v1.5H55Z" class="g0" />
+				<path d="M137.5,1120.9H139v1.5h-1.5Z" class="g0" />
+				<path d="M139,1120.9H467.9v1.5H139Z" class="g0" />
+				<path d="M467.9,1120.9h1.4v1.5h-1.4Z" class="g0" />
+				<path d="M469.3,1120.9H1155v1.5H469.3Z" class="g0" />
+				<path d="M137.5,1357h96.1v.8H137.5Z" class="g0" />
+				<path d="M55,1304.6h82.5v1.5H55Z" class="g0" />
+				<path d="M137.5,1304.6H139v1.5h-1.5Z" class="g0" />
+				<path d="M139,1304.6H467.9v1.5H139Z" class="g0" />
+				<path d="M467.9,1304.6h1.4v1.5h-1.4Z" class="g0" />
+				<path d="M469.3,1304.6H1155v1.5H469.3Z" class="g0" />
+				<path d="M53.9,1415h83.6v1.4H53.9Z" class="g0" />
+				<path d="M136.4,1415h1.5v1.4h-1.5Z" class="g0" />
+				<path d="M137.9,1415h330v1.4h-330Z" class="g0" />
+				<path d="M466.8,1415h1.4v1.4h-1.4Z" class="g0" />
+				<path d="M468.2,1415H1155v1.4H468.2Z" class="g0" />
+				<path d="M137.5,1566.4H299.6v.7H137.5Z" class="g0" />
+				<path d="M54.6,1514.3h82.9v1.5H54.6Z" class="g0" />
+				<path d="M137.5,1514.3H139v1.5h-1.5Z" class="g0" />
+				<path d="M139,1514.3H471.2v1.5H139Z" class="g0" />
+				<path d="M471.2,1514.3h1.4v1.5h-1.4Z" class="g0" />
+				<path d="M472.6,1514.3H1155v1.5H472.6Z" class="g0" />
+				<path d="M137.5,1676.8h95.7v.7H137.5Z" class="g0" />
+				<path d="M54.6,1624.7h82.9v1.5H54.6Z" class="g0" />
+				<path d="M137.5,1624.7H139v1.5h-1.5Z" class="g0" />
+				<path d="M139,1624.7H471.2v1.5H139Z" class="g0" />
+				<path d="M471.2,1624.7h1.4v1.5h-1.4Z" class="g0" />
+				<path d="M472.6,1624.7H1155v1.5H472.6Z" class="g0" />
+				<path d="M137.5,1762.6H323.4v.7H137.5Z" class="g0" />
+				<path d="M54.6,1710.5h82.9v1.5H54.6Z" class="g0" />
+				<path d="M137.5,1710.5H139v1.5h-1.5Z" class="g0" />
+				<path d="M139,1710.5H471.2v1.5H139Z" class="g0" />
+				<path d="M471.2,1710.5h1.4v1.5h-1.4Z" class="g0" />
+				<path d="M472.6,1710.5H1155v1.5H472.6Z" class="g0" />
+				<path d="M53.5,1796.3h84v1.5h-84Z" class="g0" />
+				<path d="M136.4,1796.3h1.5v1.5h-1.5Z" class="g0" />
+				<path d="M137.9,1796.3H471.2v1.5H137.9Z" class="g0" />
+				<path d="M470.1,1796.3h1.4v1.5h-1.4Z" class="g0" />
+				<path d="M471.5,1796.3H1155v1.5H471.5Z" class="g0" />
+				<path d="M259.2,1818.7H404.4v.7H259.2Z" class="g0" />
 			</svg>
 		</div>
 		<!-- End page background -->
@@ -1326,114 +1641,146 @@
 			<span id="t2_2" class="t s2">2 </span>
 			<span id="t3_2" class="t s3">nd </span>
 			<span id="t4_2" class="t s2">Floor </span>
-			<span id="t5_2" class="t s4"><a href="https://belgo.gallery/">FRANÇAIS</a> </span>
+			<span id="t5_2" class="t s4"><a href="https://belgo.gallery/">FRANÇAIS</a></span>
 			<span id="t6_2" class="t s5">230 </span>
-			<h2 id="t7_2" class="t s5">Espace 230 / Art contemporain </h2>
-			<span id="t8_2" class="t s6"><a href="https://espace230.com">espace230.com </a> </span>
+			<h2 id="t7_2" class="t s4">ESPACE 230 / Art contemporain </h2>
+			<span id="t8_2" class="t s6"><a href="https://espace230.com">espace230.com</a></span>
 			<span id="t9_2" class="t s7">Monday to Friday, 12pm-5pm </span>
-			<span id="ta_2" class="t s8">Saturday, by appointment </span><span id="tb_2" class="t s9">(*) Summer hours </span>
-			<h3 id="tc_2" class="t s5">Permanent exhibition </h3>
-			<span id="td_2" class="t sa">July 25 to September 10 </span>
-			<span id="te_2" class="t sb">Louis-Bernard St-Jean </span>
-			<span id="tf_2" class="t s2">3 </span>
-			<span id="tg_2" class="t s3">rd </span>
-			<span id="th_2" class="t s2">Floor </span>
-			<span id="ti_2" class="t s5">314 </span>
-			<h2 id="tj_2" class="t s5">Centre des arts actuels Skol </h2>
-			<span id="tk_2" class="t s6"><a href="https://skol.ca">skol.ca </a> </span>
-			<span id="tl_2" class="t s7">Tuesday to Saturday, 12pm-5:30pm </span>
-			<span id="tm_2" class="t s9">(*) Closed until September 7 </span>
-			<span id="tn_2" class="t sc">th </span>
-			<h3 id="to_2" class="t s5">The Day After the Fire </h3>
-			<span id="tp_2" class="t sa">September 8 to October 22 </span>
-			<span id="tq_2" class="t sb">Group exhibition </span>
-			<span id="tr_2" class="t s2">4 </span>
-			<span id="ts_2" class="t s3">th </span>
-			<span id="tt_2" class="t s2">Floor </span>
-			<span id="tu_2" class="t s5">403 </span>
-			<h2 id="tv_2" class="t s5">Galerie B-312 </h2>
-			<span id="tw_2" class="t s6"><a href="https://galerieb312.ca">galerieb312.ca </a> </span>
-			<span id="tx_2" class="t s7">Tuesday to Saturday, 12pm-5pm </span>
-			<span id="ty_2" class="t s9">(*) Closed until September 7 </span>
-			<span id="tz_2" class="t sc">th </span>
-			<h3 id="t10_2" class="t s5">L’index </h3>
-			<span id="t11_2" class="t sa">September 9 to October 22 </span>
-			<span id="t12_2" class="t sb">Martin Désilets </span>
-			<h3 id="t13_2" class="t s5">Table rase </h3><span id="t14_2" class="t sd">| </span>
-			<h3 id="t15_2" class="t s5">Se reconstruire </h3>
-			<span id="t16_2" class="t sa">September 9 to October 22 </span>
-			<span id="t17_2" class="t sb">Marie-Ève Beaulieu </span>
-			<span id="t18_2" class="t s5">410 </span>
-			<h2 id="t19_2" class="t s5">Laroche/Joncas </h2>
-			<span id="t1a_2" class="t s6"><a href="http://larochejoncas.com">larochejoncas.com </a> </span>
-			<span id="t1b_2" class="t s7">Wednesday to Friday, 11am-6pm </span>
-			<span id="t1c_2" class="t s7">Saturday, 12pm-5pm </span>
-			<h3 id="t1d_2" class="t s5">War, What Is It Good For, Absolutely Nothing. </h3>
-			<span id="t1e_2" class="t sa">June 18 to September 10 </span>
-			<span id="t1f_2" class="t s5">(Resistance) </span>
-			<span id="t1g_2" class="t sb">Group exhibition </span>
-			<span id="t1h_2" class="t s5">412 </span>
-			<h2 id="t1i_2" class="t s5">Patel Brown </h2>
-			<span id="t1j_2" class="t s6"><a href="http://patelbrowngallery.com">patelbrowngallery.com</a> </span>
-			<span id="t1k_2" class="t s7">Wednesday to Saturday, 12pm-5pm </span>
-			<h3 id="t1l_2" class="t s5">Upcoming exhibition </h3>
-			<span id="t1m_2" class="t sa">September 16 to October </span>
-			<span id="t1n_2" class="t s5">414 </span>
-			<h2 id="t1o_2" class="t s5">McBride Contemporain </h2>
-			<span id="t1p_2" class="t s6"><a href="https://mcbridecontemporain.com">mcbridecontemporain.com </a> </span>
-			<span id="t1q_2" class="t s7">Tuesday </span><span id="t1r_2" class="t s7">to Saturday, 11am-5pm </span>
-			<h3 id="t1s_2" class="t s5">Brooklyn Bridge </h3>
-			<span id="t1t_2" class="t sa">July 28 to August 28 </span>
-			<span id="t1u_2" class="t sb">Group exhibition </span>
-			<span id="t1v_2" class="t s5">426 </span>
-			<h2 id="t1w_2" class="t s5">Arprim </h2>
-			<span id="t1x_2" class="t s6"><a href="https://arprim.org">arprim.org </a> </span>
-			<span id="t1y_2" class="t s7">Wednesday, 12pm-5pm; Thursday, 12pm-6pm </span>
-			<span id="t1z_2" class="t s7">Friday and Saturday, 12pm-5pm </span>
-			<h3 id="t20_2" class="t s5">Emphatic Visions </h3>
-			<span id="t21_2" class="t sa">August 15 to August </span><span id="t22_2" class="t sa">23 </span>
-			<span id="t23_2" class="t sb">Florian – Presented by the Musée d’art actuel / Département </span>
-			<span id="t24_2" class="t sb">des invisibles (MAADI) </span>
-			<span id="t25_2" class="t s5">442 </span>
-			<h2 id="t26_2" class="t s5">Galerie POPOP </h2>
-			<span id="t27_2" class="t s6"><a href="https://galeriepopopgallery.com">galeriepopopgallery.com </a> </span>
-			<span id="t28_2" class="t s7">Wednesday to Saturday, 12pm-5pm </span>
-			<h3 id="t29_2" class="t s5">Hide and Seek – Selfies d’acryliques </h3>
-			<span id="t2a_2" class="t sa">August 17 to August 27 </span>
-			<span id="t2b_2" class="t sb">Christine Hodgson </span>
-			<span id="t2c_2" class="t s5">444 </span>
-			<h2 id="t2d_2" class="t s5">CIRCA art actuel </h2>
-			<span id="t2e_2" class="t s6"><a href="https://circa-art.com">circa-art.com </a> </span>
-			<span id="t2g_2" class="t s7">Wednesday </span><span id="t2h_2" class="t s7">to Saturday, 12pm-5:30pm </span>
-			<h3 id="t2i_2" class="t s5">The Space Between Held Hands </h3>
-			<span id="t2j_2" class="t sa">July 9 to August 27 </span>
-			<span id="t2k_2" class="t sb">Charley Young | 10th National Biennial of Contemporary Sculpture </span>
-			<span id="t2l_2" class="t s2">5 </span>
-			<span id="t2m_2" class="t s3">th </span>
-			<span id="t2n_2" class="t s2">Floor </span>
-			<span id="t2o_2" class="t s5">502 </span>
-			<h2 id="t2p_2" class="t s5">Galeries Bellemare Lambert </h2>
-			<span id="t2q_2" class="t s6"><a href="https://bellemarelambert.com">bellemarelambert.com </a> </span>
-			<span id="t2r_2" class="t s7">Thursday to Saturday, 11am-5pm </span>
-			<h3 id="t2s_2" class="t s5">Gunther House – Excerpts </h3>
-			<span id="t2t_2" class="t sa">June 11 to August </span><span id="t2u_2" class="t sa">27 </span>
-			<span id="t2v_2" class="t sb">Roger Bellemare and Betty Goodwin </span>
-			<span id="t2w_2" class="t s5">507 </span><span id="t2x_2" class="t s5">SBC Galerie d’art contemporain </span>
-			<span id="t2y_2" class="t s6"><a href="https://sbcgallery.ca">sbcgallery.ca </a> </span>
-			<span id="t2z_2" class="t s7">Tuesday to Saturday, 12pm-5:30pm </span>
-			<h3 id="t30_2" class="t s5">Vende Tela, Compra Terra </h3>
-			<span id="t31_2" class="t sa">September 3 to October 22 </span>
-			<span id="t32_2" class="t sb">Mahku (Movimento dos Artistas Huni Kuin) </span>
-			<span id="t33_2" class="t s5">508 </span>
-			<h2 id="t34_2" class="t s5">Galerie Hugues Charbonneau </h2>
-			<span id="t35_2" class="t s6"><a href="https://huguescharbonneau.com">huguescharbonneau.com </a> </span>
-			<span id="t36_2" class="t s7">Wednesday to Friday, 12pm-5pm </span>
-			<h3 id="t37_2" class="t s5">Dear mélancolie </h3>
-			<span id="t38_2" class="t sa">September 14 to October 22 </span>
-			<span id="t39_2" class="t sb">Manuel Mathieu </span>
-			<span id="t3a_2" class="t s6">Art Galleries of the Belgo </span><span id="t3b_2" class="t s7">| </span>
-			<span id="t3c_2" class="t s6"><a href="https://belgo.gallery">https://belgo.gallery </a> </span>
-			<span id="t3d_2" class="t s7">372, rue Sainte-Catherine Ouest, Montréal QC H2B 1A2 </span>
+			<h3 id="ta_2" class="t s4">J’avais besoin de peindre </h3>
+			<span id="tb_2" class="t s8">Louis-Bernard St-Jean </span>
+			<span id="tc_2" class="t s7">September 14 to October 22 </span>
+			<span id="td_2" class="t s9">Opening: Sept. 16 </span>
+			<span id="te_2" class="t sa">th </span>
+			<span id="tf_2" class="t s9">, 5pm-8pm </span>
+			<span id="tg_2" class="t s2">3 </span>
+			<span id="th_2" class="t s3">rd </span>
+			<span id="ti_2" class="t s2">Floor </span>
+			<span id="tj_2" class="t s5">314 </span>
+			<h2 id="tk_2" class="t s4">Centre des arts actuels Skol </h2>
+			<span id="tl_2" class="t s6"><a href="https://skol.ca">skol.ca</a></span>
+			<span id="tm_2" class="t s7">Tuesday to Saturday, 12pm-5:30pm </span>
+			<h3 id="tn_2" class="t s4">The Day After the Fire </h3>
+			<span id="to_2" class="t s8">Charlotte Brontë, Jordan Loeppky-Kolesnik (with </span>
+			<span id="tp_2" class="t s8">Coco Klockner), Stefan Brüggemann, Steve Giasson, </span>
+			<span id="tq_2" class="t s8">Jean Rhys, Erin Thurlow, and Lawrence Weiner </span>
+			<span id="tr_2" class="t s7">September 8 to October 22 </span>
+			<span id="ts_2" class="t s9">Opening: Sept. 8 </span>
+			<span id="tt_2" class="t sa">th </span>
+			<span id="tu_2" class="t s9">at 5:30pm </span>
+			<span id="tv_2" class="t s2">4 </span>
+			<span id="tw_2" class="t s3">th </span>
+			<span id="tx_2" class="t s2">Floor </span>
+			<span id="ty_2" class="t s5">403 </span>
+			<h2 id="tz_2" class="t s4">Galerie B-312 </h2>
+			<span id="t10_2" class="t s6"><a href="https://galerieb312.ca">galerieb312.ca</a></span>
+			<span id="t11_2" class="t s7">Tuesday to Saturday, 12pm-5pm </span>
+			<h3 id="t12_2" class="t s4">L’index </h3>
+			<span id="t13_2" class="t s8">Martin Désilets </span>
+			<h3 id="t14_2" class="t s4">Et si on recommençait ? </h3>
+			<span id="t15_2" class="t s8">Marie-Eve Beaulieu </span>
+			<span id="t16_2" class="t s7">September 9 to October 22 </span>
+			<span id="t17_2" class="t s9">Opening: Sept. 9 </span>
+			<span id="t18_2" class="t sa">th </span>
+			<span id="t19_2" class="t s9">, 5pm-7pm </span>
+			<span id="t1a_2" class="t s5">410 </span>
+			<h2 id="t1b_2" class="t s4">Laroche/Joncas </h2>
+			<span id="t1c_2" class="t s6"><a href="http://larochejoncas.com">larochejoncas.com</a></span>
+			<span id="t1d_2" class="t s7">Wednesday to Friday, 11am-6pm </span>
+			<span id="t1e_2" class="t s7">Saturday, 12pm-5pm </span>
+			<h3 id="t1f_2" class="t s4">Acheter une maison, l’assurer et calicer le feu d’dans. </h3>
+			<span id="t1g_2" class="t s7">Sept. 15 to October 15 </span>
+			<span id="t1h_2" class="t s8">Antoine Larocque</span>
+			<span id="t1i_2" class="t s9">Opening: Sept. 14 </span>
+			<span id="t1j_2" class="t sa">th </span>
+			<span id="t1k_2" class="t s9">, 5pm-8pm </span>
+			<span id="t1l_2" class="t s5">412 </span>
+			<h2 id="t1m_2" class="t s4">Patel Brown </h2>
+			<span id="t1n_2" class="t s6"><a href="http://patelbrowngallery.com">patelbrowngallery.com</a></span>
+			<span id="t1o_2" class="t s7">Wednesday to Saturday, 12pm-5pm </span>
+			<h3 id="t1p_2" class="t s4">Inaugural exhibition </h3><span id="t1q_2" class="t s8">| </span>
+			<h3 id="t1r_2" class="t s4">Porous Identities </h3>
+			<span id="t1s_2" class="t se">Various artists </span>
+			<span id="t1t_2" class="t s7">September 16 to October 29 </span>
+			<span id="t1u_2" class="t s9">Opening: Sept. 16 </span>
+			<span id="t1v_2" class="t sa">th </span>
+			<span id="t1w_2" class="t s9">, 6pm-8pm </span>
+			<span id="t1x_2" class="t s5">414 </span>
+			<h2 id="t1y_2" class="t s4">McBride Contemporain </h2>
+			<span id="t1z_2" class="t s6"><a href="https://mcbridecontemporain.com">mcbridecontemporain.com</a></span>
+			<span id="t20_2" class="t s7">Tuesday to Saturday, 11am-5pm </span>
+			<h3 id="t21_2" class="t s4">Polarités </h3><span id="t22_2" class="t s7">September 16 to October 22 </span>
+			<span id="t23_2" class="t s8">Sylvie Bouchard </span><span id="t24_2" class="t s9">Opening: Sept. 16 </span>
+			<span id="t25_2" class="t sa">th </span>
+			<span id="t26_2" class="t s9">, 6pm-8pm </span>
+			<span id="t27_2" class="t s5">426 </span>
+			<h2 id="t28_2" class="t s4">Arprim </h2>
+			<span id="t29_2" class="t s6"><a href="https://arprim.org">arprim.org</a></span>
+			<span id="t2a_2" class="t s7">Wednesday, 12pm-5pm; Thursday, 12pm-6pm </span>
+			<span id="t2b_2" class="t s7">Friday and Saturday, 12pm-5pm </span>
+			<h3 id="t2c_2" class="t s4">Le murmure d’une empreinte </h3><span id="t2d_2" class="t s7">September 9 to October 15 </span>
+			<span id="t2e_2" class="t s8">Caroline Mauxion with Céline Huyghebaert, </span><span id="t2f_2" class="t s9">Opening: Sept. 9 </span>
+			<span id="t2g_2" class="t sa">th </span>
+			<span id="t2h_2" class="t s9">at 5:30pm </span>
+			<span id="t2i_2" class="t s8">and Elise Anne LaPlante </span>
+			<span id="t2j_2" class="t s5">442 </span>
+			<h2 id="t2k_2" class="t s4">Galerie POPOP </h2>
+			<span id="t2l_2" class="t s6"><a href="https://galeriepopopgallery.com">galeriepopopgallery.com</a></span>
+			<span id="t2m_2" class="t s7">Wednesday to Saturday, 12pm-5pm </span>
+			<h3 id="t2n_2" class="t s4">Passage entre les Pleins et les Vides </h3><span id="t2o_2" class="t s7">September 5 to September 12 </span>
+			<span id="t2p_2" class="t s8">Catherine Deschênes, Mélanie Dumas, </span><span id="t2q_2" class="t s9">Opening: Sept. 9 </span>
+			<span id="t2r_2" class="t sa">th </span>
+			<span id="t2s_2" class="t s9">, 5pm-8pm </span>
+			<span id="t2t_2" class="t s8">and Marie-Pier Vanchestein </span>
+			<h3 id="t2u_2" class="t s4">Empreintes et mutations </h3><span id="t2v_2" class="t s7">September 12 to September 19 </span>
+			<span id="t2w_2" class="t s8">Karine Berthiaume and Martin Beauregard </span><span id="t2x_2" class="t s9">Opening: Sept. 15 </span>
+			<span id="t2y_2" class="t sa">th </span>
+			<span id="t2z_2" class="t s9">, 5pm-7pm </span>
+			<h3 id="t30_2" class="t s4">D’arbre en arbre </h3><span id="t31_2" class="t s7">September 19 to September 26 </span>
+			<span id="t32_2" class="t s8">Anne Devautour and Armelle Guiard </span>
+			<span id="t33_2" class="t s5">444 </span>
+			<h2 id="t34_2" class="t s4">CIRCA art actuel </h2>
+			<span id="t35_2" class="t s6"><a href="https://circa-art.com">circa-art.com</a></span>
+			<span id="t36_2" class="t s7">Wednesday to Saturday, 12pm-5:30pm </span>
+			<h3 id="t37_2" class="t s4">CIRCA Humidex </h3><span id="t38_2" class="t s7">September 13 </span>
+			<span id="t39_2" class="t s8">Cocktail VIP 2022 </span><span id="t3a_2" class="t s9">Opening: Sept. 13 </span>
+			<span id="t3b_2" class="t sa">th </span>
+			<span id="t3c_2" class="t s9">at 5pm </span>
+			<h3 id="t3d_2" class="t s4">Fundraising-Exhibition 2022 </h3><span id="t3e_2" class="t s7">September 17 to October 15 </span>
+			<span id="t3f_2" class="t s8">Various artists </span><span id="t3g_2" class="t s9">Opening: Sept. 17 </span>
+			<span id="t3h_2" class="t sa">th </span>
+			<span id="t3i_2" class="t s9">, 2pm-5pm </span>
+			<span id="t3j_2" class="t s2">5 </span>
+			<span id="t3k_2" class="t s3">th </span>
+			<span id="t3l_2" class="t s2">Floor </span>
+			<span id="t3m_2" class="t s5">502 </span>
+			<h2 id="t3n_2" class="t s4">Galeries Bellemare Lambert </h2>
+			<span id="t3o_2" class="t s6"><a href="https://bellemarelambert.com">bellemarelambert.com</a></span>
+			<span id="t3p_2" class="t s7">Thursday, 12pm-5pm </span>
+			<span id="t3q_2" class="t s7">Wednesday to Saturday, 11am-5pm </span>
+			<h3 id="t3r_2" class="t s4">Parallaxe </h3><span id="t3s_2" class="t s7">September 3 to October 15 </span>
+			<span id="t3t_2" class="t s8">Maclean </span><span id="t3u_2" class="t s9">Opening: Sept. 3 </span>
+			<span id="t3v_2" class="t sa">th </span>
+			<span id="t3w_2" class="t s9">at 5pm </span>
+			<span id="t3x_2" class="t s5">507 </span>
+			<h2 id="t3y_2" class="t s4">SBC Galerie d’art contemporain </h2>
+			<span id="t3z_2" class="t s6"><a href="https://sbcgallery.ca">sbcgallery.ca</a></span>
+			<span id="t40_2" class="t s7">Tuesday to Saturday, 12pm-5:30pm </span>
+			<h3 id="t41_2" class="t s4">Vende Tela, Compra Terra </h3><span id="t42_2" class="t s7">September 3 to October 22 </span>
+			<span id="t43_2" class="t s8">Mahku (Movimento dos Artistas Huni Kuin) </span><span id="t44_2" class="t s9">Opening: Sept. 3 </span>
+			<span id="t45_2" class="t sa">rd </span>
+			<span id="t46_2" class="t s9">, 5:30pm-7pm </span>
+			<span id="t47_2" class="t s5">508 </span>
+			<h2 id="t48_2" class="t s4">Galerie Hugues Charbonneau </h2>
+			<span id="t49_2" class="t s6"><a href="https://huguescharbonneau.com">huguescharbonneau.com</a></span>
+			<span id="t4a_2" class="t s7">Wednesday to Friday, 12pm-5pm </span>
+			<h3 id="t4b_2" class="t s4">Dear mélancolie </h3><span id="t4c_2" class="t s7">September 14 to October 22 </span>
+			<span id="t4d_2" class="t s8">Manuel Mathieu </span><span id="t4e_2" class="t s9">Opening: Sept. 14 </span>
+			<span id="t4f_2" class="t sa">th </span>
+			<span id="t4g_2" class="t s9">, 5pm-7pm </span>
+			<h4 id="t4h_2" class="t s6 ">Art Galleries of the Belgo </h4>
+			<span id="t4i_2" class="t s7">| </span>
+			<h4 id="t4j_2" class="t s6"><a href="https://belgo.gallery">https://belgo.gallery</a></h4>
+			<h4 id="t4k_2" class="t s6 ">372 rue Sainte-Catherine Ouest, Montréal QC H2B 1A2</h4>
 		</div>
 		<!-- End text definitions -->
 
