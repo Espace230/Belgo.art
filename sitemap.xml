@@ -10,6 +10,9 @@
     <image:image>
       <image:loc>https://belgo.gallery/belgo-gallery.svg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://belgo.gallery/images/thumbnail-fr.jpg</image:loc>
+    </image:image>
     <priority>1.00</priority>
     <changefreq>weekly</changefreq>
   </url>
@@ -19,6 +22,9 @@
     <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.gallery/english.htm"/>
     <image:image>
       <image:loc>https://belgo.gallery/belgo-galleries.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://belgo.gallery/images/thumbnail-en.jpg</image:loc>
     </image:image>
     <priority>0.80</priority>
     <changefreq>weekly</changefreq>
