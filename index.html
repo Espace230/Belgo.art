@@ -6,7 +6,7 @@
 	<meta charset="utf-8" />
 	<link rel="canonical" hreflang="fr" href="https://belgo.gallery/index.html" />
 	<link rel="alternate" hreflang="en" href="https://belgo.gallery/english.html" />
-	<link hreflang="x-default" href="https://belgo.gallery/index.html" />
+	<link rel="alternate" hreflang="x-default" href="https://belgo.gallery/index.html" />
 	<title>Expositions en cours au Belgo</title>
 	<meta name="author" content="Louis-Bernard St-Jean | espace230.com" />
 	<meta name="description" content="Consultez la liste des expositions des galeries d'art de l'édifice Belgo, situé au cœur du Quartier des spectacles à Montréal, Québec, Canada." />
@@ -158,6 +158,14 @@
 				transform-origin: top left;
 				transform: scale(0.495);
 				max-height: 926px;
+			}
+		}
+
+		@media screen and (orientation: portrait) and (max-width:560px) {
+			body {
+				transform-origin: top left;
+				transform: scale(0.463);
+				max-height: 866px;
 			}
 		}
 
