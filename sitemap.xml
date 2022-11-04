@@ -17,7 +17,7 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://belgo.gallery/english.htm</loc>
+    <loc>https://belgo.gallery/english.html</loc>
     <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.gallery/index.html"/>
     <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.gallery/english.html"/>
     <image:image>
