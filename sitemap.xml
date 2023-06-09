@@ -4,34 +4,31 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://belgo.gallery/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.gallery/index.html" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.gallery/english.html" />
+    <loc>https://belgo.art/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/index.html" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/english.html" />
     <image:image>
-      <image:loc>https://belgo.gallery/belgo-gallery.svg</image:loc>
+      <image:loc>https://belgo.art/belgo-art.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://belgo.gallery/images/thumbnail-fr.jpg</image:loc>
+      <image:loc>https://belgo.art/images/thumbnail-fr.jpg</image:loc>
     </image:image>
-    <!-- <image:image>
-      <image:loc>https://belgo.gallery/images/NB_Belgo_FB_final_1.jpg</image:loc>
-    </image:image> -->
+    <image:image>
+      <image:loc>https://belgo.art/images/Banner-Belgo_art.svg</image:loc>
+    </image:image>
     <priority>1.00</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://belgo.gallery/english.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.gallery/index.html"/>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.gallery/english.html"/>
+    <loc>https://belgo.art/english.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/english.html"/>
     <image:image>
-      <image:loc>https://belgo.gallery/belgo-gallery-index.svg</image:loc>
+      <image:loc>https://belgo.art/belgo-art-english.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://belgo.gallery/images/thumbnail-en.jpg</image:loc>
+      <image:loc>https://belgo.art/images/Banner-Belgo_art-english.svg</image:loc>
     </image:image>
-    <!-- <image:image>
-      <image:loc>https://belgo.gallery/images/NB_Belgo_FB_final_1.jpg</image:loc>
-    </image:image> -->
     <priority>1.00</priority>
     <changefreq>weekly</changefreq>
   </url>
