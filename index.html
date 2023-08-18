@@ -96,7 +96,6 @@
 			font-weight: inherit;
 		}
 
-
 		/* This rebuilds the gallery links as they should be */
 		.s6 a {
 			/* font-size: 21px; */
@@ -135,6 +134,7 @@
 	</style>
 	<!-- End global CSS styling -->
 
+
 	<!-- Begin embedded font definitions -->
 	<style id="fonts">
 		@font-face {
@@ -169,6 +169,7 @@
 
 	</style>
 	<!-- End embedded font definitions -->
+
 
 	<!-- Begin responsive adjustments -->
 	<style id="responsive-css">
@@ -370,6 +371,7 @@
 	</style>
 	<!-- End responsive adjustments -->
 
+
 	<!-- Begin shared CSS values -->
 	<style id="shared-css">
 		.t {
@@ -407,9 +409,10 @@
 	</style>
 	<!-- End shared CSS values -->
 
+
 	<!-- Begin Schema Markup -->
 	<script type="application/ld+json">
-	{
+		{
 	  "@context": "https://schema.org",
 	  "graph":
 		[
@@ -420,8 +423,7 @@
 			"description": "The largest concentration of contemporary art galleries, art centers, and artist studios in Quebec.",
 			"alternateName": "Belgo Building",
 			"containsPlace": [
-				"Espace 230 / Art contemporain",
-				"Laroche/Joncas",
+				"Espace St-Jean / Art contemporain",
 				"Skol",
 				"Galerie B-312",
 				"Patel Brown",
@@ -435,6 +437,7 @@
 				"Galeries Bellemare Lambert",
 				"Galerie Hugues Charbonneau"			
 			],
+			"isAccessibleForFree": true,
 			"keywords": "belgo, galerie d'art, art gallery, exhibition, exposition, artist, art, art exhibition, visual art, belgo Montreal",
 			"address": {
 				"@type": "PostalAddress",
@@ -454,23 +457,24 @@
 			"telephone": "+1 (514) 861-0305",
 			"url": "http://belgo.art/"
 			},
-			// Espace 230
+			// Espace St-Jean
 			{
 				"@type": "Event",
-				"name": "AI, AR and Human Portraits",
-				"alternateName": "IA, RA et visages humains",
-				"startDate": "2023-05-17",
-				"endDate": "2023-07-07",
-				"description": "An exhibition about the exploration of the fascinating possibilities that emerge from the encounter between new technologies, artificial intelligence and augmented reality, and the art of traditional painting. Artist Jihane Mossalim pushes the boundaries of portraiture by using new media to explore the different perspectives these technologies offer.",
-				"image": "https://espace230.com/images/2023-Expo-IA-RA-Visages-Humains-01.jpg",
-				"url": "https://espace230.com/#expositions",
-				"keywords": "Jihane Mossalim, AI, AR and Human Portraits, espace 230, belgo, galerie d'art, art gallery, exhibition, exposition, artist, art, art exhibition, visual art, belgo Montreal",
+				"name": "Ne me renie jamais plus",
+				//"alternateName": "",
+				"startDate": "2023-08-24",
+				"endDate": "2023-10-01",
+				"isAccessibleForFree": true,
+				// "description": "",
+				//"image": "https://espacestjean.com/images/2023-Expo-IA-RA-Visages-Humains-01.jpg",
+				//"url": "https://espacestjean.com/#expositions",
+				//"keywords": "Jean Leduc, ne me renie jamais plus, espace st-jean, espace saint jean, belgo, galerie d'art, art gallery, exhibition, exposition, artist, art, art exhibition, visual art, belgo Montreal",
 				"performer": [
 					{
 						"@context": "https://schema.org",
 						"@type": "Person",
-						"name": "Jihane",
-						"familyName": "Mossalim"
+						"name": "Jean",
+						"familyName": "Leduc"
 					}
 				],
 				"location": [
@@ -481,8 +485,8 @@
 						"url": "https://espacestjean.com",
 						"priceRange": "$$$$",
 						"containedInPlace ": "Édifice Belgo",
-						"logo": "https://espacestjean.com/images/logotype-square.png",
-						"image": "https://espacestjean.com/images/Espacestjean-hero-image.jpg",
+						// "logo": "https://espacestjean.com/images/logotype-square.png",
+						// "image": "https://espacestjean.com/images/Espacestjean-hero-image.jpg",
 						"description": "Contemporary art gallery and artist studio located in the Belgo building, in the heart of the Quartier des spectacles in Montréal.",
 						"address": {
 							"@type": "PostalAddress",
@@ -497,34 +501,96 @@
 							"latitude": "45.5057",
 							"longitude": "73.5671"
 						},
-						<!-- "hasMap": "https://goo.gl/maps/8zPnJjeb9R4p6odB7", -->
+						"hasMap": "https://goo.gl/maps/uMPZ3ZFtHKPEJn3j7",
 						"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
 						"telephone": "+1 (514) 965-1579"
+					}
+				]
+			},
+			// SKOL
+			{
+				"@type": "Event",
+				"name": "Mode d’emploi pour habitation invisible",
+				"alternateName": "User’s Manual for an Invisible Home",
+				"startDate": "2023-09-14",
+				"endDate": "2023-12-16",
+				"description": "User’s Manual for an Invisible Home explores the notion of ‘feeling at home’ by confronting it with the transformations and upheavals of our decade. In an area where migration, uprooting, fragmentation of traditions, toxicity of everyday materials, surveillance and dematerialization are imposed by a virtual universe, ‘feeling at home’ becomes a fragile and ambivalent notion, where its comforting dimension is crumbling. The artists gathered in this exhibition nevertheless are playing with these threats and paradoxes while infusing the domestic space with a dose of lucidity, handmade resistance and combative joy.",
+				"image": "https://skol.ca/wp-content/uploads/2023/07/blankethouse._600jpg.jpg",
+				"url": "https://skol.ca/en/programming/group-exhibition-manual-for-an-invisible-home/",
+				"performer": [
+					{
+						"@context": "https://schema.org",
+						"@type": "Person",
+						"name": "Miri",
+						"familyName": "Chekhanovich"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "Person",
+						"name": "Jazz",
+						"familyName": "Keillor"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "Person",
+						"name": "Lindsay",
+						"familyName": "Lord"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "Person",
+						"name": "Laïla",
+						"familyName": "Mestari"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "Person",
+						"name": "Caroline",
+						"familyName": "Monnet"
+					}
+				],
+				"location": [
+					{
+						"@context": "https://schema.org",
+						"@type": "ArtGallery",
+						"name": "Skol",
+						"url": "https://skol.ca",
+						"containedInPlace ": "Édifice Belgo",
+						"address": {
+							"@type": "PostalAddress",
+							"streetAddress": "372, rue Sainte-Catherine Ouest, suite 314",
+							"addressLocality": "Montréal",
+							"addressRegion": "Québec",
+							"postalCode": "H3B 1A2",
+							"addressCountry": "Canada"
+						},
+						"geo": {
+							"@type": "GeoCoordinates",
+							"latitude": "45.5057",
+							"longitude": "73.5671"
+						},
+						"hasMap": "https://goo.gl/maps/9brSmHpWRd8Z3nf57",
+						"openingHours": "Tu 12:00-17:30 We 12:00-17:30 Th 12:00-17:30 Fr 12:00-17:30 Sa 12:00-17:30",
+						"telephone": "+1 (514) 398-9322"
 					}
 				]
 			},
 			// Galerie B-312
 			{
 				"@type": "Event",
-				"name": "Condensateur d'air",
-				"alternateName": "Air Condenser",
-				"startDate": "2023-05-05",
-				"endDate": "2023-06-23",
-				// "description": "An exhibition about the exploration of the fascinating possibilities that emerge from the encounter between new technologies, artificial intelligence and augmented reality, and the art of traditional painting. Artist Jihane Mossalim pushes the boundaries of portraiture by using new media to explore the different perspectives these technologies offer.",
-				"image": "https://galerieb312.ca/sites/default/files/styles/400px_de_large/public/images/expositions/air-condenser/lapointemahn-2023-website-image.jpg",
-				"url": "https://galerieb312.ca/programmation/gary-lapointe-jr-et-clay-mahn-air-condenser",
+				"name": "Chœur quantique (MOMENTA X Galerie B-312)",
+				"alternateName": "Chœur quantique (MOMENTA X Galerie B-312)",
+				"startDate": "2023-09-07",
+				"endDate": "2023-10-21",
+				"description": "Les enjeux du mimétisme et de la métamorphose sont au cœur des préoccupations de Michèle Pearson Clarke, et tout particulièrement dans son plus récent projet intitulé Chœur quantique. Il s’agit d’une installation vidéo à quatre canaux présentée sur écrans qui prend racine dans le chant, une activité commune à toutes les cultures, à la fois banale et extraordinaire. Plus particulièrement, elle s’intéresse à l’idée d’un mauvais interprète qui apprend à chanter, baigné par l’insécurité, le doute et la honte. Ainsi l’œuvre se penche sur la vulnérabilité au cœur de cet apprentissage, de façon à explorer la lisibilité, la précarité et l’affinité de la masculinité féminine queer contemporaine.",
+				"image": "https://galerieb312.ca/sites/default/files/styles/300px/public/images/expositions/quantum-choir/m-pearsonclarkequantumchoir2022.jpg?itok=MQs8bT3T",
+				"url": "https://galerieb312.ca/programmation/michele-pearson-clarke-choeur-quantique",
 				"performer": [
 					{
 						"@context": "https://schema.org",
 						"@type": "Person",
-						"name": "Gary",
-						"familyName": "Lapointe Jr"
-					},
-					{
-						"@context": "https://schema.org",
-						"@type": "Person",
-						"name": "Clay",
-						"familyName": "Mahn"
+						"name": "Michèle ",
+						"familyName": "Pearson Clarke"
 					}
 				],
 				"location": [
@@ -556,19 +622,19 @@
 			// Patel Brown
 			{
 				"@type": "Event",
-				"name": "Lignées vivantes",
+				"name": "Allow me to Sow and See the Garden I Become",
 				// "alternateName": "",
-				"startDate": "2023-05-25",
-				"endDate": "2023-07-01",
+				"startDate": "2023-08-31",
+				"endDate": "2023-10-01",
 				// "description": "",
-				"image": "https://images.squarespace-cdn.com/content/v1/5e7d4795f666745c5646bc62/1684358344503-MHP449SLFYA3CGB7AYXG/Muriel04.jpg",
-				"url": "https://www.patelbrown.com/muriel-ahmarani-jaouich-living-lineages/lignes-vivantes",
+				// "image": "https://images.squarespace-cdn.com/content/v1/5e7d4795f666745c5646bc62/1684358344503-MHP449SLFYA3CGB7AYXG/Muriel04.jpg",
+				// "url": "https://www.patelbrown.com/muriel-ahmarani-jaouich-living-lineages/lignes-vivantes",
 				"performer": [
 					{
 						"@context": "https://schema.org",
 						"@type": "Person",
-						"name": "Muriel Ahmarani",
-						"familyName": "Jaouich"
+						"name": "Shaheer",
+						"familyName": "Zazai"
 					}
 				],
 				"location": [
@@ -601,12 +667,20 @@
 			// McBride Contemporain
 			{
 				"@type": "Event",
-				"name": "Gargantuans",
+				"name": "Affinités poreuses",
 				// "alternateName": "",
-				"startDate": "2023-05-25",
-				"endDate": "2023-06-30",
-				"image": "https://artlogic-res.cloudinary.com/w_1200,c_limit,f_auto,fl_lossy,q_auto/ws-mcbridecontemporain/usr/images/exhibitions/group_images_override/44/jim-holyoak-2022-wandering-gargantuan-mcbride-contemporain-cropped-1.01.19-pm.jpg",
-				"url": "https://mcbridecontemporain.com/exhibitions/44-jim-holyoak-gargantuans/",
+				"startDate": "2023-09-14",
+				"endDate": "2023-10-28",
+				// "image": "https://artlogic-res.cloudinary.com/w_1200,c_limit,f_auto,fl_lossy,q_auto/ws-mcbridecontemporain/usr/images/exhibitions/group_images_override/44/jim-holyoak-2022-wandering-gargantuan-mcbride-contemporain-cropped-1.01.19-pm.jpg",
+				"url": "https://mcbridecontemporain.com/exhibitions/46-michelle-bui-affinites-poreuses/",
+				"performer": [
+					{
+						"@context": "https://schema.org",
+						"@type": "Person",
+						"name": "Michelle",
+						"familyName": "Bui"
+					}
+				],
 				"location": [
 					{
 						"@context": "https://schema.org",
@@ -632,31 +706,23 @@
 							"longitude": "73.5671"
 						}
 					}
-				],
-				"performer": [
-					{
-						"@context": "https://schema.org",
-						"@type": "Person",
-						"name": "Jim",
-						"familyName": "Holyoak"
-					}
 				]
 			},
 			// Chiguer Art Contemporain
 			{
 				"@type": "Event",
-				"name": "Les floraisons des mauvaises semences: les cendres des épouses de l’ascèse",
+				"name": "La triste opacité de nos spectres",
 				// "alternateName": "",
-				"startDate": "2023-06-15",
-				"endDate": "2023-07-15",
+				"startDate": "2023-08-31",
+				"endDate": "2023-10-01",
 				// "image": "https://",
-				// "url": "https://",
+				"url": "https://chiguerartcontemporain.com/expositions/la-triste-opacite-de-nos-spectres",
 				"performer": [
 					{
 						"@context": "https://schema.org",
 						"@type": "Person",
-						"name": "Annie",
-						"familyName": "Baillargeon"
+						"name": "Laurent",
+						"familyName": "Craste"
 					}
 				],
 				"location": [
@@ -676,7 +742,7 @@
 							"addressCountry": "Canada"
 						},
 						// "hasMap": "https://goo.gl/maps/EBoeS1ZKpDk6DNjd7",
-						"openingHours": "We 11:00-17:00 Th 11:00-17:00 Fr 11:00-17:00 Sa 11:00-17:00",
+						"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
 						// "telephone": "+1 (514) 878-0940",
 						"geo": {
 							"@type": "GeoCoordinates",
@@ -689,10 +755,10 @@
 			// Arprim
 			{
 				"@type": "Event",
-				"name": "Première impression",
+				"name": "The Margin Maker",
 				// "alternateName": "",
 				"startDate": "2023-09-14",
-				"endDate": "2023-10-14",
+				"endDate": "2023-10-21",
 				// "image": "https://",
 				// "url": "https://",
 				"performer": [
@@ -739,9 +805,9 @@
 			// Atelier d'art photographique JCL
 			{
 				"@type": "Event",
-				"name": "Le carnaval de Venise",
-				"startDate": "2023-05-09",
-				"endDate": "2023-06-30",
+				"name": "Organique",
+				"startDate": "2023-08-21",
+				"endDate": "2023-10-01",
 				// "image": "https://",
 				"url": "https://jeanclaudelussier.com",
 				"performer": [
@@ -827,17 +893,17 @@
 			// Bellemare Lambert
 			{
 				"@type": "Event",
-				"name": "Quelques ciels",
-				"startDate": "2023-06-17",
-				"endDate": "2023-08-19",
-				"image": "http://www.bellemarelambert.com/sites/default/files/exposition/glv00356-photo-guy-lheureux_1.jpg",
-				"url": "http://www.bellemarelambert.com/fr/exposition/jocelyne-alloucherie-quelques-ciels-fr",
+				"name": "Flâner et faire surface",
+				"startDate": "2023-09-09",
+				"endDate": "2023-10-14",
+				"image": "http://www.bellemarelambert.com/sites/default/files/exposition/bellemarelambert-stephanelarue-expo2023.jpg",
+				"url": "http://www.bellemarelambert.com/fr/exposition/stephane-la-rue-flaner-faire-surface",
 				"performer": [
 					{
 						"@context": "https://schema.org",
 						"@type": "Person",
-						"name": "Jocelyne",
-						"familyName": "Alloucherie"
+						"name": "Stéphane",
+						"familyName": "La Rue"
 					}
 				],
 				"location": [
@@ -871,18 +937,18 @@
 			// SBC Galerie d'art
 			{
 				"@type": "Event",
-				"name": "Se connecter de l'intérieur vers l'extérieur",
-				"alternateName": "Connecting from the Inside Out",
-				"startDate": "2023-06-26",
-				"endDate": "2023-07-07",
-				"image": "https://static.wixstatic.com/media/2b2fa6_3607905feca645ee8597284d83f7a033~mv2.jpg/v1/crop/x_0,y_109,w_1440,h_811/fill/w_1440,h_810,al_c,q_85,enc_auto/My-Van%20Headshot%20-%20©%20Alain%20Beauchesne%20LOW.jpg",
-				"url": "https://https://www.sbcgallery.ca/residence-2023",
+				"name": "L'arbre blessé",
+				"alternateName": "The wounded tree",
+				"startDate": "2023-09-14",
+				"endDate": "2023-10-28",
+				"image": "https://static.wixstatic.com/media/2b2fa6_d556f1659a9248c4a6d7128ea8f35aca~mv2.jpg/v1/fill/w_1960,h_1102,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/2b2fa6_d556f1659a9248c4a6d7128ea8f35aca~mv2.jpg",
+				"url": "https://https://www.sbcgallery.ca/",
 				"performer": [
 					{
 						"@context": "https://schema.org",
 						"@type": "Person",
-						"name": "My-Van",
-						"familyName": "Dam"
+						"name": "Livia",
+						"familyName": "Daza-Paris"
 					}
 				],
 				"location": [
@@ -913,27 +979,21 @@
 					}
 				]
 			},
-			// Hugues Charbonneau
+			// Galerie Hugues Charbonneau
 			{
 				"@type": "Event",
-				"name": "Résidence artistique estivale",
-				// "alternateName": "",
-				"startDate": "2023-06-28",
-				"endDate": "2023-08-05",
-				// "image": "https://",
-				"url": "https://huguescharbonneau.com",
+				"name": "Phylogénie",
+				"alternateName": "Phylogeny",
+				"startDate": "2023-08-31",
+				"endDate": "2023-10-14",
+				"image": "https://https://huguescharbonneau.com/wp-content/uploads/2023/08/Rajni-Perera-Philogeny-_Detail.jpg",
+				"url": "https://huguescharbonneau.com/rajni-perera-phylogenie/",
 				"performer": [
 					{
 						"@context": "https://schema.org",
 						"@type": "Person",
-						"name": "Benoit",
-						"familyName": "Aquin"
-					},
-					{
-						"@context": "https://schema.org",
-						"@type": "Person",
-						"name": "Trevor",
-						"familyName": "Gould"
+						"name": "Rajni",
+						"familyName": "Perera"
 					}
 				],
 				"location": [
@@ -976,1184 +1036,1031 @@
 		#t1_1 {
 			left: 55px;
 			bottom: 1748px;
-			letter-spacing: -1.86px;
-			word-spacing: -0.71px;
+			letter-spacing: -2.1px;
+			word-spacing: -0.61px;
 		}
 
 		#t2_1 {
 			left: 55px;
-			bottom: 22px;
+			bottom: 44px;
 			letter-spacing: -0.12px;
 			word-spacing: 0.03px;
 		}
 
 		#t3_1 {
 			left: 238px;
-			bottom: 22px;
+			bottom: 44px;
 		}
 
 		#t4_1 {
 			left: 273px;
-			bottom: 22px;
+			bottom: 44px;
 			letter-spacing: -0.13px;
 		}
 
 		#t5_1 {
-			left: 423px;
-			bottom: 22px;
+			left: 407px;
+			bottom: 44px;
 			letter-spacing: -0.13px;
 			word-spacing: 0.04px;
 		}
 
 		#t6_1 {
 			left: 55px;
-			bottom: 1688px;
+			bottom: 1678px;
 		}
 
 		#t7_1 {
 			left: 78px;
-			bottom: 1707px;
+			bottom: 1697px;
 		}
 
 		#t8_1 {
 			left: 104px;
-			bottom: 1688px;
+			bottom: 1678px;
 			letter-spacing: -1.14px;
 		}
 
 		#t9_1 {
-			left: 1012px;
-			bottom: 1707px;
+			left: 987px;
+			bottom: 1697px;
 			letter-spacing: 0.03px;
 		}
 
 		#ta_1 {
 			left: 55px;
-			bottom: 1633px;
+			bottom: 1625px;
 			letter-spacing: -0.45px;
 		}
 
 		#tb_1 {
-			left: 132px;
-			bottom: 1656px;
-			letter-spacing: -0.14px;
+			left: 131px;
+			bottom: 1643px;
+			letter-spacing: -0.15px;
 		}
 
 		#tc_1 {
-			left: 132px;
-			bottom: 1636px;
-			letter-spacing: -0.25px;
+			left: 131px;
+			bottom: 1624px;
+			letter-spacing: -0.34px;
 		}
 
 		#td_1 {
-			left: 132px;
-			bottom: 1614px;
-			letter-spacing: -0.31px;
-			word-spacing: -0.04px;
+			left: 131px;
+			bottom: 1602px;
+			letter-spacing: -0.28px;
+			word-spacing: -0.08px;
 		}
 
 		#te_1 {
-			left: 423px;
-			bottom: 1656px;
+			left: 406px;
+			bottom: 1643px;
 			letter-spacing: -0.15px;
 		}
 
 		#tf_1 {
-			left: 423px;
-			bottom: 1634px;
+			left: 406px;
+			bottom: 1622px;
 			letter-spacing: -0.19px;
 			word-spacing: 0.02px;
 		}
 
 		#tg_1 {
-			left: 423px;
-			bottom: 1613px;
-			letter-spacing: -0.19px;
+			left: 406px;
+			bottom: 1601px;
+			letter-spacing: -0.16px;
 		}
 
 		#th_1 {
-			left: 423px;
-			bottom: 1592px;
-			letter-spacing: -0.17px;
+			left: 406px;
+			bottom: 1579px;
+			letter-spacing: -0.23px;
+			word-spacing: 0.07px;
 		}
 
 		#ti_1 {
-			left: 1047px;
-			bottom: 1657px;
-			letter-spacing: -0.38px;
-			word-spacing: 0.04px;
+			left: 406px;
+			bottom: 1558px;
+			letter-spacing: -0.14px;
 		}
 
 		#tj_1 {
-			left: 911px;
-			bottom: 1636px;
-			letter-spacing: -0.37px;
-			word-spacing: 0.03px;
+			left: 951px;
+			bottom: 1645px;
+			letter-spacing: -0.39px;
+			word-spacing: 0.06px;
 		}
 
 		#tk_1 {
-			left: 1030px;
-			bottom: 1643px;
-			letter-spacing: -0.08px;
+			left: 928px;
+			bottom: 1624px;
+			letter-spacing: -0.14px;
+			word-spacing: -0.05px;
 		}
 
 		#tl_1 {
-			left: 1042px;
-			bottom: 1636px;
-			letter-spacing: -0.25px;
-			word-spacing: -0.1px;
+			left: 951px;
+			bottom: 1581px;
+			letter-spacing: -0.39px;
+			word-spacing: 0.06px;
 		}
 
 		#tm_1 {
-			left: 1082px;
-			bottom: 1614px;
-			letter-spacing: -0.4px;
+			left: 928px;
+			bottom: 1559px;
+			letter-spacing: -0.14px;
+			word-spacing: -0.05px;
 		}
 
 		#tn_1 {
-			left: 1046px;
-			bottom: 1593px;
-			letter-spacing: -0.44px;
+			left: 55px;
+			bottom: 1482px;
 		}
 
 		#to_1 {
-			left: 55px;
-			bottom: 1534px;
-			letter-spacing: -0.45px;
+			left: 78px;
+			bottom: 1501px;
 		}
 
 		#tp_1 {
-			left: 132px;
-			bottom: 1557px;
-			letter-spacing: -0.15px;
+			left: 104px;
+			bottom: 1482px;
+			letter-spacing: -1.11px;
 		}
 
 		#tq_1 {
-			left: 132px;
-			bottom: 1537px;
-			letter-spacing: -0.19px;
+			left: 55px;
+			bottom: 1428px;
+			letter-spacing: -0.45px;
 		}
 
 		#tr_1 {
 			left: 132px;
-			bottom: 1515px;
-			letter-spacing: -0.28px;
-			word-spacing: -0.08px;
+			bottom: 1447px;
+			letter-spacing: -0.16px;
 		}
 
 		#ts_1 {
-			left: 423px;
-			bottom: 1557px;
-			letter-spacing: -0.15px;
-		}
-
-		#tt_1 {
-			left: 423px;
-			bottom: 1535px;
-			letter-spacing: -0.17px;
-		}
-
-		#tu_1 {
-			left: 423px;
-			bottom: 1514px;
-			letter-spacing: -0.15px;
-		}
-
-		#tv_1 {
-			left: 423px;
-			bottom: 1493px;
-			letter-spacing: -0.16px;
-		}
-
-		#tw_1 {
-			left: 1084px;
-			bottom: 1558px;
-			letter-spacing: -0.41px;
-		}
-
-		#tx_1 {
-			left: 1043px;
-			bottom: 1537px;
-			letter-spacing: -0.23px;
-		}
-
-		#ty_1 {
-			left: 1082px;
-			bottom: 1515px;
-			letter-spacing: -0.4px;
-		}
-
-		#tz_1 {
-			left: 1043px;
-			bottom: 1494px;
-			letter-spacing: -0.24px;
-		}
-
-		#t10_1 {
-			left: 55px;
-			bottom: 1422px;
-		}
-
-		#t11_1 {
-			left: 78px;
-			bottom: 1441px;
-		}
-
-		#t12_1 {
-			left: 104px;
-			bottom: 1422px;
-			letter-spacing: -1.11px;
-		}
-
-		#t13_1 {
-			left: 55px;
-			bottom: 1368px;
-			letter-spacing: -0.45px;
-		}
-
-		#t14_1 {
 			left: 132px;
-			bottom: 1391px;
-			letter-spacing: -0.16px;
-		}
-
-		#t15_1 {
-			left: 132px;
-			bottom: 1371px;
-			letter-spacing: -0.22px;
-		}
-
-		#t16_1 {
-			left: 132px;
-			bottom: 1349px;
-			letter-spacing: -0.31px;
-			word-spacing: -0.04px;
-		}
-
-		#t17_1 {
-			left: 424px;
-			bottom: 1391px;
-			letter-spacing: -0.19px;
-			word-spacing: 0.05px;
-		}
-
-		#t18_1 {
-			left: 424px;
-			bottom: 1369px;
-			letter-spacing: -0.16px;
-		}
-
-		#t19_1 {
-			left: 424px;
-			bottom: 1348px;
-			letter-spacing: -0.15px;
-		}
-
-		#t1a_1 {
-			left: 424px;
-			bottom: 1326px;
-			letter-spacing: -0.16px;
-		}
-
-		#t1b_1 {
-			left: 975px;
-			bottom: 1392px;
-			letter-spacing: -0.39px;
-			word-spacing: 0.04px;
-		}
-
-		#t1c_1 {
-			left: 1040px;
-			bottom: 1371px;
-			letter-spacing: -0.23px;
-		}
-
-		#t1d_1 {
-			left: 1079px;
-			bottom: 1349px;
-			letter-spacing: -0.4px;
-		}
-
-		#t1e_1 {
-			left: 1040px;
-			bottom: 1328px;
-			letter-spacing: -0.24px;
-		}
-
-		#t1f_1 {
-			left: 55px;
-			bottom: 1269px;
-			letter-spacing: -0.45px;
-		}
-
-		#t1g_1 {
-			left: 132px;
-			bottom: 1292px;
-			letter-spacing: -0.15px;
-		}
-
-		#t1h_1 {
-			left: 132px;
-			bottom: 1272px;
-			letter-spacing: -0.54px;
-		}
-
-		#t1i_1 {
-			left: 132px;
-			bottom: 1251px;
-			letter-spacing: -0.31px;
-			word-spacing: -0.04px;
-		}
-
-		#t1j_1 {
-			left: 424px;
-			bottom: 1292px;
-			letter-spacing: -0.14px;
-		}
-
-		#t1k_1 {
-			left: 424px;
-			bottom: 1270px;
-			letter-spacing: -0.16px;
-		}
-
-		#t1l_1 {
-			left: 424px;
-			bottom: 1249px;
-			letter-spacing: -0.15px;
-		}
-
-		#t1m_1 {
-			left: 424px;
-			bottom: 1227px;
-			letter-spacing: -0.16px;
-		}
-
-		#t1n_1 {
-			left: 989px;
-			bottom: 1293px;
-			letter-spacing: -0.39px;
-			word-spacing: 0.04px;
-		}
-
-		#t1o_1 {
-			left: 937px;
-			bottom: 1272px;
-			letter-spacing: -0.34px;
-		}
-
-		#t1p_1 {
-			left: 1079px;
-			bottom: 1251px;
-			letter-spacing: -0.4px;
-		}
-
-		#t1q_1 {
-			left: 1043px;
-			bottom: 1229px;
-			letter-spacing: -0.43px;
-		}
-
-		#t1r_1 {
-			left: 55px;
-			bottom: 1170px;
-			letter-spacing: -0.45px;
-		}
-
-		#t1s_1 {
-			left: 132px;
-			bottom: 1193px;
-			letter-spacing: -0.14px;
-		}
-
-		#t1t_1 {
-			left: 132px;
-			bottom: 1173px;
-			letter-spacing: -0.53px;
-		}
-
-		#t1u_1 {
-			left: 132px;
-			bottom: 1152px;
+			bottom: 1427px;
 			letter-spacing: -0.36px;
 		}
 
-		#t1v_1 {
-			left: 424px;
-			bottom: 1193px;
+		#tt_1 {
+			left: 132px;
+			bottom: 1405px;
+			letter-spacing: -0.31px;
+			word-spacing: -0.04px;
+		}
+
+		#tu_1 {
+			left: 407px;
+			bottom: 1447px;
+			letter-spacing: -0.18px;
+			word-spacing: 0.03px;
+		}
+
+		#tv_1 {
+			left: 407px;
+			bottom: 1425px;
+			letter-spacing: -0.15px;
+		}
+
+		#tw_1 {
+			left: 975px;
+			bottom: 1448px;
+			letter-spacing: -0.39px;
+			word-spacing: 0.04px;
+		}
+
+		#tx_1 {
+			left: 928px;
+			bottom: 1427px;
+			letter-spacing: -0.14px;
+			word-spacing: -0.05px;
+		}
+
+		#ty_1 {
+			left: 55px;
+			bottom: 1351px;
+			letter-spacing: -0.45px;
+		}
+
+		#tz_1 {
+			left: 132px;
+			bottom: 1369px;
+			letter-spacing: -0.15px;
+		}
+
+		#t10_1 {
+			left: 132px;
+			bottom: 1349px;
+			letter-spacing: -0.39px;
+		}
+
+		#t11_1 {
+			left: 132px;
+			bottom: 1328px;
+			letter-spacing: -0.31px;
+			word-spacing: -0.04px;
+		}
+
+		#t12_1 {
+			left: 407px;
+			bottom: 1369px;
+			letter-spacing: -0.14px;
+		}
+
+		#t13_1 {
+			left: 407px;
+			bottom: 1348px;
+			letter-spacing: -0.16px;
+		}
+
+		#t14_1 {
+			left: 1009px;
+			bottom: 1371px;
+			letter-spacing: -0.39px;
+			word-spacing: 0.04px;
+		}
+
+		#t15_1 {
+			left: 1091px;
+			bottom: 1378px;
+			letter-spacing: -0.07px;
+		}
+
+		#t16_1 {
+			left: 1103px;
+			bottom: 1371px;
+			letter-spacing: -0.38px;
+		}
+
+		#t17_1 {
+			left: 970px;
+			bottom: 1349px;
+			letter-spacing: -0.38px;
+			word-spacing: 0.03px;
+		}
+
+		#t18_1 {
+			left: 55px;
+			bottom: 1273px;
+			letter-spacing: -0.45px;
+		}
+
+		#t19_1 {
+			left: 132px;
+			bottom: 1292px;
+			letter-spacing: -0.13px;
+			word-spacing: 0.01px;
+		}
+
+		#t1a_1 {
+			left: 132px;
+			bottom: 1272px;
+			letter-spacing: -0.38px;
+		}
+
+		#t1b_1 {
+			left: 132px;
+			bottom: 1251px;
+			letter-spacing: -0.36px;
+		}
+
+		#t1c_1 {
+			left: 407px;
+			bottom: 1292px;
 			letter-spacing: -0.34px;
 			word-spacing: -0.03px;
 		}
 
-		#t1w_1 {
-			left: 424px;
-			bottom: 1172px;
+		#t1d_1 {
+			left: 407px;
+			bottom: 1270px;
 			letter-spacing: -0.16px;
 		}
 
-		#t1x_1 {
-			left: 424px;
-			bottom: 1150px;
+		#t1e_1 {
+			left: 407px;
+			bottom: 1249px;
 			letter-spacing: -0.15px;
 		}
 
-		#t1y_1 {
-			left: 424px;
-			bottom: 1129px;
+		#t1f_1 {
+			left: 407px;
+			bottom: 1227px;
 			letter-spacing: -0.16px;
 		}
 
-		#t1z_1 {
+		#t1g_1 {
 			left: 990px;
-			bottom: 1195px;
+			bottom: 1293px;
 			letter-spacing: -0.37px;
 			word-spacing: 0.03px;
 		}
 
-		#t20_1 {
+		#t1h_1 {
 			left: 933px;
-			bottom: 1173px;
+			bottom: 1272px;
 			letter-spacing: -0.33px;
 			word-spacing: -0.01px;
 		}
 
-		#t21_1 {
-			left: 1079px;
-			bottom: 1152px;
+		#t1i_1 {
+			left: 967px;
+			bottom: 1251px;
 			letter-spacing: -0.4px;
+			word-spacing: 0.04px;
 		}
 
-		#t22_1 {
-			left: 1043px;
-			bottom: 1130px;
-			letter-spacing: -0.43px;
+		#t1j_1 {
+			left: 934px;
+			bottom: 1229px;
+			letter-spacing: -0.34px;
 		}
 
-		#t23_1 {
+		#t1k_1 {
 			left: 55px;
-			bottom: 1071px;
+			bottom: 1175px;
 			letter-spacing: -0.45px;
 		}
 
-		#t24_1 {
+		#t1l_1 {
 			left: 132px;
-			bottom: 1094px;
+			bottom: 1193px;
 			letter-spacing: -0.14px;
 			word-spacing: -0.34px;
 		}
 
-		#t25_1 {
+		#t1m_1 {
 			left: 132px;
-			bottom: 1074px;
-			letter-spacing: -0.53px;
+			bottom: 1173px;
+			letter-spacing: -0.38px;
 		}
 
-		#t26_1 {
+		#t1n_1 {
 			left: 132px;
-			bottom: 1053px;
+			bottom: 1152px;
 			letter-spacing: -0.36px;
 		}
 
-		#t27_1 {
-			left: 424px;
-			bottom: 1094px;
+		#t1o_1 {
+			left: 407px;
+			bottom: 1193px;
 			letter-spacing: -0.16px;
 		}
 
-		#t28_1 {
-			left: 424px;
-			bottom: 1073px;
+		#t1p_1 {
+			left: 407px;
+			bottom: 1172px;
 			letter-spacing: -0.16px;
 		}
 
-		#t29_1 {
-			left: 424px;
-			bottom: 1051px;
-			letter-spacing: -0.15px;
-		}
-
-		#t2a_1 {
-			left: 424px;
-			bottom: 1030px;
-			letter-spacing: -0.16px;
-		}
-
-		#t2b_1 {
-			left: 989px;
-			bottom: 1096px;
+		#t1q_1 {
+			left: 1009px;
+			bottom: 1195px;
 			letter-spacing: -0.39px;
 			word-spacing: 0.04px;
 		}
 
-		#t2c_1 {
+		#t1r_1 {
+			left: 1091px;
+			bottom: 1202px;
+			letter-spacing: -0.07px;
+		}
+
+		#t1s_1 {
+			left: 1103px;
+			bottom: 1195px;
+			letter-spacing: -0.38px;
+		}
+
+		#t1t_1 {
 			left: 937px;
-			bottom: 1074px;
+			bottom: 1173px;
 			letter-spacing: -0.34px;
 		}
 
-		#t2d_1 {
-			left: 1079px;
-			bottom: 1053px;
-			letter-spacing: -0.4px;
-		}
-
-		#t2e_1 {
-			left: 1043px;
-			bottom: 1031px;
-			letter-spacing: -0.43px;
-		}
-
-		#t2f_1 {
+		#t1u_1 {
 			left: 55px;
-			bottom: 972px;
+			bottom: 1097px;
 			letter-spacing: -0.45px;
 		}
 
-		#t2g_1 {
+		#t1v_1 {
 			left: 132px;
-			bottom: 995px;
+			bottom: 1116px;
 			letter-spacing: -0.15px;
 		}
 
-		#t2h_1 {
+		#t1w_1 {
 			left: 132px;
-			bottom: 975px;
-			letter-spacing: -0.21px;
+			bottom: 1096px;
+			letter-spacing: -0.35px;
 		}
 
-		#t2i_1 {
+		#t1x_1 {
 			left: 132px;
-			bottom: 954px;
+			bottom: 1074px;
 			letter-spacing: -0.27px;
 			word-spacing: -0.08px;
 		}
 
-		#t2j_1 {
+		#t1y_1 {
 			left: 132px;
-			bottom: 933px;
+			bottom: 1053px;
 			letter-spacing: -0.35px;
 			word-spacing: 0.01px;
 		}
 
-		#t2k_1 {
-			left: 424px;
+		#t1z_1 {
+			left: 407px;
+			bottom: 1116px;
+			letter-spacing: -0.15px;
+		}
+
+		#t20_1 {
+			left: 407px;
+			bottom: 1094px;
+			letter-spacing: -0.16px;
+		}
+
+		#t21_1 {
+			left: 543px;
+			bottom: 1094px;
+			letter-spacing: -0.17px;
+		}
+
+		#t22_1 {
+			left: 563px;
+			bottom: 1094px;
+			letter-spacing: -0.12px;
+		}
+
+		#t23_1 {
+			left: 407px;
+			bottom: 1073px;
+			letter-spacing: -0.16px;
+		}
+
+		#t24_1 {
+			left: 407px;
+			bottom: 1051px;
+			letter-spacing: -0.17px;
+			word-spacing: 0.02px;
+		}
+
+		#t25_1 {
+			left: 407px;
+			bottom: 1030px;
+			letter-spacing: -0.16px;
+			word-spacing: -0.05px;
+		}
+
+		#t26_1 {
+			left: 967px;
+			bottom: 1117px;
+			letter-spacing: -0.39px;
+			word-spacing: 0.04px;
+		}
+
+		#t27_1 {
+			left: 934px;
+			bottom: 1096px;
+			letter-spacing: -0.34px;
+		}
+
+		#t28_1 {
+			left: 995px;
+			bottom: 1074px;
+			letter-spacing: -0.39px;
+			word-spacing: 0.04px;
+		}
+
+		#t29_1 {
+			left: 933px;
+			bottom: 1053px;
+			letter-spacing: -0.34px;
+		}
+
+		#t2a_1 {
+			left: 55px;
+			bottom: 977px;
+			letter-spacing: -0.45px;
+		}
+
+		#t2b_1 {
+			left: 132px;
 			bottom: 995px;
 			letter-spacing: -0.15px;
 		}
 
-		#t2l_1 {
-			left: 424px;
+		#t2c_1 {
+			left: 132px;
+			bottom: 975px;
+			letter-spacing: -0.41px;
+		}
+
+		#t2d_1 {
+			left: 132px;
+			bottom: 954px;
+			letter-spacing: -0.34px;
+		}
+
+		#t2e_1 {
+			left: 407px;
+			bottom: 995px;
+			letter-spacing: -0.15px;
+		}
+
+		#t2f_1 {
+			left: 407px;
 			bottom: 974px;
-			letter-spacing: -0.17px;
+			letter-spacing: -0.16px;
 		}
 
-		#t2m_1 {
-			left: 424px;
-			bottom: 952px;
-			letter-spacing: -0.15px;
-		}
-
-		#t2n_1 {
-			left: 424px;
-			bottom: 931px;
-			letter-spacing: -0.15px;
-		}
-
-		#t2o_1 {
-			left: 996px;
+		#t2g_1 {
+			left: 1009px;
 			bottom: 997px;
 			letter-spacing: -0.39px;
 			word-spacing: 0.04px;
 		}
 
-		#t2p_1 {
-			left: 934px;
+		#t2h_1 {
+			left: 1091px;
+			bottom: 1004px;
+			letter-spacing: -0.07px;
+		}
+
+		#t2i_1 {
+			left: 1103px;
+			bottom: 997px;
+			letter-spacing: -0.38px;
+		}
+
+		#t2j_1 {
+			left: 933px;
 			bottom: 975px;
 			letter-spacing: -0.34px;
 		}
 
-		#t2q_1 {
-			left: 996px;
-			bottom: 954px;
-			letter-spacing: -0.39px;
-			word-spacing: 0.04px;
-		}
-
-		#t2r_1 {
-			left: 933px;
-			bottom: 933px;
-			letter-spacing: -0.34px;
-		}
-
-		#t2s_1 {
+		#t2k_1 {
 			left: 55px;
-			bottom: 874px;
+			bottom: 899px;
 			letter-spacing: -0.45px;
 		}
 
-		#t2t_1 {
+		#t2l_1 {
 			left: 132px;
-			bottom: 896px;
-			letter-spacing: -0.15px;
-		}
-
-		#t2u_1 {
-			left: 132px;
-			bottom: 877px;
-			letter-spacing: -0.21px;
-		}
-
-		#t2v_1 {
-			left: 132px;
-			bottom: 855px;
-			letter-spacing: -0.34px;
-		}
-
-		#t2w_1 {
-			left: 424px;
-			bottom: 896px;
-			letter-spacing: -0.16px;
-		}
-
-		#t2x_1 {
-			left: 424px;
-			bottom: 875px;
-			letter-spacing: -0.16px;
-		}
-
-		#t2y_1 {
-			left: 424px;
-			bottom: 853px;
-			letter-spacing: -0.15px;
-		}
-
-		#t2z_1 {
-			left: 424px;
-			bottom: 832px;
-			letter-spacing: -0.17px;
-		}
-
-		#t30_1 {
-			left: 994px;
-			bottom: 898px;
-		}
-
-		#t31_1 {
-			left: 1010px;
-			bottom: 898px;
-			letter-spacing: -0.37px;
-			word-spacing: 0.04px;
-		}
-
-		#t32_1 {
-			left: 1040px;
-			bottom: 877px;
-			letter-spacing: -0.23px;
-		}
-
-		#t33_1 {
-			left: 1079px;
-			bottom: 855px;
-			letter-spacing: -0.4px;
-		}
-
-		#t34_1 {
-			left: 1040px;
-			bottom: 834px;
-			letter-spacing: -0.24px;
-		}
-
-		#t35_1 {
-			left: 55px;
-			bottom: 775px;
-			letter-spacing: -0.45px;
-		}
-
-		#t36_1 {
-			left: 132px;
-			bottom: 798px;
+			bottom: 918px;
 			letter-spacing: -0.14px;
 		}
 
-		#t37_1 {
+		#t2m_1 {
 			left: 132px;
-			bottom: 778px;
-			letter-spacing: -0.22px;
+			bottom: 898px;
+			letter-spacing: -0.41px;
 		}
 
-		#t38_1 {
+		#t2n_1 {
 			left: 132px;
-			bottom: 756px;
+			bottom: 877px;
 			letter-spacing: -0.31px;
 			word-spacing: -0.04px;
 		}
 
-		#t39_1 {
-			left: 424px;
-			bottom: 798px;
+		#t2o_1 {
+			left: 407px;
+			bottom: 918px;
+			letter-spacing: -0.17px;
+		}
+
+		#t2p_1 {
+			left: 407px;
+			bottom: 896px;
+			letter-spacing: -0.21px;
+			word-spacing: -0.28px;
+		}
+
+		#t2q_1 {
+			left: 407px;
+			bottom: 875px;
 			letter-spacing: -0.13px;
 		}
 
-		#t3a_1 {
-			left: 424px;
-			bottom: 776px;
+		#t2r_1 {
+			left: 407px;
+			bottom: 853px;
 			letter-spacing: -0.16px;
 		}
 
-		#t3b_1 {
-			left: 424px;
-			bottom: 755px;
+		#t2s_1 {
+			left: 407px;
+			bottom: 832px;
+			letter-spacing: -0.15px;
+			word-spacing: -0.08px;
+		}
+
+		#t2t_1 {
+			left: 407px;
+			bottom: 811px;
 			letter-spacing: -0.15px;
 		}
 
-		#t3c_1 {
-			left: 424px;
-			bottom: 734px;
-			letter-spacing: -0.16px;
+		#t2u_1 {
+			left: 407px;
+			bottom: 789px;
+			letter-spacing: -0.15px;
 		}
 
-		#t3d_1 {
+		#t2v_1 {
+			left: 407px;
+			bottom: 768px;
+			letter-spacing: -0.15px;
+		}
+
+		#t2w_1 {
+			left: 407px;
+			bottom: 747px;
+			letter-spacing: -0.15px;
+		}
+
+		#t2x_1 {
+			left: 407px;
+			bottom: 725px;
+			letter-spacing: -0.17px;
+		}
+
+		#t2y_1 {
+			left: 407px;
+			bottom: 704px;
+			letter-spacing: -0.18px;
+			word-spacing: -0.06px;
+		}
+
+		#t2z_1 {
 			left: 1031px;
-			bottom: 799px;
+			bottom: 919px;
+			letter-spacing: -0.4px;
+			word-spacing: 0.04px;
+		}
+
+		#t30_1 {
+			left: 921px;
+			bottom: 898px;
+			letter-spacing: -0.31px;
+			word-spacing: -0.03px;
+		}
+
+		#t31_1 {
+			left: 1031px;
+			bottom: 877px;
 			letter-spacing: -0.4px;
 			word-spacing: 0.05px;
 		}
 
-		#t3e_1 {
-			left: 1040px;
-			bottom: 778px;
-			letter-spacing: -0.23px;
+		#t32_1 {
+			left: 937px;
+			bottom: 855px;
+			letter-spacing: -0.34px;
 		}
 
-		#t3f_1 {
-			left: 1079px;
-			bottom: 756px;
+		#t33_1 {
+			left: 955px;
+			bottom: 813px;
 			letter-spacing: -0.4px;
+			word-spacing: 0.05px;
 		}
 
-		#t3g_1 {
-			left: 1040px;
-			bottom: 735px;
-			letter-spacing: -0.23px;
+		#t34_1 {
+			left: 942px;
+			bottom: 791px;
+			letter-spacing: -0.33px;
+			word-spacing: -0.01px;
 		}
 
-		#t3h_1 {
+		#t35_1 {
+			left: 955px;
+			bottom: 770px;
+			letter-spacing: -0.4px;
+			word-spacing: 0.05px;
+		}
+
+		#t36_1 {
+			left: 942px;
+			bottom: 748px;
+			letter-spacing: -0.34px;
+			word-spacing: -0.01px;
+		}
+
+		#t37_1 {
+			left: 948px;
+			bottom: 727px;
+			letter-spacing: -0.44px;
+			word-spacing: 0.08px;
+		}
+
+		#t38_1 {
+			left: 934px;
+			bottom: 705px;
+			letter-spacing: -0.34px;
+		}
+
+		#t39_1 {
 			left: 55px;
-			bottom: 676px;
+			bottom: 651px;
 			letter-spacing: -0.45px;
 		}
 
-		#t3i_1 {
+		#t3a_1 {
 			left: 132px;
-			bottom: 699px;
+			bottom: 669px;
 			letter-spacing: -0.21px;
 			word-spacing: 0.05px;
 		}
 
-		#t3j_1 {
+		#t3b_1 {
 			left: 132px;
-			bottom: 679px;
-			letter-spacing: -0.2px;
+			bottom: 649px;
+			letter-spacing: -0.35px;
 		}
 
-		#t3k_1 {
+		#t3c_1 {
 			left: 132px;
-			bottom: 657px;
+			bottom: 628px;
 			letter-spacing: -0.29px;
 			word-spacing: -0.07px;
 		}
 
-		#t3l_1 {
-			left: 424px;
-			bottom: 699px;
+		#t3d_1 {
+			left: 407px;
+			bottom: 669px;
 			letter-spacing: -0.15px;
+		}
+
+		#t3e_1 {
+			left: 407px;
+			bottom: 648px;
+			letter-spacing: -0.16px;
+		}
+
+		#t3f_1 {
+			left: 967px;
+			bottom: 671px;
+			letter-spacing: -0.4px;
+			word-spacing: 0.04px;
+		}
+
+		#t3g_1 {
+			left: 934px;
+			bottom: 649px;
+			letter-spacing: -0.34px;
+		}
+
+		#t3h_1 {
+			left: 55px;
+			bottom: 551px;
+		}
+
+		#t3i_1 {
+			left: 78px;
+			bottom: 570px;
+		}
+
+		#t3j_1 {
+			left: 104px;
+			bottom: 551px;
+			letter-spacing: -1.11px;
+		}
+
+		#t3k_1 {
+			left: 55px;
+			bottom: 497px;
+			letter-spacing: -0.45px;
+		}
+
+		#t3l_1 {
+			left: 132px;
+			bottom: 515px;
+			letter-spacing: -0.14px;
 		}
 
 		#t3m_1 {
-			left: 424px;
-			bottom: 677px;
-			letter-spacing: -0.16px;
+			left: 132px;
+			bottom: 496px;
+			letter-spacing: -0.38px;
 		}
 
 		#t3n_1 {
-			left: 424px;
-			bottom: 656px;
-			letter-spacing: -0.15px;
+			left: 132px;
+			bottom: 474px;
+			letter-spacing: -0.25px;
+			word-spacing: -0.09px;
 		}
 
 		#t3o_1 {
-			left: 424px;
-			bottom: 635px;
-			letter-spacing: -0.16px;
+			left: 132px;
+			bottom: 453px;
+			letter-spacing: -0.35px;
+			word-spacing: 0.01px;
 		}
 
 		#t3p_1 {
-			left: 1018px;
-			bottom: 700px;
-			letter-spacing: -0.35px;
-			word-spacing: 0.03px;
+			left: 407px;
+			bottom: 515px;
+			letter-spacing: -0.17px;
 		}
 
 		#t3q_1 {
-			left: 1040px;
-			bottom: 679px;
-			letter-spacing: -0.23px;
+			left: 407px;
+			bottom: 494px;
+			letter-spacing: -0.15px;
 		}
 
 		#t3r_1 {
-			left: 967px;
-			bottom: 657px;
-			letter-spacing: -0.4px;
+			left: 974px;
+			bottom: 517px;
+			letter-spacing: -0.39px;
 			word-spacing: 0.04px;
 		}
 
 		#t3s_1 {
-			left: 934px;
-			bottom: 636px;
-			letter-spacing: -0.34px;
+			left: 933px;
+			bottom: 496px;
+			letter-spacing: -0.3px;
+			word-spacing: -0.03px;
 		}
 
 		#t3t_1 {
 			left: 55px;
-			bottom: 564px;
+			bottom: 399px;
+			letter-spacing: -0.45px;
 		}
 
 		#t3u_1 {
-			left: 78px;
-			bottom: 583px;
+			left: 132px;
+			bottom: 417px;
+			letter-spacing: -0.14px;
 		}
 
 		#t3v_1 {
-			left: 104px;
-			bottom: 564px;
-			letter-spacing: -1.11px;
+			left: 132px;
+			bottom: 397px;
+			letter-spacing: -0.44px;
 		}
 
 		#t3w_1 {
-			left: 55px;
-			bottom: 510px;
-			letter-spacing: -0.45px;
-		}
-
-		#t3x_1 {
 			left: 132px;
-			bottom: 533px;
-			letter-spacing: -0.14px;
-		}
-
-		#t3y_1 {
-			left: 132px;
-			bottom: 513px;
-			letter-spacing: -0.52px;
-		}
-
-		#t3z_1 {
-			left: 132px;
-			bottom: 491px;
-			letter-spacing: -0.35px;
-		}
-
-		#t40_1 {
-			left: 132px;
-			bottom: 470px;
-			letter-spacing: -0.36px;
-			word-spacing: 0.02px;
-		}
-
-		#t41_1 {
-			left: 423px;
-			bottom: 533px;
-			letter-spacing: -0.16px;
-		}
-
-		#t42_1 {
-			left: 423px;
-			bottom: 511px;
-			letter-spacing: -0.17px;
-			word-spacing: -1.01px;
-		}
-
-		#t43_1 {
-			left: 423px;
-			bottom: 490px;
-			letter-spacing: -0.15px;
-		}
-
-		#t44_1 {
-			left: 423px;
-			bottom: 468px;
-			letter-spacing: -0.16px;
-		}
-
-		#t45_1 {
-			left: 1036px;
-			bottom: 534px;
-			letter-spacing: -0.38px;
-			word-spacing: 0.04px;
-		}
-
-		#t46_1 {
-			left: 1079px;
-			bottom: 491px;
-			letter-spacing: -0.4px;
-		}
-
-		#t47_1 {
-			left: 1040px;
-			bottom: 470px;
-			letter-spacing: -0.23px;
-		}
-
-		#t48_1 {
-			left: 55px;
-			bottom: 412px;
-			letter-spacing: -0.45px;
-		}
-
-		#t49_1 {
-			left: 132px;
-			bottom: 435px;
-			letter-spacing: -0.14px;
-		}
-
-		#t4a_1 {
-			left: 132px;
-			bottom: 415px;
-			letter-spacing: -0.59px;
-		}
-
-		#t4b_1 {
-			left: 132px;
-			bottom: 393px;
+			bottom: 376px;
 			letter-spacing: -0.28px;
 			word-spacing: -0.08px;
 		}
 
-		#t4c_1 {
-			left: 423px;
-			bottom: 435px;
-			letter-spacing: -0.15px;
+		#t3x_1 {
+			left: 407px;
+			bottom: 417px;
+			letter-spacing: -0.16px;
 		}
 
-		#t4d_1 {
-			left: 423px;
-			bottom: 413px;
+		#t3y_1 {
+			left: 407px;
+			bottom: 396px;
 			letter-spacing: -0.17px;
 		}
 
+		#t3z_1 {
+			left: 407px;
+			bottom: 375px;
+			letter-spacing: -0.15px;
+		}
+
+		#t40_1 {
+			left: 966px;
+			bottom: 419px;
+			letter-spacing: -0.4px;
+			word-spacing: 0.04px;
+		}
+
+		#t41_1 {
+			left: 916px;
+			bottom: 397px;
+			letter-spacing: -0.28px;
+			word-spacing: -0.06px;
+		}
+
+		#t42_1 {
+			left: 55px;
+			bottom: 321px;
+			letter-spacing: -0.45px;
+		}
+
+		#t43_1 {
+			left: 132px;
+			bottom: 340px;
+			letter-spacing: -0.14px;
+		}
+
+		#t44_1 {
+			left: 132px;
+			bottom: 320px;
+			letter-spacing: -0.4px;
+		}
+
+		#t45_1 {
+			left: 132px;
+			bottom: 299px;
+			letter-spacing: -0.31px;
+			word-spacing: -0.04px;
+		}
+
+		#t46_1 {
+			left: 407px;
+			bottom: 340px;
+			letter-spacing: -0.14px;
+		}
+
+		#t47_1 {
+			left: 407px;
+			bottom: 318px;
+			letter-spacing: -0.17px;
+		}
+
+		#t48_1 {
+			left: 1008px;
+			bottom: 341px;
+			letter-spacing: -0.39px;
+			word-spacing: 0.04px;
+		}
+
+		#t49_1 {
+			left: 937px;
+			bottom: 320px;
+			letter-spacing: -0.35px;
+			word-spacing: 0.01px;
+		}
+
+		#t4a_1 {
+			left: 55px;
+			bottom: 244px;
+			letter-spacing: -0.45px;
+		}
+
+		#t4b_1 {
+			left: 132px;
+			bottom: 262px;
+			letter-spacing: -0.15px;
+			word-spacing: 0.01px;
+		}
+
+		#t4c_1 {
+			left: 132px;
+			bottom: 243px;
+			letter-spacing: -0.38px;
+		}
+
+		#t4d_1 {
+			left: 132px;
+			bottom: 221px;
+			letter-spacing: -0.31px;
+			word-spacing: -0.04px;
+		}
+
 		#t4e_1 {
-			left: 423px;
-			bottom: 392px;
+			left: 407px;
+			bottom: 262px;
 			letter-spacing: -0.15px;
 		}
 
 		#t4f_1 {
-			left: 423px;
-			bottom: 371px;
-			letter-spacing: -0.17px;
+			left: 407px;
+			bottom: 241px;
+			letter-spacing: -0.15px;
 		}
 
 		#t4g_1 {
-			left: 1025px;
-			bottom: 436px;
+			left: 1008px;
+			bottom: 264px;
 			letter-spacing: -0.39px;
 			word-spacing: 0.04px;
 		}
 
 		#t4h_1 {
-			left: 922px;
-			bottom: 415px;
-			letter-spacing: -0.36px;
-			word-spacing: 0.01px;
-		}
-
-		#t4i_1 {
-			left: 1079px;
-			bottom: 393px;
-			letter-spacing: -0.4px;
-		}
-
-		#t4j_1 {
-			left: 1040px;
-			bottom: 372px;
-			letter-spacing: -0.23px;
-		}
-
-		#t4k_1 {
-			left: 55px;
-			bottom: 313px;
-			letter-spacing: -0.45px;
-		}
-
-		#t4l_1 {
-			left: 132px;
-			bottom: 336px;
-			letter-spacing: -0.14px;
-		}
-
-		#t4m_1 {
-			left: 132px;
-			bottom: 316px;
-			letter-spacing: -0.25px;
-		}
-
-		#t4n_1 {
-			left: 132px;
-			bottom: 294px;
-			letter-spacing: -0.31px;
-			word-spacing: -0.04px;
-		}
-
-		#t4o_1 {
-			left: 423px;
-			bottom: 336px;
-			letter-spacing: -0.16px;
-		}
-
-		#t4p_1 {
-			left: 423px;
-			bottom: 314px;
-			letter-spacing: -0.19px;
-			word-spacing: -0.31px;
-		}
-
-		#t4q_1 {
-			left: 423px;
-			bottom: 293px;
-			letter-spacing: -0.15px;
-		}
-
-		#t4r_1 {
-			left: 423px;
-			bottom: 272px;
-			letter-spacing: -0.17px;
-		}
-
-		#t4s_1 {
-			left: 1044px;
-			bottom: 337px;
-			letter-spacing: -0.38px;
-			word-spacing: 0.04px;
-		}
-
-		#t4t_1 {
-			left: 920px;
-			bottom: 316px;
-			letter-spacing: -0.35px;
-			word-spacing: 0.03px;
-		}
-
-		#t4u_1 {
-			left: 1027px;
-			bottom: 323px;
-			letter-spacing: -0.08px;
-		}
-
-		#t4v_1 {
-			left: 1039px;
-			bottom: 316px;
-			letter-spacing: -0.24px;
-			word-spacing: -0.11px;
-		}
-
-		#t4w_1 {
-			left: 1030px;
-			bottom: 294px;
-			letter-spacing: -0.37px;
-			word-spacing: 0.03px;
-		}
-
-		#t4x_1 {
-			left: 937px;
-			bottom: 273px;
-			letter-spacing: -0.35px;
-		}
-
-		#t4y_1 {
-			left: 55px;
-			bottom: 214px;
-			letter-spacing: -0.45px;
-		}
-
-		#t4z_1 {
-			left: 132px;
-			bottom: 237px;
-			letter-spacing: -0.14px;
-			word-spacing: -0.22px;
-		}
-
-		#t50_1 {
-			left: 132px;
-			bottom: 217px;
-			letter-spacing: -0.23px;
-		}
-
-		#t51_1 {
-			left: 132px;
-			bottom: 196px;
-			letter-spacing: -0.31px;
-			word-spacing: -0.04px;
-		}
-
-		#t52_1 {
-			left: 423px;
-			bottom: 237px;
-			letter-spacing: -0.15px;
-		}
-
-		#t53_1 {
-			left: 423px;
-			bottom: 215px;
-			letter-spacing: -0.15px;
-		}
-
-		#t54_1 {
-			left: 423px;
-			bottom: 194px;
-			letter-spacing: -0.15px;
-		}
-
-		#t55_1 {
-			left: 423px;
-			bottom: 173px;
-			letter-spacing: -0.17px;
-		}
-
-		#t56_1 {
-			left: 1009px;
-			bottom: 238px;
-			letter-spacing: -0.39px;
-			word-spacing: 0.04px;
-		}
-
-		#t57_1 {
-			left: 1091px;
-			bottom: 246px;
+			left: 1090px;
+			bottom: 271px;
 			letter-spacing: -0.07px;
 		}
 
-		#t58_1 {
-			left: 1103px;
-			bottom: 238px;
+		#t4i_1 {
+			left: 1102px;
+			bottom: 264px;
 			letter-spacing: -0.38px;
 		}
 
-		#t59_1 {
+		#t4j_1 {
 			left: 937px;
-			bottom: 217px;
+			bottom: 243px;
 			letter-spacing: -0.34px;
-		}
-
-		#t5a_1 {
-			left: 1079px;
-			bottom: 196px;
-			letter-spacing: -0.4px;
-		}
-
-		#t5b_1 {
-			left: 1040px;
-			bottom: 174px;
-			letter-spacing: -0.24px;
 		}
 
 		.s1 {
@@ -2171,7 +2078,7 @@
 		.s3 {
 			font-size: 14px;
 			font-family: Helvetica-Bold;
-			color: #121314;
+			color: #000;
 		}
 
 		.s4 {
@@ -2224,210 +2131,186 @@
 
 		.sc {
 			font-size: 9px;
-			font-family: Helvetica-Oblique;
+			font-family: Helvetica-Bold;
 			color: #000;
 		}
 
 		.sd {
-			font-size: 15px;
-			font-family: Helvetica-BoldOblique;
-			color: #000;
-		}
-
-		.se {
-			font-size: 9px;
-			font-family: Helvetica-Bold;
+			font-size: 18px;
+			font-family: Helvetica-Oblique;
 			color: #000;
 		}
 
 	</style>
 	<!-- End inline CSS -->
 
-
-
-	<!-- Begin page background -->
 </head>
 
 <body style="margin: 0;">
 
 	<div id="p1" style="overflow: hidden; position: relative; background-color: white; width: 1210px; height: 1870px;">
 
+
+		<!-- Begin page background -->
+
 		<div id="pg1">
 			<svg id="pdf1" width="1210" height="1870" viewBox="0 0 1210 1870" style="width:1210px; height:1870px; z-index: 0; isolation: isolate;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 				<a class="QR" href="https://belgo.art/english.html">
-					<image clip-path="url(#c0)" preserveAspectRatio="none" x="1105" y="123" width="50" height="50" xlink:href="./belgo-art-english.svg" />
+					<!-- <image clip-path="url(#c0)" preserveAspectRatio="none" x="1105" y="123" width="50" height="50" xlink:href="./belgo-art-english.svg" /> -->
+					<!-- <path d="M1100.1,183.3h55v-55h-55v55Z" class="g1" /> -->
+					<image clip-path="url(#c0)" preserveAspectRatio="none" x="1100" y="128" width="55" height="55" xlink:href="./belgo-art-english.svg" />
 				</a>
 
 				<a class="QR" href="https://instagram.com/explore/tags/belgoart/">
-					<path d="M267.3,1837.1c0,1.4,0,2.4,0,3c-.1,1.3,-.5,2.4,-1.2,3.1c-.8,.7,-1.8,1.1,-3.1,1.2c-.6,.1,-1.6,.1,-3.1,.1c-1.5,0,-2.5,0,-3,-.1c-1.4,-.1,-2.4,-.4,-3.1,-1.2c-.7,-.7,-1.2,-1.8,-1.2,-3.1c-.1,-.6,-.1,-1.6,-.1,-3c0,-1.5,0,-2.5,.1,-3.1c0,-1.3,.4,-2.4,1.2,-3.1c.7,-.7,1.7,-1.1,3.1,-1.2c.5,0,1.6,0,3,0c1.5,0,2.5,0,3.1,0c1.3,.1,2.3,.5,3.1,1.2c.7,.8,1.1,1.8,1.2,3.1c0,.6,0,1.6,0,3.1Zm-6.7,-6.1c-.4,0,-.6,0,-.7,0c0,0,-.3,0,-.7,0c-.4,0,-.8,0,-1,0c-.2,0,-.6,0,-.9,0c-.4,0,-.8,.1,-1,.1c-.3,.1,-.6,.1,-.7,.2c-.3,.1,-.6,.3,-.9,.6c-.2,.2,-.4,.5,-.5,.8c-.1,.2,-.2,.4,-.2,.7c0,.3,-.1,.6,-.1,1c0,.4,-.1,.7,-.1,.9c0,.3,0,.6,0,1c0,.5,0,.7,0,.8c0,0,0,.2,0,.7c0,.4,0,.8,0,1c0,.2,0,.5,.1,.9c0,.4,0,.7,.1,1c.1,.3,.1,.5,.2,.7c.1,.3,.3,.6,.5,.9c.3,.2,.5,.4,.9,.5c.1,.1,.4,.2,.7,.2c.2,0,.6,.1,1,.1c.4,0,.7,0,.9,0c.2,0,.6,0,1,0c.4,0,.7,0,.7,0c.1,0,.3,0,.7,0c.5,0,.8,0,1.1,0c.2,0,.5,0,.9,0c.4,0,.7,0,1,-.1c.3,0,.5,-.1,.7,-.2c.3,-.1,.6,-.3,.8,-.5c.3,-.3,.5,-.5,.6,-.9c.1,-.2,.1,-.4,.2,-.7c0,-.3,0,-.6,.1,-1c0,-.4,0,-.7,0,-.9c0,-.3,0,-.6,0,-1c0,-.5,0,-.7,0,-.7c0,-.1,0,-.3,0,-.8c0,-.4,0,-.8,0,-1c0,-.2,0,-.5,0,-.9c0,-.4,-.1,-.7,-.1,-1c-.1,-.3,-.1,-.5,-.2,-.7c-.1,-.3,-.3,-.6,-.6,-.8c-.2,-.3,-.5,-.5,-.8,-.6c-.2,-.1,-.4,-.1,-.7,-.2c-.3,0,-.6,0,-1,-.1c-.4,0,-.7,0,-.9,0c-.3,0,-.6,0,-1.1,0Zm2,3.4c.7,.7,1.1,1.6,1.1,2.7c0,1,-.4,1.9,-1.1,2.7c-.7,.7,-1.6,1.1,-2.7,1.1c-1.1,0,-1.9,-.4,-2.7,-1.1c-.7,-.8,-1.1,-1.7,-1.1,-2.7c0,-1.1,.4,-2,1.1,-2.7c.7,-.8,1.6,-1.1,2.7,-1.1c1.1,0,2,.3,2.7,1.1Zm-.9,4.4c.4,-.5,.7,-1.1,.7,-1.7c0,-.7,-.3,-1.3,-.7,-1.8c-.5,-.5,-1.1,-.7,-1.8,-.7c-.7,0,-1.3,.2,-1.8,.7c-.5,.5,-.7,1.1,-.7,1.8c0,.7,.2,1.2,.7,1.7c.5,.5,1.1,.7,1.8,.7c.7,0,1.3,-.2,1.8,-.7Zm2.8,-6.3c.2,.1,.3,.4,.3,.6c0,.2,-.1,.4,-.3,.6c-.2,.2,-.4,.3,-.6,.3c-.3,0,-.5,-.1,-.7,-.3c-.1,-.2,-.2,-.4,-.2,-.6c0,-.2,.1,-.5,.2,-.6c.2,-.2,.4,-.3,.7,-.3c.2,0,.4,.1,.6,.3Z" class="g0" />
+					<path d="M267.3,1815.1c0,1.4,0,2.4,0,3c-.1,1.3,-.5,2.4,-1.2,3.1c-.8,.7,-1.8,1.1,-3.1,1.2c-.6,.1,-1.6,.1,-3.1,.1c-1.5,0,-2.5,0,-3,-.1c-1.4,-.1,-2.4,-.4,-3.1,-1.2c-.7,-.7,-1.2,-1.8,-1.2,-3.1c-.1,-.6,-.1,-1.6,-.1,-3c0,-1.5,0,-2.5,.1,-3.1c0,-1.3,.4,-2.4,1.2,-3.1c.7,-.7,1.7,-1.1,3.1,-1.2c.5,0,1.6,0,3,0c1.5,0,2.5,0,3.1,0c1.3,.1,2.3,.5,3.1,1.2c.7,.8,1.1,1.8,1.2,3.1c0,.6,0,1.6,0,3.1Zm-6.7,-6.1c-.4,0,-.6,0,-.7,0c0,0,-.3,0,-.7,0c-.4,0,-.8,0,-1,0c-.2,0,-.6,0,-.9,0c-.4,0,-.8,.1,-1,.1c-.3,.1,-.6,.1,-.7,.2c-.3,.1,-.6,.3,-.9,.6c-.2,.2,-.4,.5,-.5,.8c-.1,.2,-.2,.4,-.2,.7c0,.3,-.1,.6,-.1,1c0,.4,-.1,.7,-.1,.9c0,.3,0,.6,0,1c0,.5,0,.7,0,.8c0,0,0,.2,0,.7c0,.4,0,.8,0,1c0,.2,0,.5,.1,.9c0,.4,0,.7,.1,1c.1,.3,.1,.5,.2,.7c.1,.3,.3,.6,.5,.9c.3,.2,.5,.4,.9,.5c.1,.1,.4,.2,.7,.2c.2,0,.6,.1,1,.1c.4,0,.7,0,.9,0c.2,0,.6,0,1,0c.4,0,.7,0,.7,0c.1,0,.3,0,.7,0c.5,0,.8,0,1.1,0c.2,0,.5,0,.9,0c.4,0,.7,0,1,-.1c.3,0,.5,-.1,.7,-.2c.3,-.1,.6,-.3,.8,-.5c.3,-.3,.5,-.5,.6,-.9c.1,-.2,.1,-.4,.2,-.7c0,-.3,0,-.6,.1,-1c0,-.4,0,-.7,0,-.9c0,-.3,0,-.6,0,-1c0,-.5,0,-.7,0,-.7c0,-.1,0,-.3,0,-.8c0,-.4,0,-.8,0,-1c0,-.2,0,-.5,0,-.9c0,-.4,-.1,-.7,-.1,-1c-.1,-.3,-.1,-.5,-.2,-.7c-.1,-.3,-.3,-.6,-.6,-.8c-.2,-.3,-.5,-.5,-.8,-.6c-.2,-.1,-.4,-.1,-.7,-.2c-.3,0,-.6,0,-1,-.1c-.4,0,-.7,0,-.9,0c-.3,0,-.6,0,-1.1,0Zm2,3.4c.7,.7,1.1,1.6,1.1,2.7c0,1,-.4,1.9,-1.1,2.7c-.7,.7,-1.6,1.1,-2.7,1.1c-1.1,0,-1.9,-.4,-2.7,-1.1c-.7,-.8,-1.1,-1.7,-1.1,-2.7c0,-1.1,.4,-2,1.1,-2.7c.7,-.8,1.6,-1.1,2.7,-1.1c1.1,0,2,.3,2.7,1.1Zm-.9,4.4c.4,-.5,.7,-1.1,.7,-1.7c0,-.7,-.3,-1.3,-.7,-1.8c-.5,-.5,-1.1,-.7,-1.8,-.7c-.7,0,-1.3,.2,-1.8,.7c-.5,.5,-.7,1.1,-.7,1.8c0,.7,.2,1.2,.7,1.7c.5,.5,1.1,.7,1.8,.7c.7,0,1.3,-.2,1.8,-.7Zm2.8,-6.3c.2,.1,.3,.4,.3,.6c0,.2,-.1,.4,-.3,.6c-.2,.2,-.4,.3,-.6,.3c-.3,0,-.5,-.1,-.7,-.3c-.1,-.2,-.2,-.4,-.2,-.6c0,-.2,.1,-.5,.2,-.6c.2,-.2,.4,-.3,.7,-.3c.2,0,.4,.1,.6,.3Z" class="g0" />
 				</a>
 
 				<a class="QR" href="https://belgo.art/">
-					<path d="M1067,1824.6v5.4c.8,-.9,1.9,-1.4,3.2,-1.4c1.4,0,2.5,.5,3.4,1.6c.9,1.1,1.4,2.6,1.4,4.5c0,1.9,-.5,3.4,-1.4,4.5c-.9,1.1,-2.1,1.7,-3.5,1.7c-1.5,0,-2.6,-.6,-3.4,-1.8l-.1,1.3h-3.4v-15.8h3.8Zm2.1,13c.6,0,1.2,-.2,1.5,-.8c.4,-.5,.6,-1.2,.6,-2.2c0,-.9,-.2,-1.7,-.6,-2.2c-.3,-.5,-.9,-.8,-1.5,-.8c-.7,0,-1.2,.3,-1.6,.8c-.5,.6,-.7,1.3,-.7,2.2c0,.9,.2,1.6,.7,2.2c.4,.5,.9,.8,1.6,.8Z" class="g0" />
-					<path d="M1087.8,1835.1v.6h-8.3c.2,1.6,1,2.4,2.4,2.4c.9,0,1.6,-.4,2,-1.3l3.6,.3c-.4,1.2,-1.1,2.1,-2.1,2.8c-.9,.6,-2.1,1,-3.5,1c-1.9,0,-3.4,-.6,-4.5,-1.8c-1.1,-1.1,-1.6,-2.6,-1.6,-4.4c0,-1.8,.5,-3.3,1.6,-4.4c1.1,-1.2,2.5,-1.7,4.3,-1.7c1.9,0,3.4,.6,4.5,1.8c1,1.2,1.6,2.8,1.6,4.7Zm-8.3,-1.7h4.4c-.2,-1.4,-.9,-2.1,-2.1,-2.1c-1.3,0,-2,.7,-2.3,2.1Z" class="g0" />
-					<path d="M1089.1,1840.4h3.8v-15.8h-3.8v15.8Z" class="g0" />
-					<path d="M1102.5,1830.2l.1,-1.3h3.5v11.2c0,1.6,-.5,2.9,-1.6,3.8c-1,.9,-2.5,1.4,-4.3,1.4c-3.3,0,-5.1,-1.3,-5.6,-3.9l3.6,-.1c.2,.8,.9,1.2,2,1.2c.8,0,1.3,-.2,1.6,-.5c.4,-.3,.5,-.8,.5,-1.5V1839c-.8,.9,-1.8,1.3,-3.1,1.3c-1.5,0,-2.7,-.5,-3.5,-1.6c-.9,-1,-1.4,-2.5,-1.4,-4.3c0,-1.8,.5,-3.2,1.4,-4.3c.9,-1,2,-1.5,3.4,-1.5c1.4,0,2.6,.5,3.4,1.6Zm-2.3,7.1c.7,0,1.2,-.3,1.6,-.8c.4,-.6,.6,-1.3,.6,-2.1c0,-.9,-.2,-1.6,-.6,-2.1c-.4,-.5,-.9,-.8,-1.6,-.8c-.7,0,-1.2,.2,-1.6,.7c-.3,.5,-.5,1.2,-.5,2.2c0,.9,.2,1.6,.5,2.1c.4,.5,.9,.8,1.6,.8Z" class="g0" />
-					<path d="M1119.6,1834.7c0,1.8,-.5,3.3,-1.6,4.4c-1.2,1.2,-2.6,1.8,-4.4,1.8c-1.8,0,-3.3,-.6,-4.4,-1.8c-1.1,-1.1,-1.7,-2.6,-1.7,-4.4c0,-1.8,.6,-3.3,1.7,-4.4c1.1,-1.2,2.6,-1.7,4.4,-1.7c1.8,0,3.2,.5,4.4,1.7c1.1,1.1,1.6,2.6,1.6,4.4Zm-7.7,2.5c.4,.6,.9,.8,1.7,.8c.7,0,1.3,-.2,1.7,-.8c.4,-.6,.6,-1.4,.6,-2.5c0,-1.1,-.2,-1.9,-.6,-2.5c-.4,-.5,-1,-.8,-1.7,-.8c-.8,0,-1.3,.3,-1.7,.8c-.4,.6,-.6,1.4,-.6,2.5c0,1.1,.2,1.9,.6,2.5Z" class="g0" />
-					<path d="M1120.8,1840.4h4.3v-3.8h-4.3v3.8Z" class="g1" />
-					<path d="M1138.3,1840.4h-3.8c-.2,-.4,-.3,-.9,-.3,-1.2c-.8,1.1,-2,1.6,-3.6,1.6c-1.2,0,-2.2,-.3,-3,-.9c-.7,-.7,-1,-1.5,-1,-2.6c0,-1.9,1.1,-3,3.5,-3.4l3.9,-.8v-.8c0,-.7,-.5,-1.1,-1.7,-1.1c-.5,0,-.9,.1,-1.2,.3c-.2,.2,-.4,.6,-.4,1.1l-3.6,-.1c.2,-1.4,.6,-2.3,1.5,-3c.8,-.6,2.1,-.9,3.8,-.9c3.6,0,5.3,1.4,5.3,4.2v5c0,1.1,.2,2,.6,2.6Zm-6.5,-2.2c.7,0,1.2,-.1,1.7,-.5c.4,-.4,.6,-1,.6,-1.7v-.7l-2.4,.5c-1,.2,-1.4,.6,-1.4,1.2c0,.8,.5,1.2,1.5,1.2Z" class="g1" />
-					<path d="M1145.9,1828.5c.4,0,.7,.1,1.1,.2v3.4c-.3,-.1,-.6,-.1,-.9,-.1c-1.9,0,-2.9,1,-2.9,3.1v5.3h-3.8v-11.5h3.6v1.7c.6,-1.4,1.6,-2.1,2.9,-2.1Z" class="g1" />
-					<path d="M1155.5,1831.4h-2.1v4.9c0,.8,.4,1.2,1.1,1.2h1v2.9h-2.3c-1.3,0,-2.2,-.2,-2.8,-.8c-.5,-.5,-.8,-1.5,-.8,-2.8v-5.4H1148v-2.5l1.6,.1v-3.6h3.8v3.6l2.1,-.1v2.5Z" class="g1" />
+					<path d="M1065,1805.4v5.3c.8,-.9,1.9,-1.4,3.2,-1.4c1.4,0,2.5,.5,3.4,1.6c.9,1,1.3,2.5,1.3,4.3c0,1.9,-.4,3.3,-1.3,4.4c-.9,1.1,-2.1,1.7,-3.5,1.7c-1.4,0,-2.5,-.6,-3.3,-1.7l-.1,1.2h-3.4v-15.4h3.7Zm2.1,12.7c.6,0,1.2,-.2,1.5,-.8c.4,-.5,.6,-1.2,.6,-2.1c0,-.9,-.2,-1.7,-.6,-2.2c-.3,-.5,-.9,-.7,-1.5,-.7c-.7,0,-1.2,.2,-1.6,.8c-.4,.5,-.6,1.2,-.6,2.1c0,.9,.2,1.6,.6,2.1c.4,.5,.9,.8,1.6,.8Z" class="g0" />
+					<path d="M1085.6,1815.7v.5h-8.2c.2,1.6,1,2.3,2.4,2.3c.9,0,1.6,-.4,1.9,-1.2l3.6,.3c-.4,1.2,-1.1,2.1,-2,2.7c-1,.6,-2.1,1,-3.5,1c-1.9,0,-3.4,-.6,-4.5,-1.7c-1.1,-1.1,-1.6,-2.6,-1.6,-4.4c0,-1.7,.5,-3.2,1.6,-4.3c1.1,-1.1,2.5,-1.6,4.3,-1.6c1.8,0,3.3,.6,4.4,1.8c1,1.2,1.6,2.7,1.6,4.6Zm-8.2,-1.7h4.4c-.2,-1.4,-.9,-2.1,-2.2,-2.1c-1.2,0,-1.9,.7,-2.2,2.1Z" class="g0" />
+					<path d="M1086.9,1820.8h3.8v-15.4h-3.8v15.4Z" class="g0" />
+					<path d="M1100.2,1810.9l.1,-1.3h3.4v10.9c0,1.6,-.5,2.8,-1.5,3.7c-1.1,.9,-2.5,1.3,-4.4,1.3c-3.2,0,-5,-1.2,-5.4,-3.7l3.5,-.2c.2,.9,.9,1.3,2,1.3c.7,0,1.3,-.2,1.6,-.5c.3,-.3,.5,-.8,.5,-1.5v-1.5c-.8,.9,-1.8,1.4,-3.2,1.4c-1.4,0,-2.5,-.6,-3.4,-1.6c-.9,-1.1,-1.3,-2.5,-1.3,-4.2c0,-1.8,.4,-3.2,1.3,-4.2c.9,-1,2,-1.5,3.4,-1.5c1.4,0,2.5,.5,3.4,1.6Zm-2.3,6.9c.6,0,1.2,-.3,1.6,-.8c.4,-.5,.6,-1.2,.6,-2.1c0,-.8,-.2,-1.5,-.6,-2c-.4,-.5,-1,-.8,-1.6,-.8c-.7,0,-1.2,.3,-1.6,.8c-.3,.4,-.5,1.1,-.5,2c0,.9,.2,1.6,.5,2.1c.4,.5,.9,.8,1.6,.8Z" class="g0" />
+					<path d="M1117.1,1815.3c0,1.7,-.5,3.2,-1.7,4.3c-1.1,1.1,-2.5,1.7,-4.3,1.7c-1.8,0,-3.2,-.6,-4.3,-1.7c-1.2,-1.1,-1.7,-2.6,-1.7,-4.3c0,-1.8,.5,-3.2,1.7,-4.3c1.1,-1.1,2.5,-1.7,4.3,-1.7c1.8,0,3.2,.6,4.3,1.7c1.2,1.1,1.7,2.5,1.7,4.3Zm-7.7,2.4c.4,.5,1,.8,1.7,.8c.7,0,1.3,-.3,1.7,-.8c.4,-.6,.6,-1.4,.6,-2.4c0,-1.1,-.2,-1.9,-.6,-2.4c-.4,-.6,-1,-.9,-1.7,-.9c-.7,0,-1.3,.3,-1.7,.9c-.4,.5,-.6,1.3,-.6,2.4c0,1,.2,1.8,.6,2.4Z" class="g0" />
+					<path d="M1118.3,1820.8h4.2v-3.7h-4.2v3.7Z" class="g1" />
+					<path d="M1135.5,1820.8h-3.7c-.2,-.4,-.3,-.8,-.3,-1.2c-.8,1.1,-2,1.6,-3.6,1.6c-1.2,0,-2.2,-.3,-2.9,-.9c-.7,-.6,-1.1,-1.5,-1.1,-2.5c0,-1.8,1.2,-3,3.5,-3.4l3.9,-.7v-.8c0,-.7,-.5,-1.1,-1.6,-1.1c-.6,0,-1,.1,-1.2,.3c-.3,.3,-.4,.6,-.5,1.1l-3.5,-.1c.1,-1.3,.6,-2.3,1.5,-2.9c.8,-.6,2.1,-.9,3.8,-.9c3.4,0,5.2,1.4,5.2,4.1v4.9c0,1.1,.2,1.9,.5,2.5Zm-6.4,-2.1c.7,0,1.3,-.2,1.7,-.6c.4,-.3,.6,-.9,.6,-1.6v-.7l-2.4,.5c-.9,.2,-1.4,.6,-1.4,1.2c0,.8,.5,1.2,1.5,1.2Z" class="g1" />
+					<path d="M1143.1,1809.3c.3,0,.7,0,1,.1v3.3c-.2,0,-.5,-.1,-.8,-.1c-1.9,0,-2.9,1,-2.9,3v5.2h-3.8v-11.2h3.6v1.6c.6,-1.3,1.6,-1.9,2.9,-1.9Z" class="g1" />
+					<path d="M1152.6,1812.1l-2.1,-.1v4.8c0,.8,.4,1.2,1.1,1.2h1v2.8h-2.3c-1.3,0,-2.2,-.2,-2.7,-.8c-.6,-.5,-.8,-1.4,-.8,-2.7V1812l-1.6,.1v-2.5l1.6,.1v-3.5h3.7v3.5l2.1,-.1v2.5Z" class="g1" />
 				</a>
-
-				<!-- <path d="M1065,1827.4v5.3c.8,-.9,1.9,-1.4,3.2,-1.4c1.4,0,2.5,.5,3.4,1.6c.9,1,1.3,2.5,1.3,4.3c0,1.9,-.4,3.3,-1.3,4.4c-.9,1.1,-2.1,1.7,-3.5,1.7c-1.4,0,-2.5,-.6,-3.3,-1.7l-.1,1.2h-3.4v-15.4h3.7Zm2.1,12.7c.6,0,1.2,-.2,1.5,-.8c.4,-.5,.6,-1.2,.6,-2.1c0,-.9,-.2,-1.7,-.6,-2.2c-.3,-.5,-.9,-.7,-1.5,-.7c-.7,0,-1.2,.2,-1.6,.8c-.4,.5,-.6,1.2,-.6,2.1c0,.9,.2,1.6,.6,2.1c.4,.5,.9,.8,1.6,.8Z" class="g0" />
-				<path d="M1085.6,1837.7v.5h-8.2c.2,1.6,1,2.3,2.4,2.3c.9,0,1.6,-.4,1.9,-1.2l3.6,.3c-.4,1.2,-1.1,2.1,-2,2.7c-1,.6,-2.1,1,-3.5,1c-1.9,0,-3.4,-.6,-4.5,-1.7c-1.1,-1.1,-1.6,-2.6,-1.6,-4.4c0,-1.7,.5,-3.2,1.6,-4.3c1.1,-1.1,2.5,-1.6,4.3,-1.6c1.8,0,3.3,.6,4.4,1.8c1,1.2,1.6,2.7,1.6,4.6Zm-8.2,-1.7h4.4c-.2,-1.4,-.9,-2.1,-2.2,-2.1c-1.2,0,-1.9,.7,-2.2,2.1Z" class="g0" />
-				<path d="M1086.9,1842.8h3.8v-15.4h-3.8v15.4Z" class="g0" />
-				<path d="M1100.2,1832.9l.1,-1.3h3.4v10.9c0,1.6,-.5,2.8,-1.5,3.7c-1.1,.9,-2.5,1.3,-4.4,1.3c-3.2,0,-5,-1.2,-5.4,-3.7l3.5,-.2c.2,.9,.9,1.3,2,1.3c.7,0,1.3,-.2,1.6,-.5c.3,-.3,.5,-.8,.5,-1.5v-1.5c-.8,.9,-1.8,1.4,-3.2,1.4c-1.4,0,-2.5,-.6,-3.4,-1.6c-.9,-1.1,-1.3,-2.5,-1.3,-4.2c0,-1.8,.4,-3.2,1.3,-4.2c.9,-1,2,-1.5,3.4,-1.5c1.4,0,2.5,.5,3.4,1.6Zm-2.3,6.9c.6,0,1.2,-.3,1.6,-.8c.4,-.5,.6,-1.2,.6,-2.1c0,-.8,-.2,-1.5,-.6,-2c-.4,-.5,-1,-.8,-1.6,-.8c-.7,0,-1.2,.3,-1.6,.8c-.3,.4,-.5,1.1,-.5,2c0,.9,.2,1.6,.5,2.1c.4,.5,.9,.8,1.6,.8Z" class="g0" />
-				<path d="M1117.1,1837.3c0,1.7,-.5,3.2,-1.7,4.3c-1.1,1.1,-2.5,1.7,-4.3,1.7c-1.8,0,-3.2,-.6,-4.3,-1.7c-1.2,-1.1,-1.7,-2.6,-1.7,-4.3c0,-1.8,.5,-3.2,1.7,-4.3c1.1,-1.1,2.5,-1.7,4.3,-1.7c1.8,0,3.2,.6,4.3,1.7c1.2,1.1,1.7,2.5,1.7,4.3Zm-7.7,2.4c.4,.5,1,.8,1.7,.8c.7,0,1.3,-.3,1.7,-.8c.4,-.6,.6,-1.4,.6,-2.4c0,-1.1,-.2,-1.9,-.6,-2.4c-.4,-.6,-1,-.9,-1.7,-.9c-.7,0,-1.3,.3,-1.7,.9c-.4,.5,-.6,1.3,-.6,2.4c0,1,.2,1.8,.6,2.4Z" class="g0" />
-				<path d="M1118.3,1842.8h4.2v-3.7h-4.2v3.7Z" class="g0" />
-				<path d="M1135.5,1842.8h-3.7c-.2,-.4,-.3,-.8,-.3,-1.2c-.8,1.1,-2,1.6,-3.6,1.6c-1.2,0,-2.2,-.3,-2.9,-.9c-.7,-.6,-1.1,-1.5,-1.1,-2.5c0,-1.8,1.2,-3,3.5,-3.4l3.9,-.7v-.8c0,-.7,-.5,-1.1,-1.6,-1.1c-.6,0,-1,.1,-1.2,.3c-.3,.3,-.4,.6,-.5,1.1l-3.5,-.1c.1,-1.3,.6,-2.3,1.5,-2.9c.8,-.6,2.1,-.9,3.8,-.9c3.4,0,5.2,1.4,5.2,4.1v4.9c0,1.1,.2,1.9,.5,2.5Zm-6.4,-2.1c.7,0,1.3,-.2,1.7,-.6c.4,-.3,.6,-.9,.6,-1.6v-.7l-2.4,.5c-.9,.2,-1.4,.6,-1.4,1.2c0,.8,.5,1.2,1.5,1.2Z" class="g0" />
-				<path d="M1143.1,1831.3c.3,0,.7,0,1,.1v3.3c-.2,0,-.5,-.1,-.8,-.1c-1.9,0,-2.9,1,-2.9,3v5.2h-3.8v-11.2h3.6v1.6c.6,-1.3,1.6,-1.9,2.9,-1.9Z" class="g0" />
-				<path d="M1152.6,1834.1l-2.1,-.1v4.8c0,.8,.4,1.2,1.1,1.2h1v2.8h-2.3c-1.3,0,-2.2,-.2,-2.7,-.8c-.6,-.5,-.8,-1.4,-.8,-2.7V1834l-1.6,.1v-2.5l1.6,.1v-3.5h3.7v3.5l2.1,-.1v2.5Z" class="g0" />
-				<path d="M267.3,1837.1c0,1.4,0,2.4,0,3c-.1,1.3,-.5,2.4,-1.2,3.1c-.8,.7,-1.8,1.1,-3.1,1.2c-.6,.1,-1.6,.1,-3.1,.1c-1.5,0,-2.5,0,-3,-.1c-1.4,-.1,-2.4,-.4,-3.1,-1.2c-.7,-.7,-1.2,-1.8,-1.2,-3.1c-.1,-.6,-.1,-1.6,-.1,-3c0,-1.5,0,-2.5,.1,-3.1c0,-1.3,.4,-2.4,1.2,-3.1c.7,-.7,1.7,-1.1,3.1,-1.2c.5,0,1.6,0,3,0c1.5,0,2.5,0,3.1,0c1.3,.1,2.3,.5,3.1,1.2c.7,.8,1.1,1.8,1.2,3.1c0,.6,0,1.6,0,3.1Zm-6.7,-6.1c-.4,0,-.6,0,-.7,0c0,0,-.3,0,-.7,0c-.4,0,-.8,0,-1,0c-.2,0,-.6,0,-.9,0c-.4,0,-.8,.1,-1,.1c-.3,.1,-.6,.1,-.7,.2c-.3,.1,-.6,.3,-.9,.6c-.2,.2,-.4,.5,-.5,.8c-.1,.2,-.2,.4,-.2,.7c0,.3,-.1,.6,-.1,1c0,.4,-.1,.7,-.1,.9c0,.3,0,.6,0,1c0,.5,0,.7,0,.8c0,0,0,.2,0,.7c0,.4,0,.8,0,1c0,.2,0,.5,.1,.9c0,.4,0,.7,.1,1c.1,.3,.1,.5,.2,.7c.1,.3,.3,.6,.5,.9c.3,.2,.5,.4,.9,.5c.1,.1,.4,.2,.7,.2c.2,0,.6,.1,1,.1c.4,0,.7,0,.9,0c.2,0,.6,0,1,0c.4,0,.7,0,.7,0c.1,0,.3,0,.7,0c.5,0,.8,0,1.1,0c.2,0,.5,0,.9,0c.4,0,.7,0,1,-.1c.3,0,.5,-.1,.7,-.2c.3,-.1,.6,-.3,.8,-.5c.3,-.3,.5,-.5,.6,-.9c.1,-.2,.1,-.4,.2,-.7c0,-.3,0,-.6,.1,-1c0,-.4,0,-.7,0,-.9c0,-.3,0,-.6,0,-1c0,-.5,0,-.7,0,-.7c0,-.1,0,-.3,0,-.8c0,-.4,0,-.8,0,-1c0,-.2,0,-.5,0,-.9c0,-.4,-.1,-.7,-.1,-1c-.1,-.3,-.1,-.5,-.2,-.7c-.1,-.3,-.3,-.6,-.6,-.8c-.2,-.3,-.5,-.5,-.8,-.6c-.2,-.1,-.4,-.1,-.7,-.2c-.3,0,-.6,0,-1,-.1c-.4,0,-.7,0,-.9,0c-.3,0,-.6,0,-1.1,0Zm2,3.4c.7,.7,1.1,1.6,1.1,2.7c0,1,-.4,1.9,-1.1,2.7c-.7,.7,-1.6,1.1,-2.7,1.1c-1.1,0,-1.9,-.4,-2.7,-1.1c-.7,-.8,-1.1,-1.7,-1.1,-2.7c0,-1.1,.4,-2,1.1,-2.7c.7,-.8,1.6,-1.1,2.7,-1.1c1.1,0,2,.3,2.7,1.1Zm-.9,4.4c.4,-.5,.7,-1.1,.7,-1.7c0,-.7,-.3,-1.3,-.7,-1.8c-.5,-.5,-1.1,-.7,-1.8,-.7c-.7,0,-1.3,.2,-1.8,.7c-.5,.5,-.7,1.1,-.7,1.8c0,.7,.2,1.2,.7,1.7c.5,.5,1.1,.7,1.8,.7c.7,0,1.3,-.2,1.8,-.7Zm2.8,-6.3c.2,.1,.3,.4,.3,.6c0,.2,-.1,.4,-.3,.6c-.2,.2,-.4,.3,-.6,.3c-.3,0,-.5,-.1,-.7,-.3c-.1,-.2,-.2,-.4,-.2,-.6c0,-.2,.1,-.5,.2,-.6c.2,-.2,.4,-.3,.7,-.3c.2,0,.4,.1,.6,.3Z" class="g0" /> -->
-
-				<path d="M54.6,115.9H1155v-2.2H54.6v2.2Z" class="g0" />
-				<path d="M54.6,183.3h77v-2.2h-77v2.2Z" class="g0" />
-				<path d="M131.6,183.3h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M133.8,183.3H423.1v-2.2H133.8v2.2Z" class="g0" />
-				<path d="M423.1,183.3h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M425.3,183.3H913v-2.2H425.3v2.2Z" class="g0" />
-				<path d="M913,183.3h2.2v-2.2H913v2.2Z" class="g0" />
-				<path d="M915.2,183.3H1155v-2.2H915.2v2.2Z" class="g0" />
-				<path d="M1155,183.3h2.2v-2.2H1155v2.2Z" class="g0" />
-				<path d="M1156.1,183.3h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M54.6,282.3h77v-2.2h-77v2.2Z" class="g0" />
-				<path d="M131.6,282.3h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M133.8,282.3H423.1v-2.2H133.8v2.2Z" class="g0" />
-				<path d="M423.1,282.3h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M425.3,282.3H913v-2.2H425.3v2.2Z" class="g0" />
-				<path d="M913,282.3h2.2v-2.2H913v2.2Z" class="g0" />
-				<path d="M915.2,282.3h242.7v-2.2H915.2v2.2Z" class="g0" />
-				<path d="M53.5,381.3h78.1v-2.2H53.5v2.2Z" class="g0" />
-				<path d="M130.5,381.3h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M132.7,381.3H423.1v-2.2H132.7v2.2Z" class="g0" />
-				<path d="M422,381.3h2.2v-2.2H422v2.2Z" class="g0" />
-				<path d="M424.2,381.3H913v-2.2H424.2v2.2Z" class="g0" />
-				<path d="M911.9,381.3h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M914.1,381.3h243.8v-2.2H914.1v2.2Z" class="g0" />
-				<path d="M55,448.4h77v-2.2H55v2.2Z" class="g0" />
-				<path d="M132,448.4h2.2v-2.2H132v2.2Z" class="g0" />
-				<path d="M134.2,448.4H423.5v-2.2H134.2v2.2Z" class="g0" />
-				<path d="M423.5,448.4h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M425.7,448.4H893.9v-2.2H425.7v2.2Z" class="g0" />
-				<path d="M893.9,448.4h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M896.1,448.4H1155v-2.2H896.1v2.2Z" class="g0" />
+				<!-- Horizontal Separator Lines -->
+				<path d="M54.6,118.8H1155v-2.2H54.6v2.2Z" class="g0" />
+				<path d="M54.6,195.8h76.3v-2.2H54.6v2.2Z" class="g0" />
+				<path d="M130.9,195.8h2.2v-2.2h-2.2v2.2Z" class="g0" />
+				<path d="M133.1,195.8H405.9v-2.2H133.1v2.2Z" class="g0" />
+				<path d="M405.9,195.8h2.2v-2.2h-2.2v2.2Z" class="g0" />
+				<path d="M408.1,195.8H911.9v-2.2H408.1v2.2Z" class="g0" />
+				<path d="M911.9,195.8h2.2v-2.2h-2.2v2.2Z" class="g0" />
+				<path d="M914.1,195.8H1155v-2.2H914.1v2.2Z" class="g0" />
+				<path d="M53.5,316.1h77.4v-2.2H53.5v2.2Z" class="g0" />
+				<path d="M129.8,316.1H132v-2.2h-2.2v2.2Z" class="g0" />
+				<path d="M132,316.1H405.9v-2.2H132v2.2Z" class="g0" />
+				<path d="M404.8,316.1H407v-2.2h-2.2v2.2Z" class="g0" />
+				<path d="M407,316.1H911.9v-2.2H407v2.2Z" class="g0" />
+				<path d="M910.8,316.1H913v-2.2h-2.2v2.2Z" class="g0" />
+				<path d="M913,316.1h242v-2.2H913v2.2Z" class="g0" />
+				<path d="M55,392.3h77v-2.2H55v2.2Z" class="g0" />
+				<path d="M132,392.3h2.2v-2.2H132v2.2Z" class="g0" />
+				<path d="M134.2,392.3H407v-2.2H134.2v2.2Z" class="g0" />
+				<path d="M407,392.3h2.2v-2.2H407v2.2Z" class="g0" />
+				<path d="M409.2,392.3H913v-2.2H409.2v2.2Z" class="g0" />
+				<path d="M913,392.3h2.2v-2.2H913v2.2Z" class="g0" />
+				<path d="M915.2,392.3H1155v-2.2H915.2v2.2Z" class="g0" />
+				<path d="M55,469.7h77v-2.2H55v2.2Z" class="g0" />
+				<path d="M132,469.7h2.2v-2.2H132v2.2Z" class="g0" />
+				<path d="M134.2,469.7H407v-2.2H134.2v2.2Z" class="g0" />
+				<path d="M407,469.7h2.2v-2.2H407v2.2Z" class="g0" />
+				<path d="M409.2,469.7H913v-2.2H409.2v2.2Z" class="g0" />
+				<path d="M913,469.7h2.2v-2.2H913v2.2Z" class="g0" />
+				<path d="M915.2,469.7H1155v-2.2H915.2v2.2Z" class="g0" />
 				<path d="M55,547.1h77v-2.2H55v2.2Z" class="g0" />
 				<path d="M132,547.1h2.2v-2.2H132v2.2Z" class="g0" />
-				<path d="M134.2,547.1H423.5v-2.2H134.2v2.2Z" class="g0" />
-				<path d="M423.5,547.1h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M425.7,547.1H893.9v-2.2H425.7v2.2Z" class="g0" />
-				<path d="M893.9,547.1h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M896.1,547.1H1155v-2.2H896.1v2.2Z" class="g0" />
+				<path d="M134.2,547.1H407v-2.2H134.2v2.2Z" class="g0" />
+				<path d="M407,547.1h2.2v-2.2H407v2.2Z" class="g0" />
+				<path d="M409.2,547.1H913v-2.2H409.2v2.2Z" class="g0" />
+				<path d="M913,547.1h2.2v-2.2H913v2.2Z" class="g0" />
+				<path d="M915.2,547.1H1155v-2.2H915.2v2.2Z" class="g0" />
 				<path d="M55,646.1h77v-2.2H55v2.2Z" class="g0" />
 				<path d="M132,646.1h2.2v-2.2H132v2.2Z" class="g0" />
-				<path d="M134.2,646.1H423.5v-2.2H134.2v2.2Z" class="g0" />
-				<path d="M423.5,646.1h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M425.7,646.1H893.9v-2.2H425.7v2.2Z" class="g0" />
-				<path d="M893.9,646.1h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M896.1,646.1H1155v-2.2H896.1v2.2Z" class="g0" />
-				<path d="M55,744.7h77v-2.2H55v2.2Z" class="g0" />
-				<path d="M132,744.7h2.2v-2.2H132v2.2Z" class="g0" />
-				<path d="M134.2,744.7H423.5v-2.2H134.2v2.2Z" class="g0" />
-				<path d="M423.5,744.7h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M425.7,744.7H893.9v-2.2H425.7v2.2Z" class="g0" />
-				<path d="M893.9,744.7h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M896.1,744.7H1155v-2.2H896.1v2.2Z" class="g0" />
+				<path d="M134.2,646.1H407v-2.2H134.2v2.2Z" class="g0" />
+				<path d="M407,646.1h2.2v-2.2H407v2.2Z" class="g0" />
+				<path d="M409.2,646.1H913v-2.2H409.2v2.2Z" class="g0" />
+				<path d="M913,646.1h2.2v-2.2H913v2.2Z" class="g0" />
+				<path d="M915.2,646.1H1155v-2.2H915.2v2.2Z" class="g0" />
+				<path d="M55,723.4h77v-2.2H55v2.2Z" class="g0" />
+				<path d="M132,723.4h2.2v-2.2H132v2.2Z" class="g0" />
+				<path d="M134.2,723.4H407v-2.2H134.2v2.2Z" class="g0" />
+				<path d="M407,723.4h2.2v-2.2H407v2.2Z" class="g0" />
+				<path d="M409.2,723.4H913v-2.2H409.2v2.2Z" class="g0" />
+				<path d="M913,723.4h2.2v-2.2H913v2.2Z" class="g0" />
+				<path d="M915.2,723.4H1155v-2.2H915.2v2.2Z" class="g0" />
 				<path d="M55,843.7h77v-2.2H55v2.2Z" class="g0" />
 				<path d="M132,843.7h2.2v-2.2H132v2.2Z" class="g0" />
-				<path d="M134.2,843.7H423.5v-2.2H134.2v2.2Z" class="g0" />
-				<path d="M423.5,843.7h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M425.7,843.7H893.9v-2.2H425.7v2.2Z" class="g0" />
-				<path d="M893.9,843.7h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M896.1,843.7H1155v-2.2H896.1v2.2Z" class="g0" />
-				<path d="M55,942.7h77v-2.2H55v2.2Z" class="g0" />
-				<path d="M132,942.7h2.2v-2.2H132v2.2Z" class="g0" />
-				<path d="M134.2,942.7H423.5v-2.2H134.2v2.2Z" class="g0" />
-				<path d="M423.5,942.7h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M425.7,942.7H893.9v-2.2H425.7v2.2Z" class="g0" />
-				<path d="M893.9,942.7h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M896.1,942.7H1155v-2.2H896.1v2.2Z" class="g0" />
-				<path d="M55,1041.3h77v-2.2H55v2.2Z" class="g0" />
-				<path d="M132,1041.3h2.2v-2.2H132v2.2Z" class="g0" />
-				<path d="M134.2,1041.3H423.5v-2.2H134.2v2.2Z" class="g0" />
-				<path d="M423.5,1041.3h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M425.7,1041.3H893.9v-2.2H425.7v2.2Z" class="g0" />
-				<path d="M893.9,1041.3h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M896.1,1041.3H1155v-2.2H896.1v2.2Z" class="g0" />
-				<path d="M55,1140.3h77v-2.2H55v2.2Z" class="g0" />
-				<path d="M132,1140.3h2.2v-2.2H132v2.2Z" class="g0" />
-				<path d="M134.2,1140.3H423.5v-2.2H134.2v2.2Z" class="g0" />
-				<path d="M423.5,1140.3h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M425.7,1140.3H893.9v-2.2H425.7v2.2Z" class="g0" />
-				<path d="M893.9,1140.3h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M896.1,1140.3H1155v-2.2H896.1v2.2Z" class="g0" />
-				<path d="M53.9,1239.3H132v-2.2H53.9v2.2Z" class="g0" />
-				<path d="M130.9,1239.3h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M133.1,1239.3H423.5v-2.2H133.1v2.2Z" class="g0" />
-				<path d="M422.4,1239.3h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M424.6,1239.3H893.9v-2.2H424.6v2.2Z" class="g0" />
-				<path d="M892.8,1239.3H895v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M895,1239.3h260v-2.2H895v2.2Z" class="g0" />
-				<path d="M55,1306.4h77v-2.2H55v2.2Z" class="g0" />
-				<path d="M132,1306.4h2.2v-2.2H132v2.2Z" class="g0" />
-				<path d="M134.2,1306.4H423.1v-2.2H134.2v2.2Z" class="g0" />
-				<path d="M423.1,1306.4h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M425.3,1306.4h487v-2.2h-487v2.2Z" class="g0" />
-				<path d="M912.3,1306.4h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M914.5,1306.4H1155v-2.2H914.5v2.2Z" class="g0" />
-				<path d="M55,1405.1h77v-2.2H55v2.2Z" class="g0" />
-				<path d="M132,1405.1h2.2v-2.2H132v2.2Z" class="g0" />
-				<path d="M134.2,1405.1H423.1v-2.2H134.2v2.2Z" class="g0" />
-				<path d="M423.1,1405.1h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M425.3,1405.1h487v-2.2h-487v2.2Z" class="g0" />
-				<path d="M912.3,1405.1h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M914.5,1405.1H1155v-2.2H914.5v2.2Z" class="g0" />
-				<path d="M55,1503.3h77v-2.2H55v2.2Z" class="g0" />
-				<path d="M132,1503.3h2.2v-2.2H132v2.2Z" class="g0" />
-				<path d="M134.2,1503.3H423.1v-2.2H134.2v2.2Z" class="g0" />
-				<path d="M423.1,1503.3h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M425.3,1503.3h487v-2.2h-487v2.2Z" class="g0" />
-				<path d="M912.3,1503.3h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M914.5,1503.3H1155v-2.2H914.5v2.2Z" class="g0" />
-				<path d="M55,1602h77v-2.2H55v2.2Z" class="g0" />
-				<path d="M132,1602h2.2v-2.2H132v2.2Z" class="g0" />
-				<path d="M134.2,1602H423.1v-2.2H134.2v2.2Z" class="g0" />
-				<path d="M423.1,1602h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M425.3,1602h487v-2.2h-487v2.2Z" class="g0" />
-				<path d="M912.3,1602h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M914.5,1602H1155v-2.2H914.5v2.2Z" class="g0" />
-				<path d="M53.9,1701H132v-2.2H53.9v2.2Z" class="g0" />
-				<path d="M130.9,1701h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M133.1,1701h290v-2.2h-290v2.2Z" class="g0" />
-				<path d="M422,1701h2.2v-2.2H422v2.2Z" class="g0" />
-				<path d="M424.2,1701H912.3v-2.2H424.2v2.2Z" class="g0" />
-				<path d="M911.2,1701h2.2v-2.2h-2.2v2.2Z" class="g0" />
-				<path d="M913.4,1701H1155v-2.2H913.4v2.2Z" class="g0" />
+				<path d="M134.2,843.7H407v-2.2H134.2v2.2Z" class="g0" />
+				<path d="M407,843.7h2.2v-2.2H407v2.2Z" class="g0" />
+				<path d="M409.2,843.7H913v-2.2H409.2v2.2Z" class="g0" />
+				<path d="M913,843.7h2.2v-2.2H913v2.2Z" class="g0" />
+				<path d="M915.2,843.7H1155v-2.2H915.2v2.2Z" class="g0" />
+				<path d="M55,921.1h77v-2.2H55v2.2Z" class="g0" />
+				<path d="M132,921.1h2.2v-2.2H132v2.2Z" class="g0" />
+				<path d="M134.2,921.1H407v-2.2H134.2v2.2Z" class="g0" />
+				<path d="M407,921.1h2.2v-2.2H407v2.2Z" class="g0" />
+				<path d="M409.2,921.1H913v-2.2H409.2v2.2Z" class="g0" />
+				<path d="M913,921.1h2.2v-2.2H913v2.2Z" class="g0" />
+				<path d="M915.2,921.1H1155v-2.2H915.2v2.2Z" class="g0" />
+				<path d="M55,1169.7h77v-2.2H55v2.2Z" class="g0" />
+				<path d="M132,1169.7h2.2v-2.2H132v2.2Z" class="g0" />
+				<path d="M134.2,1169.7H407v-2.2H134.2v2.2Z" class="g0" />
+				<path d="M407,1169.7h2.2v-2.2H407v2.2Z" class="g0" />
+				<path d="M409.2,1169.7H913v-2.2H409.2v2.2Z" class="g0" />
+				<path d="M913,1169.7h2.2v-2.2H913v2.2Z" class="g0" />
+				<path d="M915.2,1169.7H1155v-2.2H915.2v2.2Z" class="g0" />
+				<path d="M53.9,1247.4H132v-2.2H53.9v2.2Z" class="g0" />
+				<path d="M130.9,1247.4h2.2v-2.2h-2.2v2.2Z" class="g0" />
+				<path d="M133.1,1247.4H407v-2.2H133.1v2.2Z" class="g0" />
+				<path d="M405.9,1247.4h2.2v-2.2h-2.2v2.2Z" class="g0" />
+				<path d="M408.1,1247.4H913v-2.2H408.1v2.2Z" class="g0" />
+				<path d="M911.9,1247.4h2.2v-2.2h-2.2v2.2Z" class="g0" />
+				<path d="M914.1,1247.4H1155v-2.2H914.1v2.2Z" class="g0" />
+				<path d="M55,1323.7h77v-2.2H55v2.2Z" class="g0" />
+				<path d="M132,1323.7h2.2v-2.2H132v2.2Z" class="g0" />
+				<path d="M134.2,1323.7H406.6v-2.2H134.2v2.2Z" class="g0" />
+				<path d="M406.6,1323.7h2.2v-2.2h-2.2v2.2Z" class="g0" />
+				<path d="M408.8,1323.7H912.6v-2.2H408.8v2.2Z" class="g0" />
+				<path d="M912.6,1323.7h2.2v-2.2h-2.2v2.2Z" class="g0" />
+				<path d="M914.8,1323.7h239.5v-2.2H914.8v2.2Z" class="g0" />
+				<path d="M55,1422.3h77v-2.2H55v2.2Z" class="g0" />
+				<path d="M132,1422.3h2.2v-2.2H132v2.2Z" class="g0" />
+				<path d="M134.2,1422.3H406.6v-2.2H134.2v2.2Z" class="g0" />
+				<path d="M406.6,1422.3h2.2v-2.2h-2.2v2.2Z" class="g0" />
+				<path d="M408.8,1422.3H912.6v-2.2H408.8v2.2Z" class="g0" />
+				<path d="M912.6,1422.3h2.2v-2.2h-2.2v2.2Z" class="g0" />
+				<path d="M914.8,1422.3h239.5v-2.2H914.8v2.2Z" class="g0" />
+				<path d="M55,1499.3h77v-2.2H55v2.2Z" class="g0" />
+				<path d="M132,1499.3h2.2v-2.2H132v2.2Z" class="g0" />
+				<path d="M134.2,1499.3H406.6v-2.2H134.2v2.2Z" class="g0" />
+				<path d="M406.6,1499.3h2.2v-2.2h-2.2v2.2Z" class="g0" />
+				<path d="M408.8,1499.3H912.6v-2.2H408.8v2.2Z" class="g0" />
+				<path d="M912.6,1499.3h2.2v-2.2h-2.2v2.2Z" class="g0" />
+				<path d="M914.8,1499.3h239.5v-2.2H914.8v2.2Z" class="g0" />
+				<path d="M55,1576.7h77v-2.2H55v2.2Z" class="g0" />
+				<path d="M132,1576.7h2.2v-2.2H132v2.2Z" class="g0" />
+				<path d="M134.2,1576.7H406.6v-2.2H134.2v2.2Z" class="g0" />
+				<path d="M406.6,1576.7h2.2v-2.2h-2.2v2.2Z" class="g0" />
+				<path d="M408.8,1576.7H912.6v-2.2H408.8v2.2Z" class="g0" />
+				<path d="M912.6,1576.7h2.2v-2.2h-2.2v2.2Z" class="g0" />
+				<path d="M914.8,1576.7h239.5v-2.2H914.8v2.2Z" class="g0" />
+				<path d="M53.9,1654H132v-2.2H53.9v2.2Z" class="g0" />
+				<path d="M130.9,1654h2.2v-2.2h-2.2v2.2Z" class="g0" />
+				<path d="M133.1,1654H406.6v-2.2H133.1v2.2Z" class="g0" />
+				<path d="M405.5,1654h2.2v-2.2h-2.2v2.2Z" class="g0" />
+				<path d="M407.7,1654H912.6v-2.2H407.7v2.2Z" class="g0" />
+				<path d="M911.5,1654h2.2v-2.2h-2.2v2.2Z" class="g0" />
+				<path d="M913.7,1654h240.6v-2.2H913.7v2.2Z" class="g0" />
 
-				<!-- <path d="M1111.2,170.3h45V125.2h-45v45.1Z" class="g1" />
-				<path d="M1111.2,131.5v6.3h12.6V125.2h-12.6v6.3Zm10.8,0V136h-9v-9h9v4.5Z" class="g0" />
-				<path d="M1114.8,131.5v2.7h5.4v-5.4h-5.4v2.7Z" class="g0" />
-				<path d="M1127.4,126.1v.9h-1.8v3.6h1.8v1.8h-1.8v7.2H1122v1.8h-1.8V145h-3.6v-1.8h1.8v-3.6h-1.8v3.6H1113V145h-1.8v1.8h1.8v3.6h-1.8v1.8h1.8V154h-1.8v1.8h5.4V154h1.8v1.8h5.4V154h1.8v5.5h1.8v1.8h1.8v1.8h-3.6v1.8h3.6v-1.8h1.8v-1.8h1.8v3.6h1.8v5.4h1.8v-3.6h1.8v3.6h5.4v-3.6h-1.8v-3.6h3.6v3.6h3.6v1.8h1.8v-1.8h1.8v-3.6h-1.8v-1.8h5.4v-5.5h-1.8v1.9h-1.8v1.8h-1.8v-3.7h1.8V154h1.8v-1.8h1.8v-5.4h-3.6v1.8h-1.8v-1.8H1149V145h-1.8v-1.8h-1.8v-1.8h3.6v-1.8h-5.4v1.8H1140V145h-5.4v-3.6h3.6V136h1.8v3.6h1.8V136H1140v-1.8h1.8v-3.6h-3.6v-1.8h3.6v-3.6h-7.2V127h-1.8v-1.8h-5.4v.9Zm3.6,1.8v.9h-1.8v1.8h3.6v-1.8h3.6v3.6h-1.8V136h1.8v-1.8h1.8V136h-1.8v3.6h-1.8v1.8h-1.8V145h1.8v1.8H1131V145h-5.4v1.8h3.6v1.8h3.6v1.8H1131v1.8h1.8V154H1131v1.8h-1.8V154h-3.6v-1.8h1.8v-1.8h-1.8v-1.8h-1.8v1.8H1122v1.8h1.8V154h-5.4v-1.8h-1.8v-1.8h-1.8v1.8H1113v-1.8h1.8v-3.6H1113V145h3.6v5.4h1.8v-3.6h1.8v3.6h1.8v-1.8h1.8v-1.8H1122V145h1.8v-1.8H1122v-1.8h3.6v-1.8h1.8v-5.4h1.8v-3.6h-1.8v-1.8h1.8V127h1.8v.9Zm10.8,18v.9H1140v1.8h1.8v1.8h3.6v1.8h1.8V154h-3.6v-1.8h-1.8v-1.8H1140V154h-1.8v1.8h-1.8v1.9h1.8v3.6h1.8v3.6h-5.4v-1.8h3.6v-1.8h-5.4v-1.8H1131v1.8h-1.8v-1.8h-1.8v-1.8h5.4v-1.9h1.8V154h3.6v-3.6h-3.6v-1.8h1.8v-1.8h3.6V145h1.8v.9Zm3.6,0v.9h3.6v3.6h1.8v1.8h1.8v-3.6h1.8v3.6h-1.8V154H1149v-3.6h-1.8v-1.8h-1.8v-1.8h-1.8V145h1.8v.9Zm1.8,12.7v2.7h-5.4v-5.5h5.4v2.8Zm3.6,7.2v.9H1149v-1.8h1.8v.9Z" class="g0" />
-				<path d="M1131,133.3v.9h-1.8v5.4h1.8v1.8h1.8v-1.8h1.8V136h-1.8v1.8H1131v-3.6h1.8v-1.8H1131v.9Z" class="g0" />
-				<path d="M1125.6,142.3v.9h3.6v-1.8h-3.6v.9Z" class="g0" />
-				<path d="M1118.4,151.3v.9h1.8v-1.8h-1.8v.9Z" class="g0" />
-				<path d="M1132.8,158.6v.9h1.8v-1.8h-1.8v.9Z" class="g0" />
-				<path d="M1143.6,158.6v.9h1.8v-1.8h-1.8v.9Z" class="g0" />
-				<path d="M1143.6,131.5v6.3h12.6V125.2h-12.6v6.3Zm10.8,0V136h-9v-9h9v4.5Z" class="g0" />
-				<path d="M1147.2,131.5v2.7h5.4v-5.4h-5.4v2.7Z" class="g0" />
-				<path d="M1111.2,140.5v.9h3.6v-1.8h-3.6v.9Z" class="g0" />
-				<path d="M1150.8,140.5v.9h3.6v1.8h-1.8V145h3.6v-3.6h-1.8v-1.8h-3.6v.9Z" class="g0" />
-				<path d="M1111.2,164v6.3h12.6V157.7h-12.6V164Zm10.8,0v4.5h-9v-9h9V164Z" class="g0" />
-				<path d="M1114.8,164v2.7h5.4v-5.4h-5.4V164Z" class="g0" />
-				<path d="M1154.4,165.8v.9h1.8v-1.8h-1.8v.9Z" class="g0" />
-				<path d="M1125.6,168.5v1.8h1.8v-3.6h-1.8v1.8Z" class="g0" />
-				<path d="M1131,167.6v.9h1.8v-1.8H1131v.9Z" class="g0" />
-				<path d="M1145.4,169.4v.9h1.8v-1.8h-1.8v.9Z" class="g0" />
-				<path d="M1152.6,169.4v.9h3.6v-1.8h-3.6v.9Z" class="g0" /> -->
+				<!-- <path d="M1100.1,183.3h55v-55h-55v55Z" class="g1" /> -->
+				<!-- <path d="M1100.1,136v7.7h15.4V128.3h-15.4V136Zm13.2,0v5.5h-11v-11h11V136Z" class="g0" />
+				<path d="M1104.5,136v3.3h6.6v-6.6h-6.6V136Z" class="g0" />
+				<path d="M1119.9,129.4v1.1h-2.2v4.4h2.2v2.2h-2.2v8.8h-4.4v2.2h-2.2v4.4h-4.4v-2.2h2.2v-4.4h-2.2v4.4h-4.4v2.2h-2.2v2.2h2.2v4.4h-2.2v2.2h2.2v2.2h-2.2v2.2h6.6v-2.2h2.2v2.2h6.6v-2.2h2.2v6.6h2.2v2.2h2.2v2.2h-4.4v2.2h4.4v-2.2h2.2v-2.2h2.2v4.4h2.2v6.6h2.2v-4.4h2.2v4.4h6.6v-4.4h-2.2v-4.4h4.4v4.4h4.4v2.2h2.2v-2.2h2.2v-4.4h-2.2v-2.2h6.6v-6.6h-2.2v2.2h-2.2v2.2h-2.2v-4.4h2.2v-2.2h2.2v-2.2h2.2v-6.6h-4.4v2.2h-2.2v-2.2h-2.2v-2.2h-2.2v-2.2h-2.2v-2.2h4.4v-2.2h-6.6v2.2h-4.4v4.4h-6.6v-4.4h4.4v-6.6h2.2v4.4h2.2v-4.4h-2.2v-2.2h2.2v-4.4h-4.4v-2.2h4.4v-4.4h-8.8v2.2h-2.2v-2.2h-6.6v1.1Zm4.4,2.2v1.1h-2.2v2.2h4.4v-2.2h4.4v4.4h-2.2v4.4h2.2v-2.2h2.2v2.2h-2.2v4.4h-2.2v2.2h-2.2v4.4h2.2v2.2h-4.4v-2.2h-6.6v2.2h4.4v2.2h4.4v2.2h-2.2v2.2h2.2v2.2h-2.2v2.2h-2.2v-2.2h-4.4v-2.2h2.2v-2.2h-2.2v-2.2h-2.2v2.2h-2.2v2.2h2.2v2.2h-6.6v-2.2h-2.2v-2.2h-2.2v2.2h-2.2v-2.2h2.2v-4.4h-2.2v-2.2h4.4v6.6h2.2v-4.4h2.2v4.4h2.2v-2.2h2.2v-2.2h-2.2v-2.2h2.2v-2.2h-2.2v-2.2h4.4v-2.2h2.2v-6.6h2.2v-4.4h-2.2v-2.2h2.2v-2.2h2.2v1.1Zm13.2,22v1.1h-2.2v2.2h2.2v2.2h4.4v2.2h2.2v2.2h-4.4v-2.2h-2.2v-2.2h-2.2v4.4h-2.2v2.2h-2.2v2.2h2.2v4.4h2.2v4.4h-6.6v-2.2h4.4v-2.2h-6.6v-2.2h-2.2v2.2h-2.2v-2.2h-2.2v-2.2h6.6v-2.2h2.2v-2.2h4.4v-4.4h-4.4v-2.2h2.2v-2.2h4.4v-2.2h2.2v1.1Zm4.4,0v1.1h4.4v4.4h2.2v2.2h2.2v-4.4h2.2v4.4h-2.2v2.2h-4.4v-4.4h-2.2v-2.2h-2.2v-2.2h-2.2v-2.2h2.2v1.1Zm2.2,15.4v3.3h-6.6v-6.6h6.6V169Zm4.4,8.8v1.1h-2.2v-2.2h2.2v1.1Z" class="g0" />
+				<path d="M1124.3,138.2v1.1h-2.2v6.6h2.2v2.2h2.2v-2.2h2.2v-4.4h-2.2v2.2h-2.2v-4.4h2.2v-2.2h-2.2v1.1Z" class="g0" />
+				<path d="M1117.7,149.2v1.1h4.4v-2.2h-4.4v1.1Z" class="g0" />
+				<path d="M1108.9,160.2v1.1h2.2v-2.2h-2.2v1.1Z" class="g0" />
+				<path d="M1126.5,169v1.1h2.2v-2.2h-2.2V169Z" class="g0" />
+				<path d="M1139.7,169v1.1h2.2v-2.2h-2.2V169Z" class="g0" />
+				<path d="M1139.7,136v7.7h15.4V128.3h-15.4V136Zm13.2,0v5.5h-11v-11h11V136Z" class="g0" />
+				<path d="M1144.1,136v3.3h6.6v-6.6h-6.6V136Z" class="g0" />
+				<path d="M1100.1,147v1.1h4.4v-2.2h-4.4V147Z" class="g0" />
+				<path d="M1148.5,147v1.1h4.4v2.2h-2.2v2.2h4.4v-4.4h-2.2v-2.2h-4.4V147Z" class="g0" />
+				<path d="M1100.1,175.6v7.7h15.4V167.9h-15.4v7.7Zm13.2,0v5.5h-11v-11h11v5.5Z" class="g0" />
+				<path d="M1104.5,175.6v3.3h6.6v-6.6h-6.6v3.3Z" class="g0" />
+				<path d="M1152.9,177.8v1.1h2.2v-2.2h-2.2v1.1Z" class="g0" />
+				<path d="M1117.7,181.1v2.2h2.2v-4.4h-2.2v2.2Z" class="g0" />
+				<path d="M1124.3,180v1.1h2.2v-2.2h-2.2V180Z" class="g0" />
+				<path d="M1141.9,182.2v1.1h2.2v-2.2h-2.2v1.1Z" class="g0" />
+				<path d="M1150.7,182.2v1.1h4.4v-2.2h-4.4v1.1Z" class="g0" /> -->
 			</svg>
 		</div>
 		<!-- End page background -->
@@ -2435,7 +2318,6 @@
 
 		<!-- Begin text definitions (Positioned/styled in CSS) -->
 		<div class="text-container">
-
 			<h1 id="t1_1" class="t s1">EXPOSITIONS EN COURS AU BELGO </h1>
 
 			<section>
@@ -2445,230 +2327,201 @@
 				<span id="t9_1" class="t s6"><a class="Language" href="https://belgo.art/english.html">ENGLISH</a></span>
 			</section>
 			<section>
-				<span id="ta_1" class="t s7">308 </span>
-				<span id="tb_1" class="t s6">Ateliers Hugues Charbonneau </span>
-				<span id="tc_1" class="t s8"><a target="_blank" href="https://huguescharbonneau.com/?utm_source=belgo.art">huguescharbonneau.com</a> </span>
-				<span id="td_1" class="t s8">Mercredi au samedi, de 12h à 17h </span>
-				<span id="te_1" class="t s6">Résidences artistiques estivales </span>
-				<span id="tf_1" class="t s9">Allie Gattor, Michaëlle Sergile, Carl-Philippe Simonise, </span>
-				<span id="tg_1" class="t s9">et Leila Zelli </span>
-				<span id="th_1" class="t s9">Artiste_blank </span>
-				<span id="ti_1" class="t sa">28 juin au 7 août </span>
-				<span id="tj_1" class="t sb">Portes ouvertes : 1 </span>
-				<span id="tk_1" class="t sc">er </span>
-				<span id="tl_1" class="t sb">aout de 16h à 19h </span>
-				<span id="tm_1" class="t sd">Date_blank </span>
-				<span id="tn_1" class="t s8">Vernissage_blank </span>
+				<span id="ta_1" class="t s7">314 </span>
+				<h2 id="tb_1" class="t s6">Centre des arts actuels Skol </h2>
+				<span id="tc_1" class="t s8"><a target="_blank" href="https://skol.ca/?utm_source=belgo.art">skol.ca</a> </span>
+				<span id="td_1" class="t s8">Mardi au samedi, de 12h à 17h30 </span>
+				<span id="te_1" class="t s6">Mode d’emploi pour habitation invisible </span>
+				<span id="tf_1" class="t s9">Miri Chekhanovich, Jazz Keillor, Lindsay Lord, Laïla Mestari, </span>
+				<span id="tg_1" class="t s9">et Caroline Monnet </span>
+				<span id="th_1" class="t s6">Travaux d’atelier </span>
+				<span id="ti_1" class="t s9">Denis Rioux </span>
+				<span id="tj_1" class="t sa">14 septembre au 16 décembre </span>
+				<span id="tk_1" class="t sb">Vernissage : 14 sept. de 17h à 22h </span>
+				<span id="tl_1" class="t sa">14 septembre au 16 décembre </span>
+				<span id="tm_1" class="t sb">Vernissage : 14 sept. de 17h à 22h </span>
 			</section>
 			<section>
-				<span id="to_1" class="t s7">314 </span>
-				<h2 id="tp_1" class="t s6">Centre des arts actuels Skol </h2>
-				<span id="tq_1" class="t s8"><a target="_blank" href="https://skol.ca/?utm_source=belgo.art">skol.ca</a> </span>
-				<span id="tr_1" class="t s8">Mardi au samedi, de 12h à 17h30 </span>
-				<span id="ts_1" class="t s6">Prochaine exposition </span>
-				<span id="tt_1" class="t s9">Artiste_blank </span>
-				<span id="tu_1" class="t s6">Exposition_blank </span>
-				<span id="tv_1" class="t s9">Artiste_blank </span>
-				<span id="tw_1" class="t sd">Septembre </span>
-				<span id="tx_1" class="t sb">Vernissage_blank </span>
-				<span id="ty_1" class="t sa">Date_blank </span>
-				<span id="tz_1" class="t sb">Vernissage_blank </span>
+				<span id="tn_1" class="t s4">4 </span>
+				<span id="to_1" class="t s5">e </span>
+				<span id="tp_1" class="t s4">étage </span>
 			</section>
 			<section>
-				<span id="t10_1" class="t s4">4 </span>
-				<span id="t11_1" class="t s5">e </span>
-				<span id="t12_1" class="t s4">étage </span>
+				<span id="tq_1" class="t s7">403 </span>
+				<h2 id="tr_1" class="t s6">Galerie B-312 </h2>
+				<span id="ts_1" class="t s8"><a target="_blank" href="https://galerieb312.ca/?utm_source=belgo.art">galerieb312.ca</a> </span>
+				<span id="tt_1" class="t s8">Mardi au samedi, de 12h à 17h </span>
+				<span id="tu_1" class="t s6" data-mappings='[[2,"oe"]]'>Chœur quantique (avec MOMENTA Biennale de l’image) </span>
+				<span id="tv_1" class="t s9">Michèle Pearson Clarke </span>
+				<span id="tw_1" class="t sa">7 septembre au 21 octobre </span>
+				<span id="tx_1" class="t sb">Vernissage : 14 sept. de 17h à 22h </span>
 			</section>
 			<section>
-				<span id="t13_1" class="t s7">403 </span>
-				<h2 id="t14_1" class="t s6">Galerie B-312 </h2>
-				<span id="t15_1" class="t s8"><a target="_blank" href="https://galerieb312.ca/?utm_source=belgo.art">galerieb312.ca</a> </span>
-				<span id="t16_1" class="t s8">Mardi au samedi, de 12h à 17h </span>
-				<span id="t17_1" class="t s6" data-mappings='[[2,"oe"]]'>Chœur quantique (MOMENTA Biennale de l’image) </span>
-				<span id="t18_1" class="t s9">Michèle Pearson Clarke </span>
-				<span id="t19_1" class="t s6">Exposition_blank </span>
-				<span id="t1a_1" class="t s9">Artiste_blank </span>
-				<span id="t1b_1" class="t sa">7 septembre au 22 octobre </span>
-				<span id="t1c_1" class="t sb">Vernissage_blank </span>
-				<span id="t1d_1" class="t sa">Date_blank </span>
-				<span id="t1e_1" class="t sb">Vernissage_blank </span>
+				<span id="ty_1" class="t s7">412 </span>
+				<h2 id="tz_1" class="t s6">Patel Brown </h2>
+				<span id="t10_1" class="t s8"><a target="_blank" href="https://patelbrown.com/?utm_source=belgo.art">patelbrown.com</a> </span>
+				<span id="t11_1" class="t s8">Mercredi au samedi, de 12h à 17h </span>
+				<span id="t12_1" class="t s6">Allow me to Sow and See the Garden I Become </span>
+				<span id="t13_1" class="t s9">Shaheer Zazai </span>
+				<span id="t14_1" class="t sa">31 août au 1 </span>
+				<span id="t15_1" class="t sc">er </span>
+				<span id="t16_1" class="t sa">octobre </span>
+				<span id="t17_1" class="t sb">Vernissage : 31 août dès 17h </span>
 			</section>
 			<section>
-				<span id="t1f_1" class="t s7">412 </span>
-				<h2 id="t1g_1" class="t s6">Patel Brown </h2>
-				<span id="t1h_1" class="t s8"><a target="_blank" href="http://patelbrown.com/?utm_source=belgo.art">patelbrown.com</a> </span>
-				<span id="t1i_1" class="t s8">Mercredi au samedi, de 12h à 17h </span>
-				<span id="t1j_1" class="t s6">Allow me to Sow and See the Garden I Become </span>
-				<span id="t1k_1" class="t s9">Shaheer Zazai </span>
-				<span id="t1l_1" class="t s6">Exposition_blank </span>
-				<span id="t1m_1" class="t s9">Artiste_blank </span>
-				<span id="t1n_1" class="t sa">30 août au 30 septembre </span>
-				<span id="t1o_1" class="t sb">Vernissage : 30 août de 17h à 20h </span>
-				<span id="t1p_1" class="t sa">Date_blank </span>
-				<span id="t1q_1" class="t sb">Vernissage_blank </span>
+				<span id="t18_1" class="t s7">414 </span>
+				<h2 id="t19_1" class="t s6">McBride Contemporain </h2>
+				<span id="t1a_1" class="t s8"><a target="_blank" href="https://mcbridecontemporain.com/?utm_source=belgo.art">mcbridecontemporain.com</a> </span>
+				<span id="t1b_1" class="t s8">Mercredi au samedi, de 11h à 17h </span>
+				<span id="t1c_1" class="t s6">New York, New York </span>
+				<span id="t1d_1" class="t s9">Exposition de groupe </span>
+				<span id="t1e_1" class="t s6">Affinités poreuses </span>
+				<span id="t1f_1" class="t s9">Michelle Bui </span>
+				<span id="t1g_1" class="t sa">27 juillet au 2 septembre </span>
+				<span id="t1h_1" class="t sb">Vernissage : 27 juillet de 18h à 20h </span>
+				<span id="t1i_1" class="t sa">14 septembre au 28 octobre </span>
+				<span id="t1j_1" class="t sb">Vernissage : 14 sept. de 17h à 22h </span>
 			</section>
 			<section>
-				<span id="t1r_1" class="t s7">414 </span>
-				<h2 id="t1s_1" class="t s6">McBride Contemporain </h2>
-				<span id="t1t_1" class="t s8"><a target="_blank" href="https://mcbridecontemporain.com/?utm_source=belgo.art">mcbridecontemporain.com</a> </span>
-				<span id="t1u_1" class="t s8">Mercredi au samedi, de 11h à 17h </span>
-				<span id="t1v_1" class="t s6">New York, New York </span>
-				<span id="t1w_1" class="t s9">Exposition de groupe </span>
-				<span id="t1x_1" class="t s6">Exposition_blank </span>
-				<span id="t1y_1" class="t s9">Artiste_blank </span>
-				<span id="t1z_1" class="t sa">27 juillet au 2 septembre </span>
-				<span id="t20_1" class="t sb">Vernissage : 27 juillet de 18h à 20h </span>
-				<span id="t21_1" class="t sa">Date_blank </span>
-				<span id="t22_1" class="t sb">Vernissage_blank </span>
+				<span id="t1k_1" class="t s7">416 </span>
+				<h2 id="t1l_1" class="t s6">Chiguer Art contemporain </h2>
+				<span id="t1m_1" class="t s8"><a target="_blank" href="https://chiguerartcontemporain.com/?utm_source=belgo.art">chiguerartcontemporain.com</a> </span>
+				<span id="t1n_1" class="t s8">Mercredi au samedi, de 12h à 17h </span>
+				<span id="t1o_1" class="t s6">La triste opacité de nos spectres </span>
+				<span id="t1p_1" class="t s9">Laurent Craste </span>
+				<span id="t1q_1" class="t sa">31 août au 1 </span>
+				<span id="t1r_1" class="t sc">er </span>
+				<span id="t1s_1" class="t sa">octobre </span>
+				<span id="t1t_1" class="t sb">Vernissage : 31 août de 17h à 20h </span>
 			</section>
 			<section>
-				<span id="t23_1" class="t s7">416 </span>
-				<h2 id="t24_1" class="t s6">Chiguer Art contemporain </h2>
-				<span id="t25_1" class="t s8"><a target="_blank" href="https://chiguerartcontemporain.com/?utm_source=belgo.art">chiguerartcontemporain.com</a> </span>
-				<span id="t26_1" class="t s8">Mercredi au samedi, de 11h à 17h </span>
-				<span id="t27_1" class="t s6">La triste opacité de nos spectres </span>
-				<span id="t28_1" class="t s9">Laurent Craste </span>
-				<span id="t29_1" class="t s6">Exposition_blank </span>
-				<span id="t2a_1" class="t s9">Artiste_blank </span>
-				<span id="t2b_1" class="t sa">30 août au 30 septembre </span>
-				<span id="t2c_1" class="t sb">Vernissage : 30 août de 17h à 20h </span>
-				<span id="t2d_1" class="t sa">Date_blank </span>
-				<span id="t2e_1" class="t sb">Vernissage_blank </span>
+				<span id="t1u_1" class="t s7">426 </span>
+				<h2 id="t1v_1" class="t s6">Arprim </h2>
+				<span id="t1w_1" class="t s8"><a target="_blank" href="https://arprim.org/?utm_source=belgo.art">arprim.org</a> </span>
+				<span id="t1x_1" class="t s8">Mercredi de 12h à 17h; jeudi de 12h à 18h </span>
+				<span id="t1y_1" class="t s8">Vendredi et samedi, de 12h à 17h </span>
+				<span id="t1z_1" class="t s6">The Margin Maker </span>
+				<span id="t20_1" class="t s9">Pascaline Knight </span><span id="t21_1" class="t s9">et </span><span id="t22_1" class="t s9">Max Lupo </span>
+				<span id="t23_1" class="t s6">Exposer avec l’autoédition </span>
+				<span id="t24_1" class="t s9">Audrey Beaulé, Marie Samuel Levasseur, Dominique Rivard, </span>
+				<span id="t25_1" class="t s9">Rachel Thornton, et Nic Wilson; organisée par Janick Burn </span>
+				<span id="t26_1" class="t sa">14 septembre au 21 octobre </span>
+				<span id="t27_1" class="t sb">Vernissage : 14 sept. de 17h à 22h </span>
+				<span id="t28_1" class="t sa">14 septembre à octobre </span>
+				<span id="t29_1" class="t sb">Vernissage : 14 sept. de 17h à 22h </span>
 			</section>
 			<section>
-				<span id="t2f_1" class="t s7">426 </span>
-				<h2 id="t2g_1" class="t s6">Arprim </h2>
-				<span id="t2h_1" class="t s8"><a target="_blank" href="https://arprim.org/?utm_source=belgo.art">arprim.org</a> </span>
-				<span id="t2i_1" class="t s8">Mercredi de 12h à 17h; jeudi de 12h à 18h </span>
-				<span id="t2j_1" class="t s8">Vendredi et samedi, de 12h à 17h </span>
-				<span id="t2k_1" class="t s6">Prochaine exposition </span>
-				<span id="t2l_1" class="t s9">Pascaline Knight </span>
-				<span id="t2m_1" class="t s6">Prochaine exposition </span>
-				<span id="t2n_1" class="t s9">Max Lupo </span>
-				<span id="t2o_1" class="t sa">14 septembre à octobre </span>
-				<span id="t2p_1" class="t sb">Vernissage : 14 sept. de 17h à 22h </span>
-				<span id="t2q_1" class="t sa">14 septembre à octobre </span>
-				<span id="t2r_1" class="t sb">Vernissage : 14 sept. de 17h à 22h </span>
+				<span id="t2a_1" class="t s7">427 </span>
+				<h2 id="t2b_1" class="t s6">Atelier d’art photographique </h2>
+				<span id="t2c_1" class="t s8"><a target="_blank" href="https://jeanclaudelussier.com/?utm_source=belgo.art">jeanclaudelussier.com</a> </span>
+				<span id="t2d_1" class="t s8">Mardi au jeudi, de 11h à 16h </span>
+				<span id="t2e_1" class="t s6">Organique </span>
+				<span id="t2f_1" class="t s9">Jean-Claude Lussier </span>
+				<span id="t2g_1" class="t sa">21 août au 1 </span>
+				<span id="t2h_1" class="t sc">er </span>
+				<span id="t2i_1" class="t sa">octobre </span>
+				<span id="t2j_1" class="t sb">Vernissage : 14 sept. de 17h à 22h </span>
 			</section>
 			<section>
-				<span id="t2s_1" class="t s7">427 </span>
-				<h2 id="t2t_1" class="t s6">Atelier d’art photographique </h2>
-				<span id="t2u_1" class="t s8"><a target="_blank" href="https://jeanclaudelussier.com/?utm_source=belgo.art">jeanclaudelussier.com</a> </span>
-				<span id="t2v_1" class="t s8">Mardi au jeudi, de 11h à 16h </span>
-				<span id="t2w_1" class="t s6">Atelier ouvert </span>
-				<span id="t2x_1" class="t s9">Jean-Claude Lussier </span>
-				<span id="t2y_1" class="t s6">Exposition_blank </span>
-				<span id="t2z_1" class="t s9">Artiste_blank </span>
-				<span id="t30_1" class="t sa">4 </span><span id="t31_1" class="t sa">juillet au 2 septembre </span>
-				<span id="t32_1" class="t sb">Vernissage_blank </span>
-				<span id="t33_1" class="t sa">Date_blank </span>
-				<span id="t34_1" class="t sb">Vernissage_blank </span>
+				<span id="t2k_1" class="t s7">442 </span>
+				<h2 id="t2l_1" class="t s6">Galerie POPOP </h2>
+				<span id="t2m_1" class="t s8"><a target="_blank" href="https://galeriepopopgallery.com/?utm_source=belgo.art">galeriepopopgallery.com</a> </span>
+				<span id="t2n_1" class="t s8">Mercredi au samedi, de 12h à 17h </span>
+				<span id="t2o_1" class="t s6">Projet étreinte </span>
+				<span id="t2p_1" class="t s9">Kristel Tremblay </span>
+				<span id="t2q_1" class="t s6">Comme une limonade en été </span>
+				<span id="t2r_1" class="t s9">Angélique Côté, Élizabeth Gadbois, Océane Girard, </span>
+				<span id="t2s_1" class="t s9">Fanny Soudeyns, et Sandra Thach </span>
+				<span id="t2t_1" class="t s6">Lisières amoureuses </span>
+				<span id="t2u_1" class="t s9">Florence Babin-Beaudry </span>
+				<span id="t2v_1" class="t s6">Parenthèses inattendues </span>
+				<span id="t2w_1" class="t s9">Laurence Grandbois Bernard </span>
+				<span id="t2x_1" class="t s6">Figurer la narration </span>
+				<span id="t2y_1" class="t s9">Martine Savard et Donald Trépanier </span>
+				<span id="t2z_1" class="t sa">14 août au 20 août </span>
+				<span id="t30_1" class="t sb">Vernissage : 14 août de 17h30 à 20h </span>
+				<span id="t31_1" class="t sa">22 août au 27 août </span>
+				<span id="t32_1" class="t sb">Vernissage : 26 août de 18h à 21h </span>
+				<span id="t33_1" class="t sa">6 septembre au 10 septembre </span>
+				<span id="t34_1" class="t sb">Vernissage : 7 sept. de 17h à 20h </span>
+				<span id="t35_1" class="t sa">6 septembre au 10 septembre </span>
+				<span id="t36_1" class="t sb">Vernissage : 7 sept. de 17h à 20h </span>
+				<span id="t37_1" class="t sa">11 septembre au 17 septembre </span>
+				<span id="t38_1" class="t sb">Vernissage : 14 sept. de 17h à 22h </span>
 			</section>
 			<section>
-				<span id="t35_1" class="t s7">442 </span>
-				<h2 id="t36_1" class="t s6">Galerie POPOP </h2>
-				<span id="t37_1" class="t s8"><a target="_blank" href="https://galeriepopopgallery.com/?utm_source=belgo.art">galeriepopopgallery.com</a> </span>
-				<span id="t38_1" class="t s8">Mercredi au samedi, de 12h à 17h </span>
-				<span id="t39_1" class="t s6">Comme une limonade en été </span>
-				<span id="t3a_1" class="t s9">Océane Girard </span>
-				<span id="t3b_1" class="t s6">Exposition_blank </span>
-				<span id="t3c_1" class="t s9">Artiste_blank </span>
-				<span id="t3d_1" class="t sa">21 août au 28 août </span>
-				<span id="t3e_1" class="t sb">Vernissage_blank </span>
-				<span id="t3f_1" class="t sa">Date_blank </span>
-				<span id="t3g_1" class="t sb">Vernissage_blank </span>
+				<span id="t39_1" class="t s7">444 </span>
+				<h2 id="t3a_1" class="t s6">CIRCA art actuel </h2>
+				<span id="t3b_1" class="t s8"><a target="_blank" href="https://circa-art.com/?utm_source=belgo.art">circa-art.com</a> </span>
+				<span id="t3c_1" class="t s8">Mercredi au samedi, de 12h à 17h30 </span>
+				<span id="t3d_1" class="t s6">Exposition bénéfice annuelle </span>
+				<span id="t3e_1" class="t s9">Exposition de groupe </span>
+				<span id="t3f_1" class="t sa">14 septembre au 21 octobre </span>
+				<span id="t3g_1" class="t sb">Vernissage : 14 sept. de 17h à 22h </span>
 			</section>
 			<section>
-				<span id="t3h_1" class="t s7">444 </span>
-				<h2 id="t3i_1" class="t s6">CIRCA art actuel </h2>
-				<span id="t3j_1" class="t s8"><a target="_blank" href="https://circa-art.com/?utm_source=belgo.art">circa-art.com</a> </span>
-				<span id="t3k_1" class="t s8">Mercredi au samedi, de 12h à 17h30 </span>
-				<span id="t3l_1" class="t s6">Résidence estivale </span>
-				<span id="t3m_1" class="t s9">Sébastien Gaudette </span>
-				<span id="t3n_1" class="t s6">Exposition bénéfice annuelle </span>
-				<span id="t3o_1" class="t s9">Exposition de groupe </span>
-				<span id="t3p_1" class="t sa">17 juillet au 30 juillet </span>
-				<span id="t3q_1" class="t sb">Vernissage_blank </span>
-				<span id="t3r_1" class="t sa">14 septembre au 21 octobre </span>
+				<span id="t3h_1" class="t s4">5 </span>
+				<span id="t3i_1" class="t s5">e </span>
+				<span id="t3j_1" class="t s4">étage </span>
+			</section>
+			<section>
+				<span id="t3k_1" class="t s7">502 </span>
+				<h2 id="t3l_1" class="t s6">Galeries Bellemare Lambert </h2>
+				<span id="t3m_1" class="t s8"><a target="_blank" href="https://bellemarelambert.com/?utm_source=belgo.art">bellemarelambert.com</a> </span>
+				<span id="t3n_1" class="t s8">Mardi, de 12h à 17h </span>
+				<span id="t3o_1" class="t s8">Mercredi au samedi, de 11h à 17h </span>
+				<span id="t3p_1" class="t s6">Flâner et faire surface </span>
+				<span id="t3q_1" class="t s9">Stéphane La Rue </span>
+				<span id="t3r_1" class="t sa">9 septembre au 14 octobre </span>
 				<span id="t3s_1" class="t sb">Vernissage : 14 sept. de 17h à 22h </span>
 			</section>
 			<section>
-				<span id="t3t_1" class="t s4">5 </span>
-				<span id="t3u_1" class="t s5">e </span>
-				<span id="t3v_1" class="t s4">étage </span>
+				<span id="t3t_1" class="t s7">507 </span>
+				<h2 id="t3u_1" class="t s6">SBC Galerie d’art contemporain </h2>
+				<span id="t3v_1" class="t s8"><a target="_blank" href="https://sbcgallery.ca/?utm_source=belgo.art">sbcgallery.ca</a></span>
+				<span id="t3w_1" class="t s8">Mardi au samedi, de 12h à 17h30 </span>
+				<span id="t3x_1" class="t s6">L'arbre blessé </span>
+				<span id="t3y_1" class="t s9">Livia Daza-Paris </span>
+				<span id="t3z_1" class="t sd">Commissaire : Nuria Carton de Grammont </span>
+				<span id="t40_1" class="t sa">14 septembre au 28 octobre </span>
+				<span id="t41_1" class="t sb">Vernissage : 14 sept. de 17h30 à 22h </span>
 			</section>
 			<section>
-				<span id="t3w_1" class="t s7">502 </span>
-				<h2 id="t3x_1" class="t s6">Galeries Bellemare Lambert </h2>
-				<span id="t3y_1" class="t s8"><a target="_blank" href="https://bellemarelambert.com/?utm_source=belgo.art">bellemarelambert.com</a> </span>
-				<span id="t3z_1" class="t s8">Jeudi au samedi, de 11h à 17h </span>
-				<span id="t40_1" class="t sb">(Fermé du 30 juillet au 16 août) </span>
-				<span id="t41_1" class="t s6">Quelques ciels </span>
-				<span id="t42_1" class="t s9">Jocelyne Alloucherie </span>
-				<span id="t43_1" class="t s6">Exposition_blank </span>
-				<span id="t44_1" class="t s9">Artiste_blank </span>
-				<span id="t45_1" class="t sa">17 juin au 19 août </span>
-				<span id="t46_1" class="t sa">Date_blank </span>
-				<span id="t47_1" class="t sb">Vernissage_blank </span>
+				<span id="t42_1" class="t s7">508 </span>
+				<h2 id="t43_1" class="t s6">Galerie Hugues Charbonneau </h2>
+				<span id="t44_1" class="t s8"><a target="_blank" href="https://huguescharbonneau.com/?utm_source=belgo.art">huguescharbonneau.com</a> </span>
+				<span id="t45_1" class="t s8">Mercredi au samedi, de 12h à 17h </span>
+				<span id="t46_1" class="t s6">Phylogénie </span>
+				<span id="t47_1" class="t s9">Rajni Perera </span>
+				<span id="t48_1" class="t sa">31 août au 14 octobre </span>
+				<span id="t49_1" class="t sb">Vernissage : 31 août de 17h à 19h </span>
 			</section>
 			<section>
-				<span id="t48_1" class="t s7">507 </span>
-				<h2 id="t49_1" class="t s6">SBC Galerie d’art contemporain </h2>
-				<span id="t4a_1" class="t s8"><a target="_blank" href="https://sbcgallery.ca/?utm_source=belgo.art">sbcgallery.ca</a></span>
-				<span id="t4b_1" class="t s8">Mardi au samedi, de 12h à 17h30 </span>
-				<span id="t4c_1" class="t s6">Prochaine exposition </span>
-				<span id="t4d_1" class="t s9">Artiste_blank </span>
-				<span id="t4e_1" class="t s6">Exposition_blank </span>
-				<span id="t4f_1" class="t s9">Artiste_blank </span>
-				<span id="t4g_1" class="t sa">Dès le 8 septembre </span>
-				<span id="t4h_1" class="t sb">Vernissage : 8 septembre dès 17h30 </span>
-				<span id="t4i_1" class="t sa">Date_blank </span>
-				<span id="t4j_1" class="t sb">Vernissage_blank </span>
-			</section>
-			<section>
-				<span id="t4k_1" class="t s7">508 </span>
-				<h2 id="t4l_1" class="t s6">Galerie Hugues Charbonneau </h2>
-				<span id="t4m_1" class="t s8"><a target="_blank" href="https://huguescharbonneau.com/?utm_source=belgo.art">huguescharbonneau.com</a> </span>
-				<span id="t4n_1" class="t s8">Mercredi au samedi, de 12h à 17h </span>
-				<span id="t4o_1" class="t s6">Résidence artistique estivale </span>
-				<span id="t4p_1" class="t s9">Benoit Aquin et Trevor Gould </span>
-				<span id="t4q_1" class="t s6">Prochaine exposition </span>
-				<span id="t4r_1" class="t s9">Artiste_blank </span>
-				<span id="t4s_1" class="t sa">28 juin au 7 août </span>
-				<span id="t4t_1" class="t sb">Visite d’atelier : 1 </span>
-				<span id="t4u_1" class="t sc">er </span>
-				<span id="t4v_1" class="t sb">août de 16h à 19h </span>
-				<span id="t4w_1" class="t sa">À partir du 31 août </span>
-				<span id="t4x_1" class="t sb">Vernissage : 31 août de 17h à 20h </span>
-			</section>
-			<section>
-				<span id="t4y_1" class="t s7">521 </span>
-				<h2 id="t4z_1" class="t s6">Espace St-Jean Art contemporain </h2>
-				<span id="t50_1" class="t s8"><a target="_blank" href="https://espacestjean.com/?utm_source=belgo.art">espacestjean.com</a> </span>
-				<span id="t51_1" class="t s8">Mercredi au samedi, de 12h à 17h </span>
-				<span id="t52_1" class="t s6">Ne me renie jamais plus </span>
-				<span id="t53_1" class="t s9">Jean Leduc </span>
-				<span id="t54_1" class="t s6">Exposition_blank </span>
-				<span id="t55_1" class="t s9">Artiste_blank </span>
-				<span id="t56_1" class="t sa">24 août au 1 </span>
-				<span id="t57_1" class="t se">er </span>
-				<span id="t58_1" class="t sa">octobre </span>
-				<span id="t59_1" class="t sb">Vernissage : 31 août de 17h à 20h </span>
-				<span id="t5a_1" class="t sa">Date_blank </span>
-				<span id="t5b_1" class="t sb">Vernissage_blank </span>
+				<span id="t4a_1" class="t s7">521 </span>
+				<h2 id="t4b_1" class="t s6">Espace St-Jean </h2>
+				<span id="t4c_1" class="t s8"><a target="_blank" href="https://espacestjean.com/?utm_source=belgo.art">espacestjean.com</a> </span>
+				<span id="t4d_1" class="t s8">Mercredi au samedi, de 12h à 17h </span>
+				<span id="t4e_1" class="t s6">Ne me renie jamais plus </span>
+				<span id="t4f_1" class="t s9">Jean Leduc </span>
+				<span id="t4g_1" class="t sa">24 août au 1 </span>
+				<span id="t4h_1" class="t sc">er </span>
+				<span id="t4i_1" class="t sa">octobre </span>
+				<span id="t4j_1" class="t sb">Vernissage : 31 août de 17h à 20h </span>
 			</section>
 
 			<section>
-				<h4 id="t2_1" class="t s3">Les galeries d’art du Belgo&emsp;&emsp;·</h4>
-				<!-- <h4 id="t2_1" class="t s3">Les galeries d’art du Belgo&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://belgo.art">https://belgo.art</a> </h4> -->
+				<h4 id="t2_1" class="t s2">Les galeries d’art du Belgo&emsp;&emsp;·</h4>
 				<h4 id="t4_1" class="t s3"><a class="Language" href="https://instagram.com/explore/tags/belgoart/" target="_blank">#BELGOART</a> </h4>
 				<h4 id="t5_1" class="t s2">372, rue Sainte-Catherine Ouest, Montréal (Québec) H3B 1A2 </h4>
-				<!-- <h4 class="t s3" style="left: 1069px; bottom: 21px; letter-spacing: -0.17px;"><a class="Language" href="https://instagram.com/explore/tags/belgoart/" target="_blank">#BELGOART</a> </h4> -->
-
-				<!-- <span id="t2_1" class="t s2">Les galeries d’art du Belgo </span><span id="t3_1" class="t s2">· </span><span id="t4_1" class="t s3">#belgoart </span><span id="t5_1" class="t s2">372, rue Sainte-Catherine Ouest, Montréal (Québec) H3B 1A2 </span> -->
+				<!-- 
+		<span id="t2_1" class="t s2">Les galeries d’art du Belgo </span>
+		<span id="t3_1" class="t s2">· </span><span id="t4_1" class="t s3">#belgoart </span>
+		<span id="t5_1" class="t s2">372, rue Sainte-Catherine Ouest, Montréal (Québec) H3B 1A2 </span> 
+	-->
 			</section>
 		</div>
 		<!-- End text definitions -->
+
 
 	</div>
 	<!-- Begin Overhead Banner -->
@@ -2680,19 +2533,17 @@
 	<!-- <hr style="width:1210px; max-width:1100px; margin: 0 56px;" /> -->
 	<!-- </div> -->
 	<!-- End Overhead Banner -->
-
-
 </body>
 
 <!-- Begin Hide All Blanks Script -->
-<script>
+<!-- <script>
 	var nodes = document.querySelectorAll('span');
 	for (var i = 0; i < nodes.length; i++) {
 		if (/\b(Artiste_blank|Exposition_blank|Date_blank|Vernissage_blank)\b/i.test(nodes[ i ].textContent)) {
 			nodes[ i ].style.display = 'none';
 		}
 	}
-</script>
+</script> -->
 <!-- End Hide All Blanks Script -->
 
 </html>
