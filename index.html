@@ -198,13 +198,13 @@
 	<!-- Begin responsive adjustments -->
 	<style id="responsive-css">
 		/* Calculate scale by didving Viewport width with Page render width (1210px), then shave off a bit (i.e. 0.05) */
-		/* Example: (1179/1210)-0.07 = 0.967 */
+		/* Example for iPhone 15: (1179/1210)-0.07 = 0.967 */
 		/* Calculate max-height: multiply viewport max-width with 1.54 (1.5454 being the page size ratio of 11x17inch)  */
-		@media screen and (orientation: portrait) and (max-width:1179px) {
+		@media screen and (orientation: portrait) and (max-width:1180px) {
 			body {
 				transform-origin: top left;
-				transform: scale(0.967);
-				max-height: 1821px;
+				transform: scale(0.960);
+				max-height: 1823px;
 			}
 		}
 
