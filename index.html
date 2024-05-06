@@ -213,22 +213,21 @@
 		/* Example: (1179/1210)-0.07 = 0.967 */
 		/* Calculate max-height: multiply viewport max-width with 1.7272727272 (1.7272727272 being the page size ratio of 11x19inch)  */
 
-
+		/* Old Calculation */
 		/* Calculate scale by didving Viewport width with Page render width (1210px), then shave off a bit (i.e. 0.05) */
 		/* Height 1870  Width 1210  */
 		/* Example: (1179/1210)-0.07 = 0.967 */
+		/* Use max-height to shave off excessive trailing blank space at the end of the page */
 		/* Calculate max-height: multiply viewport max-width with 1.54 (1.5454 being the page size ratio of 11x17inch)  */
 
 		/* @media screen and (orientation: portrait) and (max-width:1179px) { */
-		@media screen and (orientation: portrait) and (max-width:1180px) {
+		/* @media screen and (orientation: portrait) and (max-width:1180px) {
 			body {
 				transform-origin: top left;
-				/* transform: scale(0.967); */
 				transform: scale(0.900);
 				max-height: 2038px;
-				/* max-height: 1821px; /* 11x17 ratio */
 			}
-		}
+		} */
 
 		@media screen and (orientation: portrait) and (max-width:1024px) {
 			body {
@@ -306,16 +305,6 @@
 				transform: scale(0.463);
 				max-height: 967px;
 				/* max-height: 866px; */
-				/* 11x17 ratio */
-			}
-		}
-
-		@media screen and (orientation: portrait) and (max-width:430px) {
-			body {
-				transform-origin: top left;
-				transform: scale(0.31);
-				max-height: 743px;
-				/* max-height: 580px; */
 				/* 11x17 ratio */
 			}
 		}
