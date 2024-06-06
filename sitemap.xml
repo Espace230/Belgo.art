@@ -7,7 +7,9 @@
     <loc>https://belgo.art/</loc>
     <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/" />
     <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/index" />
     <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/english.html" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/english" />
     <image:image>
       <image:loc>https://belgo.art/belgo-art.svg</image:loc>
     </image:image>
