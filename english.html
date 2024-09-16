@@ -246,22 +246,40 @@
 		/* Use max-height to shave off excessive trailing blank space at the end of the page */
 		/* Calculate max-height: multiply viewport max-width with 1.54 (1.5454 being the page size ratio of 11x17inch)  */
 
+		/* Auto calc attempt -- Not working yet */
+		/* @media screen and (orientation: portrait) {
+				:root {
+					--viewport-height: 100vh;
+					--viewport-width: 100vw;
+					--transform-scale: calc(var(--viewport-width) / 1210);
+				}
+				body {
+					--viewport-height: 100vh !important;
+					--viewport-width: 100vw !important;
+					--transform-scale: calc(var(--viewport-width) / 1210) !important;
+					transform-origin: top left;
+					transform: scale(var(--transform-scale)) !important;
+					max-height: calc(var(--viewport-width)*1.7272727272);
+				}
+			} */
+		/* End Auto calc attempt -- Not working yet */
+
 		/* @media screen and (orientation: portrait) and (max-width:1179px) { */
 		/* @media screen and (orientation: portrait) and (max-width:1180px) {
-			body {
-				transform-origin: top left;
-				transform: scale(0.900);
-				max-height: 2038px;
-			}
-		} */
+						body {
+							transform-origin: top left;
+							transform: scale(0.900);
+							max-height: 2038px;
+						}
+					} */
 
 		@media screen and (orientation: portrait) and (max-width:1024px) {
 			body {
 				transform-origin: top left;
 				transform: scale(0.845);
 				max-height: 1769px;
-				/* max-height: 1580px; */
 				/* 11x17 ratio */
+				/* max-height: 1580px; */
 			}
 		}
 
@@ -270,8 +288,8 @@
 				transform-origin: top left;
 				transform: scale(0.685);
 				max-height: 1441px;
-				/* max-height: 1280px; */
 				/* 11x17 ratio */
+				/* max-height: 1280px; */
 			}
 		}
 
@@ -280,8 +298,8 @@
 				transform-origin: top left;
 				transform: scale(0.675);
 				max-height: 1416px;
-				/* max-height: 1263px; */
 				/* 11x17 ratio */
+				/* max-height: 1263px; */
 			}
 		}
 
@@ -290,8 +308,8 @@
 				transform-origin: top left;
 				transform: scale(0.665);
 				max-height: 1399px;
-				/* max-height: 1245px; */
 				/* 11x17 ratio */
+				/* max-height: 1245px; */
 			}
 		}
 
@@ -300,8 +318,8 @@
 				transform-origin: top left;
 				transform: scale(0.655);
 				max-height: 1382px;
-				/* max-height: 1200px; */
 				/* 11x17 ratio */
+				/* max-height: 1200px; */
 			}
 		}
 
@@ -310,8 +328,8 @@
 				transform-origin: top left;
 				transform: scale(0.63);
 				max-height: 1327px;
-				/* max-height: 1180px; */
 				/* 11x17 ratio */
+				/* max-height: 1180px; */
 			}
 		}
 
@@ -320,8 +338,8 @@
 				transform-origin: top left;
 				transform: scale(0.495);
 				max-height: 1036px;
-				/* max-height: 926px; */
 				/* 11x17 ratio */
+				/* max-height: 926px; */
 			}
 		}
 
@@ -330,8 +348,8 @@
 				transform-origin: top left;
 				transform: scale(0.463);
 				max-height: 967px;
-				/* max-height: 866px; */
 				/* 11x17 ratio */
+				/* max-height: 866px; */
 			}
 		}
 
@@ -340,8 +358,8 @@
 				transform-origin: top left;
 				transform: scale(0.35);
 				max-height: 739px;
-				/* max-height: 655px; */
 				/* 11x17 ratio */
+				/* max-height: 655px; */
 			}
 		}
 
@@ -350,18 +368,18 @@
 				transform-origin: top left;
 				transform: scale(0.34);
 				max-height: 715px;
-				/* max-height: 636px; */
 				/* 11x17 ratio */
+				/* max-height: 636px; */
 			}
 		}
 
-		@media screen and (orientation: portrait) and (max-width:390px) {
+		@media screen and (orientation: portrait) and (max-width:393px) {
 			body {
 				transform-origin: top left;
 				transform: scale(0.32);
 				max-height: 674px;
-				/* max-height: 598px; */
 				/* 11x17 ratio */
+				/* max-height: 598px; */
 			}
 		}
 
@@ -370,8 +388,8 @@
 				transform-origin: top left;
 				transform: scale(0.307);
 				max-height: 648px;
-				/* max-height: 570px; */
 				/* 11x17 ratio */
+				/* max-height: 570px; */
 			}
 		}
 
@@ -380,8 +398,8 @@
 				transform-origin: top left;
 				transform: scale(0.265);
 				max-height: 553px;
-				/* max-height: 496px; */
 				/* 11x17 ratio */
+				/* max-height: 496px; */
 			}
 		}
 
@@ -392,8 +410,8 @@
 				transform-origin: top left;
 				transform: scale(0.98);
 				max-height: 1840px;
-				/* max-height: 1840px; */
 				/* 11x17 ratio */
+				/* max-height: 1840px; */
 			}
 		}
 
@@ -402,8 +420,8 @@
 				transform-origin: top left;
 				transform: scale(0.97);
 				max-height: 1814px;
-				/* max-height: 1814px; */
 				/* 11x17 ratio */
+				/* max-height: 1814px; */
 			}
 		}
 
@@ -412,8 +430,8 @@
 				transform-origin: top left;
 				transform: scale(0.89);
 				max-height: 1665px;
-				/* max-height: 1665px; */
 				/* 11x17 ratio */
+				/* max-height: 1665px; */
 			}
 		}
 
@@ -422,8 +440,8 @@
 				transform-origin: top left;
 				transform: scale(0.845);
 				max-height: 1580px;
-				/* max-height: 1580px; */
 				/* 11x17 ratio */
+				/* max-height: 1580px; */
 			}
 		}
 
@@ -432,8 +450,8 @@
 				transform-origin: top left;
 				transform: scale(0.74);
 				max-height: 1384px;
-				/* max-height: 1384px; */
 				/* 11x17 ratio */
+				/* max-height: 1384px; */
 			}
 		}
 
@@ -442,8 +460,8 @@
 				transform-origin: top left;
 				transform: scale(0.695);
 				max-height: 1300px;
-				/* max-height: 1300px; */
 				/* 11x17 ratio */
+				/* max-height: 1300px; */
 			}
 		}
 
@@ -452,8 +470,8 @@
 				transform-origin: top left;
 				transform: scale(0.67);
 				max-height: 1253px;
-				/* max-height: 1253px; */
 				/* 11x17 ratio */
+				/* max-height: 1253px; */
 			}
 		}
 
@@ -462,8 +480,8 @@
 				transform-origin: top left;
 				transform: scale(0.605);
 				max-height: 1132px;
-				/* max-height: 1132px; */
 				/* 11x17 ratio */
+				/* max-height: 1132px; */
 			}
 		}
 
@@ -472,8 +490,8 @@
 				transform-origin: top left;
 				transform: scale(0.55);
 				max-height: 1029px;
-				/* max-height: 1029px; */
 				/* 11x17 ratio */
+				/* max-height: 1029px; */
 			}
 		}
 
@@ -482,8 +500,8 @@
 				transform-origin: top left;
 				transform: scale(0.465);
 				max-height: 870px;
-				/* max-height: 870px; */
 				/* 11x17 ratio */
+				/* max-height: 870px; */
 			}
 		}
 
@@ -1247,7 +1265,8 @@
 		}
 
 		#tx_1 {
-			left: 969px;
+			/* left: 969px; */
+			left: 976px;
 			bottom: 1478px;
 			word-spacing: -0.05px;
 		}
@@ -2674,15 +2693,15 @@
 			<section>
 				<article>
 					<span id="to_1" class="t s3">314 </span>
-					<span id="tp_1" class="t s5">Centre des arts actuels Skol </span>
+					<span id="tp_1" class="t s5">Centre des arts actuels SKOL </span>
 					<span id="tq_1" class="t s6"><a target="_blank" href="https://skol.ca/">skol.ca</a> </span>
 					<span id="tr_1" class="t s6">Tuesday to Saturday, 12pm–5:30pm </span>
-					<span id="ts_1" class="t s5"><a target="_blank" href="https://skol.ca/en/programming/24189/">Real-Fictions</a> </span>
+					<span id="ts_1" class="t s5"><a target="_blank" href="https://skol.ca/en/programming/24189/">RÉELLES FICTIONS / REAL FICTIONS</a> </span>
 					<span id="tt_1" class="t s7">Aurélie Blanchette Dubois, Matthew Cangiano, Alex Coma, </span>
 					<span id="tu_1" class="t s7">Philippe Léonard, and Francis Macchiagodena </span>
 					<!-- <span id="tu_1" class="t s7">collective to confirm, </span> -->
 					<!-- <span id="tw_1" class="t s7">Philippe Léonard, and Francis Macchiagodena </span> -->
-					<span id="tx_1" class="t s1">September 12 to November 23 </span>
+					<span id="tx_1" class="t s1">September 12 to December 7</span>
 					<span id="ty_1" class="t s8">Opening: September 12 at 5pm </span>
 				</article>
 				<!-- <article class="studio"> -->
